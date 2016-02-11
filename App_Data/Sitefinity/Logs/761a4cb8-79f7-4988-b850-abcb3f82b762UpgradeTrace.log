@@ -1,0 +1,28 @@
+----------------------------------------
+Timestamp: 2/9/2016 2:07:55 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/9/2016 2:07:55 AM
+
+Message: Adding an index(indices) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/9/2016 2:08:08 AM
+
+Message: PASSED : Telerik.Sitefinity.Services.Notifications.Data.OpenAccessNotificationsProvider : Upgrade to 5800 - Removing unused subscriptions. Count: 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/9/2016 2:08:08 AM
+
+Message: PASSED : Telerik.Sitefinity.Services.Notifications.Data.OpenAccessNotificationsProvider : Upgrade to 5800 - Removing unused subscription lists. Count: 0
+
+
+----------------------------------------

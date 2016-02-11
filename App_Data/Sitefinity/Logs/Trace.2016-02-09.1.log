@@ -1,0 +1,137 @@
+----------------------------------------
+Timestamp: 2/8/2016 12:54:56 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:54:56 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:54:56 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:54:56 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:54:56 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:54:56 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:54:56 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:54:56 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:54:56 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:54:56 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:54:56 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:55:26 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 12:55:26 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 3:32:29 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Modules.Forms.Data.OpenAccessFormsProvider'. User: 'admin'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.Decorators.OpenAccessDecorator: Void EnsureModelReset()
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_03263ba60cce4d85b2a38e3c50fc102c: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <CommitTransaction_DelegateImplementation>__31(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+Telerik.Sitefinity.Data.DataEventsCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+Telerik.Sitefinity.Security.SitefinityAuthorizationCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_03263ba60cce4d85b2a38e3c50fc102c: Void CommitTransaction(Boolean)
+Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService: Boolean PublishFormDraft(Telerik.Sitefinity.Modules.Forms.Web.Services.Model.FormDescriptionViewModel, System.String)
+unknown: System.Object SyncInvokePublishFormDraft(System.Object, System.Object[], System.Object[])
+System.ServiceModel.Dispatcher.SyncMethodInvoker: System.Object Invoke(System.Object, System.Object[], System.Object[] ByRef)
+System.ServiceModel.Dispatcher.DispatchOperationRuntime: Void InvokeBegin(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage5(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage31(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.MessageRpc: Boolean Process(Boolean)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean DispatchAndReleasePump(System.ServiceModel.Channels.RequestContext, Boolean, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean HandleRequest(System.ServiceModel.Channels.RequestContext, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Void AsyncMessagePump(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.AsyncResult: Void Complete(Boolean)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.RequestInterceptorReplyChannelBase`1+TryReceiveRequestAsyncResult: Void InnerTryReceiveCallback(System.IAsyncResult)
+System.Runtime.AsyncResult: Void Complete(Boolean)
+System.Runtime.InputQueue`1+AsyncQueueReader: Void Set(Item)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(Item, Boolean)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(T, System.Action, Boolean)
+System.ServiceModel.Channels.SingletonChannelAcceptor`3: Void Enqueue(QueueItemType, System.Action, Boolean)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Void CompleteParseAndEnqueue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Boolean HandleParseIncomingMessage(System.IAsyncResult)
+System.Runtime.AsyncResult: Boolean SyncContinue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EmptyHttpPipeline: System.IAsyncResult BeginProcessInboundRequest(System.ServiceModel.Channels.ReplyChannelAcceptor, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Channels.HttpChannelListener`1+HttpContextReceivedAsyncResult`1: System.Runtime.AsyncCompletionResult ProcessHttpContextAsync()
+System.ServiceModel.Channels.HttpChannelListener`1: System.IAsyncResult BeginHttpContextReceived(System.ServiceModel.Channels.HttpRequestContext, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpTransportManager: Void HttpContextReceived(System.ServiceModel.Activation.HostedHttpRequestAsyncResult)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void HandleRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void BeginRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequest(System.Object)
+System.ServiceModel.AspNetPartialTrustHelpers: Void PartialTrustInvoke(System.Threading.ContextCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequestWithFlow(System.Object)
+System.Runtime.IOThreadScheduler+ScheduledOverlapped: Void IOCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Runtime.Fx+IOCompletionThunk: Void UnhandledExceptionFrame(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Threading._IOCompletionCallback: Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)'.
+
+
+----------------------------------------

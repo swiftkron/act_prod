@@ -1,0 +1,76 @@
+----------------------------------------
+Timestamp: 12/11/2015 8:33:36 PM
+
+Message: HandlingInstanceID: 04bb8aec-b46f-431e-ad68-f45ce0febd8a
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+12/11/2015 20:33:36
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File "/tracking/quantcast.aspx" does not exist.
+Parameter name: virtualPath
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 12/11/2015 8:33:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130943395844341187
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://act.com/error-pages/404?404;http://act.com:80/sa/fwtf.jsp?llr=iuw4x9fab&m=1105777908360&ea=$svendsenr@stifel.com$&a=1123117795676
+	Inner Exception
+	---------------
+	Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : File "/tracking/quantcast.aspx" does not exist.
+Parameter name: virtualPath
+	Source : Telerik.Sitefinity
+	Help link : 
+	ParamName : virtualPath
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IO.Stream OpenFile(System.String)
+	HResult : -2147024809
+	Stack Trace :    at Telerik.Sitefinity.Abstractions.VirtualPath.VirtualPathManager.OpenFile(String virtualPath)
+	   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+	   at System.Web.UI.TemplateParser.ProcessServerInclude(Match match)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-130943395844341187
+
+ProcessId: 4984
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1796
+
+Extended Properties: 
+----------------------------------------

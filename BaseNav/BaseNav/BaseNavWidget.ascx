@@ -11,6 +11,7 @@
                         <li class="uTrial"><a href="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month">Free Trial</a></li>
                         <li><a href="tel:1-866-873-2006">866-873-2006</a></li>
                         <span class="separator"></span>
+                        <li><a href="/au/">Australia</a></li>
                         <li><a href="/en-uk/">International English</a></li>
                         <li><a href="/de-de/">Deutch</a></li>
                         <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
@@ -28,6 +29,7 @@
                         <span class="glyphicon glyphicon-globe" title="Language"></span>
                         <span>&#9662;</span>
                         <ul class="uDropdown lang">
+                            <li><a href="/au/">Australia</a></li>
                             <li><a href="/en-uk/">International English</a></li>
                             <li><a href="/de-de/">Deutch</a></li>
                             <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>

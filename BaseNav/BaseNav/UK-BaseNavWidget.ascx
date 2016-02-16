@@ -14,6 +14,7 @@
     <li>South Africa: <a href="tel:0105003672">0105 003 672</a></li>
     <span class="separator"></span>
     <li><a href="/">US English</a></li>
+    <li><a href="/au/">Australia</a></li>
     <li><a href="/en-uk/">International English</a></li>
     <li><a href="/de-de/">Deutch</a></li>
     <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
@@ -30,6 +31,7 @@
 <span class="glyphicon glyphicon-globe" title="Language"></span><span>&nbsp;▾</span>
 <ul class="uDropdown lang">
     <li><a href="/">US English</a></li>
+    <li><a href="/au/">Australia</a></li>
     <li><a href="/en-uk/">International English</a></li>
     <li><a href="/de-de/">Deutch</a></li>
     <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>

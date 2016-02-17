@@ -1,221 +1,3076 @@
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:15 AM
-
-Message: Upgrading Sitefinity from build version 5911 to 5912.
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/9/2016 2:07:19 AM
+Timestamp: 2/16/2016 9:48:08 PM
 
 Message: Db Migration Complexity: Extending
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:19 AM
+Timestamp: 2/16/2016 9:48:08 PM
 
 Message: Adding a column(s) on an existing table(s).
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:19 AM
+Timestamp: 2/16/2016 9:48:08 PM
 
-Message: Adding an index(indices) to an existing table(s).
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/9/2016 2:07:19 AM
-
-Message: -- add column for field ControlData.personalizationSegmentId
-ALTER TABLE [sf_object_data] ADD [personalization_segment_id] uniqueidentifier NULL
+Message: -- add column for field Content.UrlName_fr_ca
+ALTER TABLE [sf_commnt] ADD [url_name_fr_ca] NVARCHAR(255) NULL
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:19 AM
+Timestamp: 2/16/2016 9:48:08 PM
 
-Message: -- add column for field ControlData.isPersonalized
-ALTER TABLE [sf_object_data] ADD [is_personalized] tinyint NULL
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/9/2016 2:07:19 AM
-
-Message: -- add column for field ControlData.ControlData_personalizedControls
-ALTER TABLE [sf_object_data] ADD [personalization_master_id] uniqueidentifier NULL
+Message: -- add column for field Content.UrlName_en
+ALTER TABLE [sf_commnt] ADD [url_name_en] NVARCHAR(255) NULL
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:19 AM
+Timestamp: 2/16/2016 9:48:08 PM
 
-Message: -- Index 'idx_sf_od_pers_master_id' was not detected in the database. It will be created
-CREATE INDEX [idx_sf_od_pers_master_id] ON [sf_object_data]([personalization_master_id])
+Message: -- add column for field Content.Title_fr_ca
+ALTER TABLE [sf_commnt] ADD [title_fr_ca] NVARCHAR(255) NULL
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:20 AM
+Timestamp: 2/16/2016 9:48:08 PM
+
+Message: -- add column for field Content.Title_en
+ALTER TABLE [sf_commnt] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:08 PM
+
+Message: -- add column for field Content.Description_fr_ca
+ALTER TABLE [sf_commnt] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:08 PM
+
+Message: -- add column for field Content.Description_en
+ALTER TABLE [sf_commnt] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:08 PM
+
+Message: -- add column for field Content_fr_ca
+ALTER TABLE [sf_commnt] ADD [content_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:08 PM
+
+Message: -- add column for field Content_en
+ALTER TABLE [sf_commnt] ADD [content_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:08 PM
+
+Message: -- add column for field AuthorName_fr_ca
+ALTER TABLE [sf_commnt] ADD [author_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:08 PM
+
+Message: -- add column for field AuthorName_en
+ALTER TABLE [sf_commnt] ADD [author_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
 
 Message: Db Migration Complexity: Extending
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:20 AM
+Timestamp: 2/16/2016 9:48:09 PM
 
 Message: Adding a column(s) on an existing table(s).
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:20 AM
+Timestamp: 2/16/2016 9:48:09 PM
 
-Message: -- add column for field metadata
-ALTER TABLE [sf_version_chnges] ADD [metadata] varchar(4000) NULL
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/9/2016 2:07:20 AM
-
-Message: -- add column for field isSyncedItem
-ALTER TABLE [sf_vesion_items] ADD [synced] tinyint NULL
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_fr_ca
+ALTER TABLE [sf_news_items] ADD [url_name_fr_ca] NVARCHAR(255) NULL
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:20 AM
+Timestamp: 2/16/2016 9:48:09 PM
 
-Message: UPDATE [sf_vesion_items] SET [synced] = 0
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/9/2016 2:07:20 AM
-
-Message: ALTER TABLE [sf_vesion_items] ALTER COLUMN [synced] tinyint NOT NULL
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_en
+ALTER TABLE [sf_news_items] ADD [url_name_en] NVARCHAR(255) NULL
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:23 AM
+Timestamp: 2/16/2016 9:48:09 PM
 
-Message: Db Migration Complexity: Complex
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/9/2016 2:07:23 AM
-
-Message: Modifying a column(s) on an existing table(s).
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_fr_ca
+ALTER TABLE [sf_news_items] ADD [title_fr_ca] NVARCHAR(255) NULL
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:23 AM
+Timestamp: 2/16/2016 9:48:09 PM
 
-Message: -- Column was read from database as: [password_question] varchar(255) null
--- modify column for field passwordQuestion
-ALTER TABLE [sf_users] ALTER COLUMN [password_question] NVARCHAR(500) NULL
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_en
+ALTER TABLE [sf_news_items] ADD [title_en] NVARCHAR(255) NULL
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:28 AM
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_fr_ca
+ALTER TABLE [sf_news_items] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_en
+ALTER TABLE [sf_news_items] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field Summary_fr_ca
+ALTER TABLE [sf_news_items] ADD [summary_fr_ca] NVARCHAR(4000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field Summary_en
+ALTER TABLE [sf_news_items] ADD [summary_en] NVARCHAR(4000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field ItemDefaultUrl_fr_ca
+ALTER TABLE [sf_news_items] ADD [item_default_url_fr_ca] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field ItemDefaultUrl_en
+ALTER TABLE [sf_news_items] ADD [item_default_url_en] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field Content_fr_ca
+ALTER TABLE [sf_news_items] ADD [content_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field Content_en
+ALTER TABLE [sf_news_items] ADD [content_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field Author_fr_ca
+ALTER TABLE [sf_news_items] ADD [author_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field Author_en
+ALTER TABLE [sf_news_items] ADD [author_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field ApprovalWorkflowState_fr_ca
+ALTER TABLE [sf_news_items] ADD [approval_workflow_state_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:09 PM
+
+Message: -- add column for field ApprovalWorkflowState_en
+ALTER TABLE [sf_news_items] ADD [approval_workflow_state_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
 
 Message: Db Migration Complexity: Extending
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:28 AM
+Timestamp: 2/16/2016 9:48:10 PM
 
 Message: Adding a column(s) on an existing table(s).
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:28 AM
+Timestamp: 2/16/2016 9:48:10 PM
 
-Message: -- add column for field subscriptionListId
-ALTER TABLE [sf_scheduled_tasks] ADD [subscr_lst_id] uniqueidentifier NULL
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_fr_ca
+ALTER TABLE [sf_blog_posts] ADD [url_name_fr_ca] NVARCHAR(255) NULL
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:41 AM
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_en
+ALTER TABLE [sf_blog_posts] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_fr_ca
+ALTER TABLE [sf_blog_posts] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_en
+ALTER TABLE [sf_blog_posts] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_fr_ca
+ALTER TABLE [sf_blog_posts] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_en
+ALTER TABLE [sf_blog_posts] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Summary_fr_ca
+ALTER TABLE [sf_blog_posts] ADD [summary_fr_ca] NVARCHAR(4000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Summary_en
+ALTER TABLE [sf_blog_posts] ADD [summary_en] NVARCHAR(4000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ItemDefaultUrl_fr_ca
+ALTER TABLE [sf_blog_posts] ADD [item_default_url_fr_ca] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ItemDefaultUrl_en
+ALTER TABLE [sf_blog_posts] ADD [item_default_url_en] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Content_fr_ca
+ALTER TABLE [sf_blog_posts] ADD [content_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Content_en
+ALTER TABLE [sf_blog_posts] ADD [content_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ApprovalWorkflowState_fr_ca
+ALTER TABLE [sf_blog_posts] ADD [approval_workflow_state_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ApprovalWorkflowState_en
+ALTER TABLE [sf_blog_posts] ADD [approval_workflow_state_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_fr_ca
+ALTER TABLE [sf_blogs] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_en
+ALTER TABLE [sf_blogs] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_fr_ca
+ALTER TABLE [sf_blogs] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_en
+ALTER TABLE [sf_blogs] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_fr_ca
+ALTER TABLE [sf_blogs] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_en
+ALTER TABLE [sf_blogs] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ItemDefaultUrl_fr_ca
+ALTER TABLE [sf_blogs] ADD [item_default_url_fr_ca] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ItemDefaultUrl_en
+ALTER TABLE [sf_blogs] ADD [item_default_url_en] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
 
 Message: Db Migration Complexity: Extending
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:41 AM
+Timestamp: 2/16/2016 9:48:10 PM
 
 Message: Adding a column(s) on an existing table(s).
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:41 AM
+Timestamp: 2/16/2016 9:48:10 PM
 
-Message: -- add column for field <Framework>k__BackingField
-ALTER TABLE [sf_form_description] ADD [frmwrk] int NULL
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/9/2016 2:07:41 AM
-
-Message: UPDATE [sf_form_description] SET [frmwrk] = 0
+Message: -- add column for field UrlName_fr_ca
+ALTER TABLE [sf_calendars] ADD [url_name_fr_ca] NVARCHAR(255) NULL
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:41 AM
+Timestamp: 2/16/2016 9:48:10 PM
 
-Message: ALTER TABLE [sf_form_description] ALTER COLUMN [frmwrk] int NOT NULL
+Message: -- add column for field UrlName_en
+ALTER TABLE [sf_calendars] ADD [url_name_en] NVARCHAR(255) NULL
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:55 AM
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Title_fr_ca
+ALTER TABLE [sf_calendars] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Title_en
+ALTER TABLE [sf_calendars] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Description_fr_ca
+ALTER TABLE [sf_calendars] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Description_en
+ALTER TABLE [sf_calendars] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_fr_ca
+ALTER TABLE [sf_events] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_en
+ALTER TABLE [sf_events] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_fr_ca
+ALTER TABLE [sf_events] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_en
+ALTER TABLE [sf_events] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_fr_ca
+ALTER TABLE [sf_events] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_en
+ALTER TABLE [sf_events] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Summary_fr_ca
+ALTER TABLE [sf_events] ADD [summary_fr_ca] NVARCHAR(4000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Summary_en
+ALTER TABLE [sf_events] ADD [summary_en] NVARCHAR(4000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Street_fr_ca
+ALTER TABLE [sf_events] ADD [street_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Street_en
+ALTER TABLE [sf_events] ADD [street_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field State_fr_ca
+ALTER TABLE [sf_events] ADD [state_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field State_en
+ALTER TABLE [sf_events] ADD [state_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ItemDefaultUrl_fr_ca
+ALTER TABLE [sf_events] ADD [item_default_url_fr_ca] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ItemDefaultUrl_en
+ALTER TABLE [sf_events] ADD [item_default_url_en] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Country_fr_ca
+ALTER TABLE [sf_events] ADD [country_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Country_en
+ALTER TABLE [sf_events] ADD [country_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Content_fr_ca
+ALTER TABLE [sf_events] ADD [content_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field Content_en
+ALTER TABLE [sf_events] ADD [content_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ContactPhone_fr_ca
+ALTER TABLE [sf_events] ADD [contact_phone_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ContactPhone_en
+ALTER TABLE [sf_events] ADD [contact_phone_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ContactName_fr_ca
+ALTER TABLE [sf_events] ADD [contact_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ContactName_en
+ALTER TABLE [sf_events] ADD [contact_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ContactCell_fr_ca
+ALTER TABLE [sf_events] ADD [contact_cell_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ContactCell_en
+ALTER TABLE [sf_events] ADD [contact_cell_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field City_fr_ca
+ALTER TABLE [sf_events] ADD [city_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field City_en
+ALTER TABLE [sf_events] ADD [city_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ApprovalWorkflowState_fr_ca
+ALTER TABLE [sf_events] ADD [approval_workflow_state_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:10 PM
+
+Message: -- add column for field ApprovalWorkflowState_en
+ALTER TABLE [sf_events] ADD [approval_workflow_state_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
 
 Message: Db Migration Complexity: Extending
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:07:55 AM
+Timestamp: 2/16/2016 9:48:11 PM
 
-Message: Adding an index(indices) to an existing table(s).
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/9/2016 2:07:55 AM
-
-Message: -- Index 'idx_sf_rdsgn_md_qry_rl_prnt_md' was not detected in the database. It will be created
-CREATE INDEX [idx_sf_rdsgn_md_qry_rl_prnt_md] ON [sf_rdsgn_media_query_rule]([parent_media_query_id])
+Message: Adding a column(s) on an existing table(s).
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:08:08 AM
+Timestamp: 2/16/2016 9:48:11 PM
 
-Message: PASSED : Telerik.Sitefinity.Services.Notifications.Data.OpenAccessNotificationsProvider : Upgrade to 5800 - Removing unused subscriptions. Count: 0
+Message: -- add column for field UrlName_fr_ca
+ALTER TABLE [sf_folders] ADD [url_name_fr_ca] NVARCHAR(255) NULL
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/9/2016 2:08:08 AM
+Timestamp: 2/16/2016 9:48:11 PM
 
-Message: PASSED : Telerik.Sitefinity.Services.Notifications.Data.OpenAccessNotificationsProvider : Upgrade to 5800 - Removing unused subscription lists. Count: 0
+Message: -- add column for field UrlName_en
+ALTER TABLE [sf_folders] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Title_fr_ca
+ALTER TABLE [sf_folders] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Title_en
+ALTER TABLE [sf_folders] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Description_fr_ca
+ALTER TABLE [sf_folders] ADD [description_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Description_en
+ALTER TABLE [sf_folders] ADD [description_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_fr_ca
+ALTER TABLE [sf_libraries] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_en
+ALTER TABLE [sf_libraries] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_fr_ca
+ALTER TABLE [sf_libraries] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_en
+ALTER TABLE [sf_libraries] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_fr_ca
+ALTER TABLE [sf_libraries] ADD [description_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_en
+ALTER TABLE [sf_libraries] ADD [description_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field ItemDefaultUrl_fr_ca
+ALTER TABLE [sf_libraries] ADD [item_default_url_fr_ca] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field ItemDefaultUrl_en
+ALTER TABLE [sf_libraries] ADD [item_default_url_en] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_fr_ca
+ALTER TABLE [sf_media_content] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_en
+ALTER TABLE [sf_media_content] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_fr_ca
+ALTER TABLE [sf_media_content] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_en
+ALTER TABLE [sf_media_content] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_fr_ca
+ALTER TABLE [sf_media_content] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_en
+ALTER TABLE [sf_media_content] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field ItemDefaultUrl_fr_ca
+ALTER TABLE [sf_media_content] ADD [item_default_url_fr_ca] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field ItemDefaultUrl_en
+ALTER TABLE [sf_media_content] ADD [item_default_url_en] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Author_fr_ca
+ALTER TABLE [sf_media_content] ADD [author_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Author_en
+ALTER TABLE [sf_media_content] ADD [author_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field ApprovalWorkflowState_fr_ca
+ALTER TABLE [sf_media_content] ADD [approval_workflow_state_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field ApprovalWorkflowState_en
+ALTER TABLE [sf_media_content] ADD [approval_workflow_state_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Document.Parts_fr_ca
+ALTER TABLE [sf_media_content] ADD [parts_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Document.Parts_en
+ALTER TABLE [sf_media_content] ADD [parts_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Image.AlternativeText_fr_ca
+ALTER TABLE [sf_media_content] ADD [alternative_text_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:11 PM
+
+Message: -- add column for field Image.AlternativeText_en
+ALTER TABLE [sf_media_content] ADD [alternative_text_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field ApprovalWorkflowState_fr_ca
+ALTER TABLE [sf_draft_pages] ADD [approval_workflow_state_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field ApprovalWorkflowState_en
+ALTER TABLE [sf_draft_pages] ADD [approval_workflow_state_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field FormDraft.SuccessMessage_fr_ca
+ALTER TABLE [sf_draft_pages] ADD [success_message_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field FormDraft.SuccessMessage_en
+ALTER TABLE [sf_draft_pages] ADD [success_message_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field FormDraft.SuccessMessageAfterFormUpdate_fr_ca
+ALTER TABLE [sf_draft_pages] ADD [sccss_mssg_ftr_frm_pdate_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field FormDraft.SuccessMessageAfterFormUpdate_en
+ALTER TABLE [sf_draft_pages] ADD [sccss_mssg_fter_form_update_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_fr_ca
+ALTER TABLE [sf_form_description] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_en
+ALTER TABLE [sf_form_description] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_fr_ca
+ALTER TABLE [sf_form_description] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_en
+ALTER TABLE [sf_form_description] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_fr_ca
+ALTER TABLE [sf_form_description] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_en
+ALTER TABLE [sf_form_description] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field SuccessMessage_fr_ca
+ALTER TABLE [sf_form_description] ADD [success_message_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field SuccessMessage_en
+ALTER TABLE [sf_form_description] ADD [success_message_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field SuccessMessageAfterFormUpdate_fr_ca
+ALTER TABLE [sf_form_description] ADD [sccss_mssg_ftr_frm_pdate_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field SuccessMessageAfterFormUpdate_en
+ALTER TABLE [sf_form_description] ADD [sccss_mssg_fter_form_update_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field Title_fr_ca
+ALTER TABLE [sf_form_entry] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field Title_en
+ALTER TABLE [sf_form_entry] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field Description_fr_ca
+ALTER TABLE [sf_form_entry] ADD [description_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:13 PM
+
+Message: -- add column for field Description_en
+ALTER TABLE [sf_form_entry] ADD [description_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:14 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:14 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:14 PM
+
+Message: -- add column for field Content.UrlName_fr_ca
+ALTER TABLE [sf_content_items] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:14 PM
+
+Message: -- add column for field Content.UrlName_en
+ALTER TABLE [sf_content_items] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:14 PM
+
+Message: -- add column for field Content.Title_fr_ca
+ALTER TABLE [sf_content_items] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:14 PM
+
+Message: -- add column for field Content.Title_en
+ALTER TABLE [sf_content_items] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:14 PM
+
+Message: -- add column for field Content.Description_fr_ca
+ALTER TABLE [sf_content_items] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:14 PM
+
+Message: -- add column for field Content.Description_en
+ALTER TABLE [sf_content_items] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:14 PM
+
+Message: -- add column for field Content_fr_ca
+ALTER TABLE [sf_content_items] ADD [content_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:14 PM
+
+Message: -- add column for field Content_en
+ALTER TABLE [sf_content_items] ADD [content_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.YearCertified_fr_ca
+ALTER TABLE [acccompanies_acc] ADD [year_certified_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.YearCertified_en
+ALTER TABLE [acccompanies_acc] ADD [year_certified_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.PostalCode_fr_ca
+ALTER TABLE [acccompanies_acc] ADD [postal_code_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.PostalCode_en
+ALTER TABLE [acccompanies_acc] ADD [postal_code_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.LastName_fr_ca
+ALTER TABLE [acccompanies_acc] ADD [last_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.LastName_en
+ALTER TABLE [acccompanies_acc] ADD [last_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.FirstName_fr_ca
+ALTER TABLE [acccompanies_acc] ADD [first_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.FirstName_en
+ALTER TABLE [acccompanies_acc] ADD [first_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.Email_fr_ca
+ALTER TABLE [acccompanies_acc] ADD [email_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.Email_en
+ALTER TABLE [acccompanies_acc] ADD [email_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.City_fr_ca
+ALTER TABLE [acccompanies_acc] ADD [city_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Acc.City_en
+ALTER TABLE [acccompanies_acc] ADD [city_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.uumAZ_fr_ca
+ALTER TABLE [acccompanies_acccompany] ADD [uum_a_z_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.uumAZ_en
+ALTER TABLE [acccompanies_acccompany] ADD [uum_a_z_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.uumAL_fr_ca
+ALTER TABLE [acccompanies_acccompany] ADD [uum_a_l_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.uumAL_en
+ALTER TABLE [acccompanies_acccompany] ADD [uum_a_l_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.uumAK_fr_ca
+ALTER TABLE [acccompanies_acccompany] ADD [uum_a_k_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.uumAK_en
+ALTER TABLE [acccompanies_acccompany] ADD [uum_a_k_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.Website_fr_ca
+ALTER TABLE [acccompanies_acccompany] ADD [website_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.Website_en
+ALTER TABLE [acccompanies_acccompany] ADD [website_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.Title_fr_ca
+ALTER TABLE [acccompanies_acccompany] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.Title_en
+ALTER TABLE [acccompanies_acccompany] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.Overview_fr_ca
+ALTER TABLE [acccompanies_acccompany] ADD [overview_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.Overview_en
+ALTER TABLE [acccompanies_acccompany] ADD [overview_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.HostingProviderSupportNo_fr_ca
+ALTER TABLE [acccompanies_acccompany] ADD [hstng_prvider_support_no_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.HostingProviderSupportNo_en
+ALTER TABLE [acccompanies_acccompany] ADD [hosting_provider_support_no_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.HostingProviderSummary_fr_ca
+ALTER TABLE [acccompanies_acccompany] ADD [hosting_provider_summary_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.HostingProviderSummary_en
+ALTER TABLE [acccompanies_acccompany] ADD [hosting_provider_summary_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.HostingProviderSalesNo_fr_ca
+ALTER TABLE [acccompanies_acccompany] ADD [hsting_provider_sales_no_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.HostingProviderSalesNo_en
+ALTER TABLE [acccompanies_acccompany] ADD [hosting_provider_sales_no_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.HostingProviderOverview_fr_ca
+ALTER TABLE [acccompanies_acccompany] ADD [hsting_provider_overview_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field AccCompany.HostingProviderOverview_en
+ALTER TABLE [acccompanies_acccompany] ADD [hosting_provider_overview_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Title_fr_ca
+ALTER TABLE [customersuccesses_successstory] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Title_en
+ALTER TABLE [customersuccesses_successstory] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Solution_fr_ca
+ALTER TABLE [customersuccesses_successstory] ADD [solution_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Solution_en
+ALTER TABLE [customersuccesses_successstory] ADD [solution_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Results_fr_ca
+ALTER TABLE [customersuccesses_successstory] ADD [results_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Results_en
+ALTER TABLE [customersuccesses_successstory] ADD [results_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Quote_fr_ca
+ALTER TABLE [customersuccesses_successstory] ADD [quote_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Quote_en
+ALTER TABLE [customersuccesses_successstory] ADD [quote_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Position_fr_ca
+ALTER TABLE [customersuccesses_successstory] ADD [position_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Position_en
+ALTER TABLE [customersuccesses_successstory] ADD [position_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Challenge_fr_ca
+ALTER TABLE [customersuccesses_successstory] ADD [challenge_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Challenge_en
+ALTER TABLE [customersuccesses_successstory] ADD [challenge_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Byline_fr_ca
+ALTER TABLE [customersuccesses_successstory] ADD [byline_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SuccessStory.Byline_en
+ALTER TABLE [customersuccesses_successstory] ADD [byline_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Download.Title_fr_ca
+ALTER TABLE [downloads_download] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Download.Title_en
+ALTER TABLE [downloads_download] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Download.ProductVersion_fr_ca
+ALTER TABLE [downloads_download] ADD [product_version_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Download.ProductVersion_en
+ALTER TABLE [downloads_download] ADD [product_version_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Download.Filesize_fr_ca
+ALTER TABLE [downloads_download] ADD [filesize_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Download.Filesize_en
+ALTER TABLE [downloads_download] ADD [filesize_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Download.Filepath_fr_ca
+ALTER TABLE [downloads_download] ADD [filepath_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Download.Filepath_en
+ALTER TABLE [downloads_download] ADD [filepath_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Download.Filename_fr_ca
+ALTER TABLE [downloads_download] ADD [filename_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Download.Filename_en
+ALTER TABLE [downloads_download] ADD [filename_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.TwitterUrl_fr_ca
+ALTER TABLE [executiveleadershipteam_member] ADD [twitter_url_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.TwitterUrl_en
+ALTER TABLE [executiveleadershipteam_member] ADD [twitter_url_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.Title_fr_ca
+ALTER TABLE [executiveleadershipteam_member] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.Title_en
+ALTER TABLE [executiveleadershipteam_member] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.Position_fr_ca
+ALTER TABLE [executiveleadershipteam_member] ADD [position_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.Position_en
+ALTER TABLE [executiveleadershipteam_member] ADD [position_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.PersonalQuote_fr_ca
+ALTER TABLE [executiveleadershipteam_member] ADD [personal_quote_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.PersonalQuote_en
+ALTER TABLE [executiveleadershipteam_member] ADD [personal_quote_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.LinkedInUrl_fr_ca
+ALTER TABLE [executiveleadershipteam_member] ADD [linked_in_url_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.LinkedInUrl_en
+ALTER TABLE [executiveleadershipteam_member] ADD [linked_in_url_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.FavoriteQuote_fr_ca
+ALTER TABLE [executiveleadershipteam_member] ADD [favorite_quote_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.FavoriteQuote_en
+ALTER TABLE [executiveleadershipteam_member] ADD [favorite_quote_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.FavoriteQuoteByline_fr_ca
+ALTER TABLE [executiveleadershipteam_member] ADD [favorite_quote_byline_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.FavoriteQuoteByline_en
+ALTER TABLE [executiveleadershipteam_member] ADD [favorite_quote_byline_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.Biography_fr_ca
+ALTER TABLE [executiveleadershipteam_member] ADD [biography_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Member.Biography_en
+ALTER TABLE [executiveleadershipteam_member] ADD [biography_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Position.Title_fr_ca
+ALTER TABLE [jobopenings_position] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Position.Title_en
+ALTER TABLE [jobopenings_position] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Position.Requirements_fr_ca
+ALTER TABLE [jobopenings_position] ADD [requirements_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Position.Requirements_en
+ALTER TABLE [jobopenings_position] ADD [requirements_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Position.OfficeLocation_fr_ca
+ALTER TABLE [jobopenings_position] ADD [office_location_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Position.OfficeLocation_en
+ALTER TABLE [jobopenings_position] ADD [office_location_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Position.Description_fr_ca
+ALTER TABLE [jobopenings_position] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field Position.Description_en
+ALTER TABLE [jobopenings_position] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.VideoLink_fr_ca
+ALTER TABLE [marketplace_marketplaceproduct] ADD [video_link_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.VideoLink_en
+ALTER TABLE [marketplace_marketplaceproduct] ADD [video_link_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.Title_fr_ca
+ALTER TABLE [marketplace_marketplaceproduct] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.Title_en
+ALTER TABLE [marketplace_marketplaceproduct] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.SytemRequirements_fr_ca
+ALTER TABLE [marketplace_marketplaceproduct] ADD [sytem_requirements_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.SytemRequirements_en
+ALTER TABLE [marketplace_marketplaceproduct] ADD [sytem_requirements_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.ShortDescription_fr_ca
+ALTER TABLE [marketplace_marketplaceproduct] ADD [short_description_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.ShortDescription_en
+ALTER TABLE [marketplace_marketplaceproduct] ADD [short_description_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.PurchaseUrl_fr_ca
+ALTER TABLE [marketplace_marketplaceproduct] ADD [purchase_url_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.PurchaseUrl_en
+ALTER TABLE [marketplace_marketplaceproduct] ADD [purchase_url_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.Product_fr_ca
+ALTER TABLE [marketplace_marketplaceproduct] ADD [product_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.Product_en
+ALTER TABLE [marketplace_marketplaceproduct] ADD [product_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.Price_fr_ca
+ALTER TABLE [marketplace_marketplaceproduct] ADD [price_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.Price_en
+ALTER TABLE [marketplace_marketplaceproduct] ADD [price_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.Description_fr_ca
+ALTER TABLE [marketplace_marketplaceproduct] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field MarketplaceProduct.Description_en
+ALTER TABLE [marketplace_marketplaceproduct] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.Website_fr_ca
+ALTER TABLE [partners_swiftpageselectpartner] ADD [website_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.Website_en
+ALTER TABLE [partners_swiftpageselectpartner] ADD [website_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.Title_fr_ca
+ALTER TABLE [partners_swiftpageselectpartner] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.Title_en
+ALTER TABLE [partners_swiftpageselectpartner] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.State_fr_ca
+ALTER TABLE [partners_swiftpageselectpartner] ADD [state_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.State_en
+ALTER TABLE [partners_swiftpageselectpartner] ADD [state_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.Phone_fr_ca
+ALTER TABLE [partners_swiftpageselectpartner] ADD [phone_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.Phone_en
+ALTER TABLE [partners_swiftpageselectpartner] ADD [phone_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.Fax_fr_ca
+ALTER TABLE [partners_swiftpageselectpartner] ADD [fax_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.Fax_en
+ALTER TABLE [partners_swiftpageselectpartner] ADD [fax_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.EmailAddress_fr_ca
+ALTER TABLE [partners_swiftpageselectpartner] ADD [email_address_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.EmailAddress_en
+ALTER TABLE [partners_swiftpageselectpartner] ADD [email_address_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.ContactLastName_fr_ca
+ALTER TABLE [partners_swiftpageselectpartner] ADD [contact_last_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.ContactLastName_en
+ALTER TABLE [partners_swiftpageselectpartner] ADD [contact_last_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.ContactFirstName_fr_ca
+ALTER TABLE [partners_swiftpageselectpartner] ADD [contact_first_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.ContactFirstName_en
+ALTER TABLE [partners_swiftpageselectpartner] ADD [contact_first_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.City_fr_ca
+ALTER TABLE [partners_swiftpageselectpartner] ADD [city_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.City_en
+ALTER TABLE [partners_swiftpageselectpartner] ADD [city_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.AddressLine2_fr_ca
+ALTER TABLE [partners_swiftpageselectpartner] ADD [address_line2_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.AddressLine2_en
+ALTER TABLE [partners_swiftpageselectpartner] ADD [address_line2_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.AddressLine1_fr_ca
+ALTER TABLE [partners_swiftpageselectpartner] ADD [address_line1_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field SwiftpageSelectPartner.AddressLine1_en
+ALTER TABLE [partners_swiftpageselectpartner] ADD [address_line1_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field UrlName_fr_ca
+ALTER TABLE [sf_dynamic_content] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field UrlName_en
+ALTER TABLE [sf_dynamic_content] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ItemDefaultUrl_fr_ca
+ALTER TABLE [sf_dynamic_content] ADD [item_default_url_fr_ca] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ItemDefaultUrl_en
+ALTER TABLE [sf_dynamic_content] ADD [item_default_url_en] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ApprovalWorkflowState_fr_ca
+ALTER TABLE [sf_dynamic_content] ADD [approval_workflow_state_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ApprovalWorkflowState_en
+ALTER TABLE [sf_dynamic_content] ADD [approval_workflow_state_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field FeatureAnnouncement.Title_fr_ca
+ALTER TABLE [whatsnew_featureannouncement] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field FeatureAnnouncement.Title_en
+ALTER TABLE [whatsnew_featureannouncement] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field FeatureAnnouncement.ProductVersion_fr_ca
+ALTER TABLE [whatsnew_featureannouncement] ADD [product_version_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field FeatureAnnouncement.ProductVersion_en
+ALTER TABLE [whatsnew_featureannouncement] ADD [product_version_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field FeatureAnnouncement.Content_fr_ca
+ALTER TABLE [whatsnew_featureannouncement] ADD [content_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field FeatureAnnouncement.Content_en
+ALTER TABLE [whatsnew_featureannouncement] ADD [content_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ProductAnnouncement.Title_fr_ca
+ALTER TABLE [whatsnew_productannouncement] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ProductAnnouncement.Title_en
+ALTER TABLE [whatsnew_productannouncement] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ProductAnnouncement.ProductVersion_fr_ca
+ALTER TABLE [whatsnew_productannouncement] ADD [product_version_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ProductAnnouncement.ProductVersion_en
+ALTER TABLE [whatsnew_productannouncement] ADD [product_version_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ProductAnnouncement.ProductTitle_fr_ca
+ALTER TABLE [whatsnew_productannouncement] ADD [product_title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ProductAnnouncement.ProductTitle_en
+ALTER TABLE [whatsnew_productannouncement] ADD [product_title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ProductAnnouncement.ProductClass_fr_ca
+ALTER TABLE [whatsnew_productannouncement] ADD [product_class_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ProductAnnouncement.ProductClass_en
+ALTER TABLE [whatsnew_productannouncement] ADD [product_class_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ProductAnnouncement.Content_fr_ca
+ALTER TABLE [whatsnew_productannouncement] ADD [content_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:15 PM
+
+Message: -- add column for field ProductAnnouncement.Content_en
+ALTER TABLE [whatsnew_productannouncement] ADD [content_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field Description_fr_ca
+ALTER TABLE [sf_publishing_point] ADD [description_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field Description_en
+ALTER TABLE [sf_publishing_point] ADD [description_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field UrlName_fr_ca
+ALTER TABLE [sf_forum_groups] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field UrlName_en
+ALTER TABLE [sf_forum_groups] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field ItemDefaultUrl_fr_ca
+ALTER TABLE [sf_forum_groups] ADD [item_default_url_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field ItemDefaultUrl_en
+ALTER TABLE [sf_forum_groups] ADD [item_default_url_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field UrlName_fr_ca
+ALTER TABLE [sf_forum_threads] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field UrlName_en
+ALTER TABLE [sf_forum_threads] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field ItemDefaultUrl_fr_ca
+ALTER TABLE [sf_forum_threads] ADD [item_default_url_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field ItemDefaultUrl_en
+ALTER TABLE [sf_forum_threads] ADD [item_default_url_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field UrlName_fr_ca
+ALTER TABLE [sf_forums] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field UrlName_en
+ALTER TABLE [sf_forums] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field ItemDefaultUrl_fr_ca
+ALTER TABLE [sf_forums] ADD [item_default_url_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:20 PM
+
+Message: -- add column for field ItemDefaultUrl_en
+ALTER TABLE [sf_forums] ADD [item_default_url_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:22 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:22 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:22 PM
+
+Message: -- add column for field UrlName_fr_ca
+ALTER TABLE [sf_user_profile] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:22 PM
+
+Message: -- add column for field UrlName_en
+ALTER TABLE [sf_user_profile] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:22 PM
+
+Message: -- add column for field Title_fr_ca
+ALTER TABLE [sf_user_profile] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:22 PM
+
+Message: -- add column for field Title_en
+ALTER TABLE [sf_user_profile] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:22 PM
+
+Message: -- add column for field Description_fr_ca
+ALTER TABLE [sf_user_profile] ADD [description_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:22 PM
+
+Message: -- add column for field Description_en
+ALTER TABLE [sf_user_profile] ADD [description_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field PageDraft.Themes_fr_ca
+ALTER TABLE [sf_draft_pages] ADD [themes_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field PageDraft.Themes_en
+ALTER TABLE [sf_draft_pages] ADD [themes_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field TemplateDraft.Themes_fr_ca
+ALTER TABLE [sf_draft_pages] ADD [themes_fr_ca2] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field TemplateDraft.Themes_en
+ALTER TABLE [sf_draft_pages] ADD [themes_en2] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Themes_fr_ca
+ALTER TABLE [sf_page_data] ADD [themes_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Themes_en
+ALTER TABLE [sf_page_data] ADD [themes_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Keywords_fr_ca
+ALTER TABLE [sf_page_data] ADD [keywords_fr_ca] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Keywords_en
+ALTER TABLE [sf_page_data] ADD [keywords_en] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field HtmlTitle_fr_ca
+ALTER TABLE [sf_page_data] ADD [html_title_fr_ca] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field HtmlTitle_en
+ALTER TABLE [sf_page_data] ADD [html_title_en] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Description_fr_ca
+ALTER TABLE [sf_page_data] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Description_en
+ALTER TABLE [sf_page_data] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field UrlName_fr_ca
+ALTER TABLE [sf_page_node] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field UrlName_en
+ALTER TABLE [sf_page_node] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Title_fr_ca
+ALTER TABLE [sf_page_node] ADD [title_fr_ca] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Title_en
+ALTER TABLE [sf_page_node] ADD [title_en] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field RedirectUrl_fr_ca
+ALTER TABLE [sf_page_node] ADD [redirect_url_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field RedirectUrl_en
+ALTER TABLE [sf_page_node] ADD [redirect_url_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Extension_fr_ca
+ALTER TABLE [sf_page_node] ADD [extension_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Extension_en
+ALTER TABLE [sf_page_node] ADD [extension_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Description_fr_ca
+ALTER TABLE [sf_page_node] ADD [description_fr_ca] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Description_en
+ALTER TABLE [sf_page_node] ADD [description_en] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field ApprovalWorkflowState_fr_ca
+ALTER TABLE [sf_page_node] ADD [approval_workflow_state_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field ApprovalWorkflowState_en
+ALTER TABLE [sf_page_node] ADD [approval_workflow_state_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Title_fr_ca
+ALTER TABLE [sf_page_templates] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Title_en
+ALTER TABLE [sf_page_templates] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Themes_fr_ca
+ALTER TABLE [sf_page_templates] ADD [themes_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Themes_en
+ALTER TABLE [sf_page_templates] ADD [themes_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Keywords_fr_ca
+ALTER TABLE [sf_page_templates] ADD [keywords_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Keywords_en
+ALTER TABLE [sf_page_templates] ADD [keywords_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Description_fr_ca
+ALTER TABLE [sf_page_templates] ADD [description_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:26 PM
+
+Message: -- add column for field Description_en
+ALTER TABLE [sf_page_templates] ADD [description_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field UrlName_fr_ca
+ALTER TABLE [sf_taxa] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field UrlName_en
+ALTER TABLE [sf_taxa] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field Title_fr_ca
+ALTER TABLE [sf_taxa] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field Title_en
+ALTER TABLE [sf_taxa] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field Description_fr_ca
+ALTER TABLE [sf_taxa] ADD [description_fr_ca] NVARCHAR(2000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field Description_en
+ALTER TABLE [sf_taxa] ADD [description_en] NVARCHAR(2000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field Title_fr_ca
+ALTER TABLE [sf_taxonomies] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field Title_en
+ALTER TABLE [sf_taxonomies] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field TaxonName_fr_ca
+ALTER TABLE [sf_taxonomies] ADD [taxon_name_fr_ca] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field TaxonName_en
+ALTER TABLE [sf_taxonomies] ADD [taxon_name_en] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field Description_fr_ca
+ALTER TABLE [sf_taxonomies] ADD [description_fr_ca] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/16/2016 9:48:28 PM
+
+Message: -- add column for field Description_en
+ALTER TABLE [sf_taxonomies] ADD [description_en] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_fr_ca
+ALTER TABLE [sf_list_items] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_en
+ALTER TABLE [sf_list_items] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_fr_ca
+ALTER TABLE [sf_list_items] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_en
+ALTER TABLE [sf_list_items] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_fr_ca
+ALTER TABLE [sf_list_items] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_en
+ALTER TABLE [sf_list_items] ADD [description_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Content_fr_ca
+ALTER TABLE [sf_list_items] ADD [content_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Content_en
+ALTER TABLE [sf_list_items] ADD [content_en] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field ApprovalWorkflowState_fr_ca
+ALTER TABLE [sf_list_items] ADD [approval_workflow_state_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field ApprovalWorkflowState_en
+ALTER TABLE [sf_list_items] ADD [approval_workflow_state_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_fr_ca
+ALTER TABLE [sf_lists] ADD [url_name_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.UrlName_en
+ALTER TABLE [sf_lists] ADD [url_name_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_fr_ca
+ALTER TABLE [sf_lists] ADD [title_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Title_en
+ALTER TABLE [sf_lists] ADD [title_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_fr_ca
+ALTER TABLE [sf_lists] ADD [description_fr_ca] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/17/2016 1:00:14 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.Description_en
+ALTER TABLE [sf_lists] ADD [description_en] NVARCHAR(MAX) NULL
 
 
 ----------------------------------------

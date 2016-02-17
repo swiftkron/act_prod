@@ -9,6 +9,7 @@
                     <ul class="uDropdown uAlt">
                         <li class="uLogin"><a href="https://mycloud.act.com/#/login">Login</a></li>
                         <span class="separator"></span>
+                        <li><a href="/">US English</a></li>
                         <li><a href="/au/">Australia</a></li>
                         <li><a href="/en-uk/">International English</a></li>
                         <li><a href="/de-de/">Deutch</a></li>
@@ -23,6 +24,7 @@
                         <span class="glyphicon glyphicon-globe" title="Language"></span>
                         <span>&#9662;</span>
                         <ul class="uDropdown lang">
+                            <li><a href="/">US English</a></li>
                             <li><a href="/au/">Australia</a></li>
                             <li><a href="/en-uk/">International English</a></li>
                             <li><a href="/de-de/">Deutch</a></li>

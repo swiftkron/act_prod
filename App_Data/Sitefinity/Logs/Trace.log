@@ -1,91 +1,24 @@
 ----------------------------------------
-Timestamp: 2/26/2016 3:55:15 AM
+Timestamp: 2/29/2016 4:58:45 PM
 
-Message: Shutting down threadpool...
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/26/2016 3:55:15 AM
-
-Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+Message: Error while executing the Task: Value cannot be null.
+Parameter name: input, StackTrace:    at System.Guid.Parse(String input)
+   at Telerik.Sitefinity.Services.Statistics.ReconcilerTask.ReconcileUserData()
+   at Telerik.Sitefinity.Services.SystemManager.RunWithElevatedPrivilege(RunWithElevatedPrivilegeDelegate delegateToRun, Object[] parameters, String urlRequest)
+   at Telerik.Sitefinity.Services.Statistics.ReconcilerTask.Run(IBackgroundTaskContext context)
+   at Telerik.Sitefinity.BackgroundTasks.WorkerThread.Run(IBackgroundTaskContext context)
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/26/2016 3:55:16 AM
+Timestamp: 2/29/2016 4:58:46 PM
 
-Message: WorkerThread is shut down
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/26/2016 3:55:16 AM
-
-Message: Background task scheduler shut down
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/26/2016 3:55:16 AM
-
-Message: WorkerThread is shut down
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/26/2016 3:55:16 AM
-
-Message: WorkerThread is shut down
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/26/2016 3:55:16 AM
-
-Message: WorkerThread is shut down
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/26/2016 3:55:16 AM
-
-Message: WorkerThread is shut down
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/26/2016 3:55:16 AM
-
-Message: WorkerThread is shut down
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/26/2016 3:55:16 AM
-
-Message: WorkerThread is shut down
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/26/2016 3:55:16 AM
-
-Message: WorkerThread is shut down
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/26/2016 3:55:46 AM
-
-Message: Shutting down threadpool...
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 2/26/2016 3:55:46 AM
-
-Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+Message: Error while executing the Task: Value cannot be null.
+Parameter name: input, StackTrace:    at System.Guid.Parse(String input)
+   at Telerik.Sitefinity.Services.Statistics.ReconcilerTask.ReconcileUserData()
+   at Telerik.Sitefinity.Services.SystemManager.RunWithElevatedPrivilege(RunWithElevatedPrivilegeDelegate delegateToRun, Object[] parameters, String urlRequest)
+   at Telerik.Sitefinity.Services.Statistics.ReconcilerTask.Run(IBackgroundTaskContext context)
+   at Telerik.Sitefinity.BackgroundTasks.WorkerThread.Run(IBackgroundTaskContext context)
 
 
 ----------------------------------------

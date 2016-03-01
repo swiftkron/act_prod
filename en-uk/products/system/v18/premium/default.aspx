@@ -192,7 +192,8 @@ Windows Server 2011 SBS<sup>6</sup> (64-bit)<br>
 Windows Server 2012 (64-bit)<br>
 Windows 7 SP1 Professional, Enterprise, and Ultimate (32-bit and 64-bit)<br>
 Windows 8 Pro (32-bit and 64-bit)<br>
-Windows 8 Enterprise (32-bit and 64-bit)</td>
+Windows 8 Enterprise (32-bit and 64-bit)<br>
+Windows 10 (32-bit and 64-bit)</td>
 </tr>
 <tr class="even">
 <th><strong>Database Server</strong></th>
@@ -215,7 +216,9 @@ Microsoft Word 2007, 2010, and 2013 (required for integration features only) (La
 <th><strong>Mobile Client System Requirements</strong></th>
 <td>Safari&reg; for iPad&reg; and iOS 8 and iOS 9<br>
 Safari&reg; for iPhone&reg; and iOS8 and iOS 9<br>
-Internet Access</td>
+Chrome<sup>&trade;</sup> Browser for Android 4.4 and Android 5.0<br>
+Internet Access
+</td>
 </tr>
 </tbody>
 </table>

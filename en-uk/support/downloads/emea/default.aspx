@@ -109,7 +109,7 @@ _elqQ.push(['elqOptOut']);
                         	<h1 class="large_strapline">Download Centre: <br />Europe and UK</h1>
                         	<div class="row">
 								<div class="col-lg-9 ">
-									<p class="strapline_intro"><strong class="semibold">Note:</strong>Hotfixes for product versions 14.x (2012) and higher apply to all regional installations of Act! Pro, Act! Premium and Act! Premium (access via web). Visit the Act! <a href="http://kb.swiftpage.com" target="_blank">Knowledgebase</a> to see what's new in each release.</p>
+									<p class="strapline_intro"><strong class="semibold">Note:</strong> Hotfixes for product versions 14.x (2012) and higher apply to all regional installations of Act! Pro, Act! Premium and Act! Premium (access via web). Visit the Act! <a href="http://kb.swiftpage.com" target="_blank">Knowledgebase</a> to see what's new in each release.</p>
                      			</div>
                      		</div>
                     </div>
@@ -120,9 +120,12 @@ _elqQ.push(['elqOptOut']);
                 </div>
 			</div>
 
-
       <div class="container hidden-xs">
-        <br><br>
+        <div class="row">
+          <div class="col-md-12">
+            <p>If you are running Act! software on Windows Vista or Windows Server 2008, follow <a href="https://support.microsoft.com/en-us/kb/2763674">this link</a> and install the update provided to support installers that are signed with SHA2-type certificates.</p>
+          </div>
+        </div>
         <div class="row accordion">
           <div class="panel row col-md-12">
             <div class="title">
@@ -143,6 +146,37 @@ _elqQ.push(['elqOptOut']);
                 </thead>
 
                 <tbody>
+                      <tr>
+                        <td>05/02/16</td>
+                        <td>Act! v18 Hotfix 6</td>
+                        <td>act18update6b.exe</td>
+                        <td>22.7 MB</td>
+                        <td><a href="http://cdn.updates.swiftpage.act.com/updates/act18update6b.exe">download</td>
+                      </tr>
+
+                      <tr>
+                        <td>22/01/16</td>
+                        <td>Act! 18.0 Hotfix 5</td>
+                        <td>act18hf5c.exe</td>
+                        <td>22.5 MB</td>
+                        <td><a href="http://cdn.updates.swiftpage.act.com/updates/act18hf5c.exe">download</td>
+                      </tr>
+
+                      <tr>
+                        <td>18/12/15</td>
+                        <td>Act 18.0 Hotfix 4</td>
+                        <td>act18hf4a.exe</td>
+                        <td>22.1 MB</td>
+                        <td><a href="http://cdn.updates.swiftpage.act.com/updates/act18hf4a.exe">download</td>
+                      </tr>
+
+                      <tr>
+                        <td>17/12/15</td>
+                        <td>Act! 18.0 Hotfix 3</td>
+                        <td>act18hf3b.exe</td>
+                        <td>22.1 MB</td>
+                        <td><a href="http://cdn.updates.swiftpage.act.com/updates/act18hf3b.exe">download</td>
+                      </tr>
 
                       <tr>
                         <td>11/12/2015</td>

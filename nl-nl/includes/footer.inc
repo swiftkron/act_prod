@@ -77,15 +77,15 @@
                             
 
                               <img src="/nl-nl/img/cards.jpg" style="max-width:100%;height:auto" class="hidden-xs"/>  
-
-                              <br><br>   
-
-                               <span class="copyright"> Copyright <strong>Swiftpage ltd 2015 </strong> </span>
-
-                             
+                              <br><br>
 
       			</div>
       		</div>
+                  <div class="row">
+                        <div class="col-md-6 col-md-offset-6 text-right">
+                              <span class="copyright">&copy;2016 Swiftpage ACT! LLC. Alle rechten voorbehouden.</span>
+                        </div>
+                  </div>
       	</div>
       </footer>
       <!-- ELOQUA -->

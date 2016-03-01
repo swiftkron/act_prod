@@ -111,14 +111,15 @@
 
 
                               <img src="img/cards.jpg" style="max-width:100%;height:auto" class="hidden-xs"/>
-
-                               <br><br>
-
-                                                           <span class="copyright">&copy; 2015 Swiftpage ACT! LLC. Tous droits réservés. </span>
-
+                              <br><br>
                             
       			</div>
       		</div>
+                  <div class="row">
+                        <div class="col-md-6 col-md-offset-6 text-right">
+                              <span class="copyright">&copy;2016 Swiftpage ACT! LLC. Tous droits r&eacute;serv&eacute;s. Swiftpage, Act! et les produits et services Swiftpage mention&eacute;s ici sont des marques d&eacute;pos&eacute;es ou des marques de Swiftpage ACT! LLC ou ses entit&eacute;s affili&eacute;es. Toutes les autres marques commerciales sont la propri&eacute;t&eacute; de leurs fabricant respectifs.</span>
+                        </div>
+                  </div>
       	</div>
       </footer>
 <script type="text/javascript">

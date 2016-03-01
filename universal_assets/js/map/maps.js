@@ -255,7 +255,7 @@ function generateInputs(destinationType, filter,filterOptions)
 // jump to filtered result on map	    
 function jump_to_filter(filterOptions, markers,map,markerCluster)
 	{
-		    	var country = [], region = [], city = [], level=[], view= [];
+		    	var country = [], region = [], city = [], level = [], view = [], hosting = [];
 
 		    	$(opt.nav+' input').each(function()
 		    		{
@@ -267,9 +267,10 @@ function jump_to_filter(filterOptions, markers,map,markerCluster)
 						 		if(filterOptions[0] == 'city'){city.push(filterOptions[1]);}
 						 		if(filterOptions[0] == 'level'){level.push(filterOptions[1]);}
 						 		if(filterOptions[0] == 'view'){view.push(filterOptions[1]);}
+						 		if(filterOptions[0] == 'hosting'){hosting.push(filterOptions[1]);}
 							}
-					});
-					
+					});		
+					console.log(hosting);    		
 					if(region.length<1){
 						city=[];
 						$(opt.cityClass).empty();
@@ -281,7 +282,8 @@ function jump_to_filter(filterOptions, markers,map,markerCluster)
 						'region': region,
 						'city': city,
 						'level': level,
-						'view': view
+						'view': view,
+						'hosting': hosting
 					}
 					
 				//remove all markers
@@ -317,6 +319,12 @@ function jump_to_filter(filterOptions, markers,map,markerCluster)
 						filter = $.grep( filter, function (el) { return filterOptions.level.indexOf(String(el.level)) > -1; });
 						markers = markers.filter( function (el) { return filterOptions.level.indexOf(String(el.partnerLevel)) > -1; });
 					}
+
+				if(filterOptions.hosting.length>0)
+					{
+						filter = $.grep( filter, function (el) { return filterOptions.hosting.indexOf(String(el.hosting)) > -1; });
+						markers = markers.filter( function (el) { return filterOptions.hosting.indexOf(String(el.partnerHosting)) > -1; });
+					}
 				if(filter.length<1)
 					{
 						var Errormessage = true;
@@ -338,7 +346,7 @@ function jump_to_filter(filterOptions, markers,map,markerCluster)
 					{
 						
 						if(Errormessage){
-							alert('No results');
+							
 						}else{
 							
 						//first sort the latitudes from low to high to get the lowest and highest values of lat/lng	
@@ -411,7 +419,7 @@ function jump_to_filter(filterOptions, markers,map,markerCluster)
 						});	
 
 						if(Errormessage){
-							alert('No results');
+							
 						}else{
 							var output = '';
 							
@@ -471,6 +479,7 @@ function initialize(current_country)
 					  		partnerLevel: dataPartner.level,
 					  		partnerCity: dataPartner.city, 
 					  		partnerRegion: dataPartner.region, 
+					  		partnerHosting: dataPartner.hosting,
 					  		icon: image
 					  		});
 				  		markers.push(marker);

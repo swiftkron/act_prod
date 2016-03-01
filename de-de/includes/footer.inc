@@ -98,12 +98,13 @@
                               <img src="img/cards.jpg" style="max-width:100%;height:auto" class="hidden-xs"/>
 
                               <br><br>     
-
-                               <span class="copyright"> Copyright <strong>Swiftpage ltd 2015 </strong> </span>
-
-                             
       			</div>
       		</div>
+                  <div class="row">
+                        <div class="col-md-6 col-md-offset-6 text-right">
+                              <span class="copyright">&copy;2016 Swiftpage ACT! LLC. Alle Rechte vorbehalten. Swiftpage, Act!, und die hierin genannten Produkt- und Servicenamen von Swiftpage sind eingetragene Marken oder Marken von Swiftpage ACT! LLC oder seinen verbundenen Unternehmen. Alle sonstigen Marken sind Eigentum ihrer jeweiligen Inhaber</span>
+                        </div>
+                  </div>
       	</div>
       </footer>
       <script type="text/javascript">

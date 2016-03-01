@@ -191,6 +191,18 @@
 		  		  					<ol class="level">
 		  		  					</ol>
 		  		  				</li>
+                    <li class="filter-category"><span>hostingdiensten &or;</span>
+                      <ol class="hosting">
+                        <li>
+                          <input type="radio" name="hosting-services" value="" id="hosting-all" />
+                          <label for="hosting-all"><span>Alle</span></label>
+                        </li>
+                        <li>
+                          <input type="radio" name="hosting-services" value="hosting:1" id="hosting-services" />
+                          <label for="hosting-services"><span>Hosting partner</span></label>
+                        </li>
+                      </ol>
+                    </li>
 			  		 </div>
 
 

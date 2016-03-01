@@ -100,12 +100,13 @@
 
                               <br><br>   
 
-                               <span class="copyright"> Copyright <strong>Swiftpage ltd 2015 </strong> </span>
-
-                             
-
       			</div>
       		</div>
+                   <div class="row">
+                        <div class="col-md-6 col-md-offset-6 text-right">
+                              <span class="copyright">&copy;2016 Swiftpage ACT! LLC. All rights reserved. Swiftpage, Act!, and the Swiftpage product and service names mentioned herein are registered trademarks or trademarks of Swiftpage ACT! LLC, or its affiliated entities. All other trademarks are property of their respective owners.</span>
+                        </div>
+                  </div>
       	</div>
       </footer>
       <script type="text/javascript">

@@ -138,7 +138,7 @@ _elqQ.push(['elqOptOut']);
 	                    </form>
 	                </div>
 			  		 <div class="filt">
-			  		  		  	<li><strong>Finden Sie einen unserer Partner in Ihrer Nähe:</strong></li>
+			  		  		  	<li><strong>Finden Sie ein Partner in Ihrer N&auml;he:</strong></li>
 		  		  			  	<li class="filter-category"><span>Land &or;</span>
 		  		  		  			<ol class="country">
 		  		  		  			 	<li><label for="cb-United-Kingdom"><input type="radio" name="country" id="cb-United-Kingdom" value="country:United Kingdom" />UK</label></li>
@@ -166,7 +166,6 @@ _elqQ.push(['elqOptOut']);
                           <li><label for="cb-Sweden"><input type="radio" name="country" id="cb-Sweden"  value="country:Sweden" />Sweden</label></li>
                           <li><label for="cb-Switzerland"><input type="radio" name="country" id="cb-Switzerland"  value="country:Switzerland" />Switzerland</label></li>
                           <li><label for="cb-Tunisia"><input type="radio" name="country" id="cb-Tunisia"  value="country:Tunisia" />Tunisia</label></li>
-                          <li><label for="cb-United-Arab-Emirates"><input type="radio" name="country" id="cb-United-Arab-Emirates"  value="country:United Arab Emirates" />United Arab Emirates</label></li>
 		  		  		  			</ol>
 		  		  		  		</li>
 
@@ -178,10 +177,22 @@ _elqQ.push(['elqOptOut']);
 		  		  					<ol  class="city">
 		  		  					</ol>
 		  		  				</li>-->
-		  		  				<li class="filter-category"><span>Partner Level &or;</span>
+		  		  				<li class="filter-category"><span>Level &or;</span>
 		  		  					<ol class="level">
 		  		  					</ol>
 		  		  				</li>
+                    <li class="filter-category"><span>Hosting-Dienste &or;</span>
+                      <ol class="hosting">
+                        <li>
+                          <input type="radio" name="hosting-services" value="" id="hosting-all" />
+                          <label for="hosting-all"><span>Alle</span></label>
+                        </li>
+                        <li>
+                          <input type="radio" name="hosting-services" value="hosting:1" id="hosting-services" />
+                          <label for="hosting-services"><span>Hosting Partner</span></label>
+                        </li>
+                      </ol>
+                    </li>
 
 			  		 </div>
 

@@ -9,6 +9,22 @@
  
  
  var partners = [{
+    "id": 747,
+    "country": "Germany",
+    "region": "Nordrhein-Westfalen",
+    "city": "Bonn",
+    "contact": "",
+    "phone": "004922820949411",
+    "email": "tstriese@sdc-kommunikation.de",
+    "website": "www.sdc-kommunikation.de",
+    "address": "Postfach 200131, Bonn, 53131",
+    "postcode": "53131",
+    "company": "SDC Kommunikation",
+    "description": "",
+    "level": 3,
+    "longitude": "7.101151",
+    "latitude": "50.736761"
+ },{
     "id": 746,
     "country": "Cyprus",
     "region": "",
@@ -21,7 +37,7 @@
     "postcode": "1037",
     "company": "Truss Partners LTD",
     "description": "",
-    "level": 4,
+    "level": 3,
     "longitude": "33.378999",
     "latitude": "35.183307"
  },{
@@ -37,7 +53,7 @@
     "postcode": "WS15 3EL",
     "company": "Hunter Enterprises",
     "description": "",
-    "level": 3,
+    "level": 2,
     "longitude": "-1.903565",
     "latitude": "52.830707"
  },{
@@ -53,9 +69,10 @@
     "postcode": "",
     "company": "Tendenz B.V",
     "description": "",
-    "level": 1,
+    "level": 0,
     "longitude": "6.5934478",
-    "latitude": "53.079584"
+    "latitude": "53.079584",
+    "hosting": 1
  },{
     "id": 743,
     "country": "Germany",
@@ -69,7 +86,7 @@
     "postcode": "61118",
     "company": "blackpoint GmbH",
     "description": "",
-    "level": 4,
+    "level": 3,
     "longitude": "8.737935",
     "latitude": "50.121627"
  },{
@@ -85,7 +102,7 @@
     "postcode": "13856",
     "company": "APSYS MIDCAP",
     "description": "",
-    "level": 3,
+    "level": 2,
     "longitude": "5.370592",
     "latitude": "43.478778"
  }, {
@@ -101,7 +118,7 @@
  	"postcode": "",
  	"company": "Capability Philippines, Inc.",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "121.061515",
  	"latitude": "14.589618"
  }, {
@@ -117,7 +134,7 @@
  	"postcode": "B11 2AA",
  	"company": "TRI-IT LTD",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-1.839101",
  	"latitude": "52.456509"
  }, {
@@ -133,41 +150,9 @@
  	"postcode": "GL14 2DE",
  	"company": "Ingenieurbüro Dieter Hombach",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "8.799372",
  	"latitude": "50.147864"
- }, {
-    "id": 737,
- 	"country": "United Kingdom",
- 	"region": "South West",
- 	"city": "Gloucestershire",
- 	"contact": "",
- 	"phone": "01594 825060",
- 	"email": "ken@kfsystems.co.uk",
- 	"website": "www.kfsystems.co.uk",
- 	"address": "10 The Oak Field, Gloucestershire, GL14 2DE",
- 	"postcode": "GL14 2DE",
- 	"company": "K F Systems",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "-2.489592",
- 	"latitude": "51.823430"
- }, {
-    "id": 736,
- 	"country": "United Kingdom",
- 	"region": "East Midlands",
- 	"city": "Swadlincote",
- 	"contact": "",
- 	"phone": "0800 980 0080",
- 	"email": "support@simail.co.uk",
- 	"website": "www.systemsint.co.uk",
- 	"address": "Marquis Drive, Moira, Swadlincote, DE12 6EJ",
- 	"postcode": "DE12 6EJ",
- 	"company": "Systems Integration Limited",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "-1.540171",
- 	"latitude": "52.742664"
  }, {
     "id": 735,
  	"country": "United Kingdom",
@@ -181,7 +166,7 @@
  	"postcode": "KA1 1RB",
  	"company": "Active Office Scotland Limited",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-4.498971",
  	"latitude": "55.604470"
  }, {
@@ -197,7 +182,7 @@
  	"postcode": "SS6 7XF",
  	"company": "D & A Media",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "0.610696",
  	"latitude": "51.577949"
  }, {
@@ -213,7 +198,7 @@
  	"postcode": "GU1 4GB",
  	"company": "Business CRM Limited",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-0.580512",
  	"latitude": "51.239708"
  }, {
@@ -229,9 +214,10 @@
  	"postcode": "IP4 2NS",
  	"company": "Act! Partners - South East",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "1.166848",
- 	"latitude": "52.058589"
+ 	"latitude": "52.058589",
+    "hosting": 1
  }, {
    	"id": 731,
  	"country": "United Kingdom",
@@ -245,9 +231,10 @@
  	"postcode": "FK8 1AL",
  	"company": "Act! Partners - North",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "-3.938459",
- 	"latitude": "56.118719"
+ 	"latitude": "56.118719",
+    "hosting": 1
  }, {
   	"id": 730,
  	"country": "United Kingdom",
@@ -261,9 +248,10 @@
  	"postcode": "WV6 8NJ",
  	"company": "Act! Partners - Central",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "-2.183149",
- 	"latitude": "52.587033"
+ 	"latitude": "52.587033",
+    "hosting": 1
  }, {
  	"id": 726,
  	"country": "United States",
@@ -549,7 +537,7 @@
  	"postcode": "73734",
  	"company": "TDsoft IT-/TK-Systemhaus GmbH",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "9.29559549999999",
  	"latitude": "48.7275384"
  }, {
@@ -2179,7 +2167,7 @@
  	"website": "www.jcscomp.com",
  	"address": "4505 Saratoga Hill RD, Louisville, 40269",
  	"postcode": "40269",
- 	"company": "JC's Computer Services, Inc.",
+ 	"company": "JCs Computer Services, Inc.",
  	"description": "",
  	"level": 5,
  	"longitude": "-85.54490699999997",
@@ -4229,7 +4217,7 @@
  	"postcode": "S-904 36",
  	"company": "ZOFT 80 AB",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "20.263035400000035",
  	"latitude": "63.8258471"
  },{
@@ -4245,7 +4233,7 @@
  	"postcode": "WR11 7RT",
  	"company": "Whitfurrows Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-1.8981363999999985",
  	"latitude": "52.0670283"
  }, {
@@ -4261,7 +4249,7 @@
  	"postcode": "66687",
  	"company": "WCT GmbH",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "6.8341596999999865",
  	"latitude": "49.49928939999999"
  }, {
@@ -4275,27 +4263,12 @@
  	"website": "www.actpartners.co.uk",
  	"address": "St. Lawrence Lodge, 37 Chamberlain Street, Bristol, BA5 2FH",
  	"postcode": "BA5 2FH",
- 	"company": "Act! Partners - Sout West",
+ 	"company": "Act! Partners - South West",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "-2.658570",
- 	"latitude": "51.211324"
- }, {
- 	"id": 468,
- 	"country": "United Arab Emirates",
- 	"region": "",
- 	"city": "Dubai",
- 	"contact": "",
- 	"phone": "0097142695750",
- 	"email": "vijendra@tnc-me.com",
- 	"website": "www.tnc-me.com",
- 	"address": "605 Techno Centre Khalid Bin Walid RD, Dubai",
- 	"postcode": "",
- 	"company": "TransNational Computer, LLC",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "55.292875",
- 	"latitude": "25.259125"
+ 	"latitude": "51.211324",
+    "hosting": 1
  }, {
  	"id": 466,
  	"country": "United Kingdom",
@@ -4309,7 +4282,7 @@
  	"postcode": "FK5 4RX",
  	"company": "THOM Micro Systems LTD",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-3.8176421000000573",
  	"latitude": "56.0225719"
  }, {
@@ -4325,9 +4298,10 @@
  	"postcode": "",
  	"company": "Tendenz B.V",
  	"description": "",
- 	"level": 1,
+ 	"level": 0,
  	"longitude": "4.372961700000019",
- 	"latitude": "51.8720992"
+ 	"latitude": "51.8720992",
+    "hosting": 1
  }, {
  	"id": 464,
  	"country": "United Kingdom",
@@ -4341,7 +4315,7 @@
  	"postcode": "SL1 6DQ",
  	"company": "Technology Partners Ltd",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-0.6502375999999686",
  	"latitude": "51.5229909"
  }, {
@@ -4357,7 +4331,7 @@
  	"postcode": "LU3 2UD",
  	"company": "T & C E Associates",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-0.4476707000000033",
  	"latitude": "51.91174600000001"
  }, {
@@ -4373,9 +4347,10 @@
  	"postcode": "NG7 6LB",
  	"company": "Solutions for Accounting Limited ",
  	"description": "",
- 	"level": 1,
+ 	"level": 0,
  	"longitude": "-1.1569160000000238",
- 	"latitude": "52.967685"
+ 	"latitude": "52.967685",
+    "hosting": 1
  }, {
  	"id": 460,
  	"country": "Singapore",
@@ -4389,7 +4364,7 @@
  	"postcode": "408868",
  	"company": "Solarsys Microsystems PTE Ltd",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "103.89413100000002",
  	"latitude": "1.33295"
  }, {
@@ -4405,7 +4380,7 @@
  	"postcode": "31515",
  	"company": "Software Warnecke",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "9.446544399999993",
  	"latitude": "52.3896013"
  }, {
@@ -4421,7 +4396,7 @@
  	"postcode": "SN14 0QR",
  	"company": "Skill Sets Solutions Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-2.1389140999999654",
  	"latitude": "51.4577132"
  }, {
@@ -4437,7 +4412,7 @@
  	"postcode": "49419",
  	"company": "Sander CRM Software",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "8.54929530000004",
  	"latitude": "52.54144059999999"
  }, {
@@ -4453,7 +4428,7 @@
  	"postcode": "WA2 7LT",
  	"company": "Sales Dynamics UK",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-2.595933",
  	"latitude": "53.392721"
  }, {
@@ -4469,7 +4444,7 @@
  	"postcode": "BB8 0LQ",
  	"company": "S J Software",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "-2.170415100000014",
  	"latitude": "53.8567993"
  }, {
@@ -4485,7 +4460,7 @@
  	"postcode": "8050",
  	"company": "RS Consult GmbH",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "8.529374100000041",
  	"latitude": "47.4112646"
  }, {
@@ -4501,25 +4476,9 @@
  	"postcode": "27356",
  	"company": "rocon GmbH",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "9.422360000000026",
  	"latitude": "53.12513"
- }, {
- 	"id": 450,
- 	"country": "United Kingdom",
- 	"region": "Northern Ireland",
- 	"city": "Bangor",
- 	"contact": "",
- 	"phone": "02891459845",
- 	"email": "info@robingray.co.uk",
- 	"website": "www.robingray.co.uk ",
- 	"address": "Enterprise House, 2-4 Balloo Avenue, Bangor, BT19 7QT",
- 	"postcode": "BT19 7QT",
- 	"company": "Robin Gray Computers ",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "-5.672447899999952",
- 	"latitude": "54.6437835"
  }, {
  	"id": 449,
  	"country": "Netherlands",
@@ -4533,7 +4492,7 @@
  	"postcode": "2805 AM ",
  	"company": "Relact",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "4.714394900000002",
  	"latitude": "52.0180704"
  }, {
@@ -4549,7 +4508,7 @@
  	"postcode": "12107",
  	"company": "Reischer CRM Consultants GmbH",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "13.377190000000041",
  	"latitude": "52.43713"
  }, {
@@ -4565,7 +4524,7 @@
  	"postcode": "GL50 3DA",
  	"company": "Red Business Systems",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-2.078654599999936",
  	"latitude": "51.9000649"
  }, {
@@ -4581,7 +4540,7 @@
  	"postcode": "HU7 0AE",
  	"company": "Reality Solutions Limited",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-0.32323729999995976",
  	"latitude": "53.77536199999999"
  }, {
@@ -4597,7 +4556,7 @@
  	"postcode": "400059",
  	"company": "Providian Global Solutions Pvt. Ltd.",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "72.87269519999995",
  	"latitude": "19.1154908"
  }, {
@@ -4613,25 +4572,9 @@
  	"postcode": "IP10 0DE",
  	"company": "Project Support Limited",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "1.21970280000005",
  	"latitude": "52.0313715"
- }, {
- 	"id": 442,
- 	"country": "South Korea",
- 	"region": "",
- 	"city": "Seoul",
- 	"contact": "",
- 	"phone": "027831962ext112",
- 	"email": "sjhyun@prismdb.co.kr",
- 	"website": "www.prism.co.kr",
- 	"address": "#602, Namjung B\/D, 13-1P, Yoido-dong, Youngdeungpo-ku, Seoul, 158-870",
- 	"postcode": "158-870",
- 	"company": "Prism MITech Korea",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "126.97796919999996",
- 	"latitude": "37.566535"
  }, {
  	"id": 441,
  	"country": "United Kingdom",
@@ -4645,9 +4588,10 @@
  	"postcode": "SL6 4UB",
  	"company": "Preact Limited",
  	"description": "",
- 	"level": 1,
+ 	"level": 0,
  	"longitude": "-0.7219000000000051",
- 	"latitude": "51.522414"
+ 	"latitude": "51.522414",
+    "hosting": 1
  }, {
  	"id": 440,
  	"country": "Poland",
@@ -4661,7 +4605,7 @@
  	"postcode": "66-500",
  	"company": "PC Soft Systemy Teleinformatyczne",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "15.523109999999974",
  	"latitude": "52.8739889"
  }, {
@@ -4677,7 +4621,7 @@
  	"postcode": "50739",
  	"company": "PC Consulting GmbH",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "6.921630800000003",
  	"latitude": "50.9773254"
  }, {
@@ -4691,9 +4635,9 @@
  	"website": "www.one-it.be",
  	"address": "Overwinningsstraat 13b, Willebroek, 2830 ",
  	"postcode": "2830 ",
- 	"company": "ONE IT ",
+ 	"company": "ONE IT",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "4.3600565000000415",
  	"latitude": "51.0595799"
  }, {
@@ -4709,7 +4653,7 @@
  	"postcode": "8965",
  	"company": "onConcept Business Engineering AG",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "8.372862800000007",
  	"latitude": "47.351974"
  }, {
@@ -4723,9 +4667,9 @@
  	"website": "www.objectline.fr\/act",
  	"address": "ZA de Pissaloup, 1 rue Blaise Pascal, Trappes Cedex, 78197",
  	"postcode": "78197",
- 	"company": "Objectline ",
+ 	"company": "Objectline",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "1.979084999999941",
  	"latitude": "48.7923767"
  }, {
@@ -4741,7 +4685,7 @@
  	"postcode": "47798",
  	"company": "niwis Consulting GmbH",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "6.551393800000028",
  	"latitude": "51.3308147"
  }, {
@@ -4757,7 +4701,7 @@
  	"postcode": "3065",
  	"company": "Mischler-Consulting",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "7.4978192999999465",
  	"latitude": "46.9718063"
  }, {
@@ -4773,25 +4717,9 @@
  	"postcode": "SW11 3AD",
  	"company": "Microsolv Systems Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-0.20509040000001733",
  	"latitude": "51.58511859999999"
- }, {
- 	"id": 431,
- 	"country": "China",
- 	"region": "",
- 	"city": "Hong Kong SAR",
- 	"contact": "",
- 	"phone": "85253670899",
- 	"email": "jor.zhou@messebridge.com",
- 	"website": "www.vistacrm.com",
- 	"address": "Room 1105, Lippo Centre , 89 Queensway, Admiralty, Hong Kong SAR",
- 	"postcode": "",
- 	"company": "Messe Bridge Capital Ltd.",
- 	"description": "",
- 	"level": 1,
- 	"longitude": "114.16332439999996",
- 	"latitude": "22.2794851"
  }, {
  	"id": 430,
  	"country": "Greece",
@@ -4803,9 +4731,9 @@
  	"website": "www.mercator.gr",
  	"address": "31 Karaiskaki Street, Helioupoliis, Athens",
  	"postcode": "",
- 	"company": "Mercator Ltd ",
+ 	"company": "Mercator Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "23.729359899999963",
  	"latitude": "37.983917"
  }, {
@@ -4821,7 +4749,7 @@
  	"postcode": "22926",
  	"company": "Melville-Schellmann GbR",
  	"description": "",
- 	"level": 1,
+ 	"level": 0,
  	"longitude": "10.233127800000034",
  	"latitude": "53.6666325"
  }, {
@@ -4833,11 +4761,11 @@
  	"phone": "01905 380920",
  	"email": "beth@marketinganswers.co.uk",
  	"website": "www.marketinganswers.co.uk",
- 	"address": "Suite 3 & 4 Holy oak Farm, Upton Snodsbury, Worcester, WR7 4NH",
- 	"postcode": "WR7 4NH",
+ 	"address": "3 Lowesmoor Wharf, Worcester, Worcestershire, WR1 2RS",
+ 	"postcode": "WR1 2RS",
  	"company": "Marketing Answers & Solutions",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-2.0856972999999925",
  	"latitude": "52.1861498"
  }, {
@@ -4849,29 +4777,13 @@
  	"phone": "01204306834",
  	"email": "kirwen@leviosa.co.uk",
  	"website": "www.leviosa.co.uk",
- 	"address": "32 Radstock, Sharples, Bolton, BL1 7PF",
- 	"postcode": "BL1 7PF",
+ 	"address": "Othery House, Webb Street, Horwich, Bolton, BL6 5NS",
+ 	"postcode": "BL6 5NS",
  	"company": "Leviosa Ltd",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-2.4282192000000578",
  	"latitude": "53.57686469999999"
- }, {
- 	"id": 426,
- 	"country": "United Kingdom",
- 	"region": "Yorkshire and the Humber",
- 	"city": "Grimsby",
- 	"contact": "",
- 	"phone": "01472 501234",
- 	"email": "ask@lcsgroup.com",
- 	"website": "www.lcsgroup.com",
- 	"address": "7-9 Alexandra Road, Grimsby, DN31 1RD",
- 	"postcode": "DN31 1RD",
- 	"company": "L C S Group Limited",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "-0.08778719999997975",
- 	"latitude": "53.5673772"
  }, {
  	"id": 425,
  	"country": "Germany",
@@ -4885,7 +4797,7 @@
  	"postcode": "96250",
  	"company": "Krauss Computing",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "10.95828830000005",
  	"latitude": "50.06711050000001"
  }, {
@@ -4901,9 +4813,10 @@
  	"postcode": "8620",
  	"company": "Köhli Informatik AG",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "8.788718499999959",
- 	"latitude": "47.3267111"
+ 	"latitude": "47.3267111",
+    "hosting": 1
  }, {
  	"id": 423,
  	"country": "Switzerland",
@@ -4917,9 +4830,10 @@
  	"postcode": "6301",
  	"company": "Köhli Informatik AG",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "8.48683630000005",
- 	"latitude": "47.1869028"
+ 	"latitude": "47.1869028",
+    "hosting": 1
  }, {
  	"id": 422,
  	"country": "Germany",
@@ -4933,7 +4847,7 @@
  	"postcode": "86911",
  	"company": "Kedi IT & Consulting",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "11.10244739999996",
  	"latitude": "47.95189"
  }, {
@@ -4949,7 +4863,7 @@
  	"postcode": "01728",
  	"company": "jbt consulting",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "13.720180000000028",
  	"latitude": "50.99554"
  }, {
@@ -4965,7 +4879,7 @@
  	"postcode": "59846",
  	"company": "IT Vertriebs & Consulting Agentur GmbH",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "7.995550699999967",
  	"latitude": "51.3580996"
  }, {
@@ -4981,7 +4895,7 @@
  	"postcode": "MK44 2YP",
  	"company": "Iquinity Limited",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-0.46665459999996983",
  	"latitude": "52.1359729"
  }, {
@@ -4997,41 +4911,9 @@
  	"postcode": "7170",
  	"company": "Intuitis",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "4.2417696999999634",
  	"latitude": "50.5078346"
- }, {
- 	"id": 417,
- 	"country": "India",
- 	"region": "",
- 	"city": "New Delhi",
- 	"contact": "",
- 	"phone": "9716574448",
- 	"email": "rajendra.joshi@interlinkinfo.com",
- 	"website": "interlinkconsultancy.com",
- 	"address": "S-362, LG Floor , Greater Kailash - II, New Delhi, 110048",
- 	"postcode": "110048",
- 	"company": "Interlink Information System Pvt Ltd",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "77.24195220000001",
- 	"latitude": "28.53536"
- }, {
- 	"id": 414,
- 	"country": "United Kingdom",
- 	"region": "South East",
- 	"city": "Farnborough",
- 	"contact": "",
- 	"phone": "01252544788",
- 	"email": "info@gpoint.co.uk ",
- 	"website": "www.gpoint.co.uk",
- 	"address": "109 Cove Road, Farnborough, GU14 0HF",
- 	"postcode": "GU14 0HF",
- 	"company": "Greenpoint Computer Services Ltd ",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "-0.7718256000000565",
- 	"latitude": "51.29338389999999"
  }, {
  	"id": 413,
  	"country": "Italy",
@@ -5045,7 +4927,7 @@
  	"postcode": "5018",
  	"company": "Gianos Consulting ",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "12.125258199999962",
  	"latitude": "42.7191784"
  }, {
@@ -5061,7 +4943,7 @@
  	"postcode": "BT63 5WG",
  	"company": "FUEL",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-6.409618000000023",
  	"latitude": "54.4532074"
  }, {
@@ -5077,25 +4959,9 @@
  	"postcode": "OL4 4TZ",
  	"company": "Financial Controls Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-2.0687050000000227",
  	"latitude": "53.5377768"
- }, {
- 	"id": 408,
- 	"country": "United Kingdom",
- 	"region": "Scotland",
- 	"city": "East Kilbride, Lanarkshire",
- 	"contact": "",
- 	"phone": "01355581960",
- 	"email": "enquiries@eurekasolutions.co.uk",
- 	"website": "www.eurekasolutions.co.uk",
- 	"address": "James Watt Builiding, Scottish Enterprise Technology, East Kilbride, Lanarkshire, G75 0QD",
- 	"postcode": "G75 0QD",
- 	"company": "Eureka Solutions Ltd (Scotland)",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "-4.1653742999999395",
- 	"latitude": "55.7568908"
  }, {
  	"id": 407,
  	"country": "France",
@@ -5109,25 +4975,9 @@
  	"postcode": "78990 ",
  	"company": "eSolution",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "1.9503174000000172",
  	"latitude": "48.7698097"
- }, {
- 	"id": 406,
- 	"country": "Germany",
- 	"region": "Berlin",
- 	"city": "Berlin",
- 	"contact": "",
- 	"phone": "00493061107653",
- 	"email": "act@erm-consulting.de ",
- 	"website": "www.erm-consulting.de",
- 	"address": "Landhausring 3, Berlin, 12683",
- 	"postcode": "12683",
- 	"company": "ERM Consulting GmbH",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "13.573384199999964",
- 	"latitude": "52.5193532"
  }, {
  	"id": 403,
  	"country": "United Kingdom",
@@ -5141,9 +4991,10 @@
  	"postcode": "PE2 6QR",
  	"company": "DMC Software Solutions Ltd",
  	"description": "",
- 	"level": 1,
+ 	"level": 0,
  	"longitude": "-0.2405298999999559",
- 	"latitude": "52.56949849999999"
+ 	"latitude": "52.56949849999999",
+    "hosting": 1
  }, {
  	"id": 402,
  	"country": "Ireland",
@@ -5157,7 +5008,7 @@
  	"postcode": "Dublin 2",
  	"company": "DDM Limited",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-6.254589900000042",
  	"latitude": "53.3378192"
  },  {
@@ -5173,7 +5024,7 @@
  	"postcode": "44867",
  	"company": "CRS-Datentechnik GmbH & Co. KG",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "7.133040499999993",
  	"latitude": "51.4694093"
  }, {
@@ -5189,25 +5040,10 @@
  	"postcode": "86488",
  	"company": "CRMADDON Factory GmbH",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "10.316980899999976",
- 	"latitude": "48.2352061"
- }, {
- 	"id": 398,
- 	"country": "United Kingdom",
- 	"region": "South East",
- 	"city": "Northampton",
- 	"contact": "",
- 	"phone": "01604 420440",
- 	"email": "pam@crmessentialsltd.co.uk",
- 	"website": "www.crmessentialsltd.co.uk",
- 	"address": "58a High Street, Stony Stratford, MK11 1AQ",
- 	"postcode": "MK11 1AQ",
- 	"company": "CRM Essentials Limited ",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "-0.860044",
- 	"latitude": "52.072293"
+ 	"latitude": "48.2352061",
+    "hosting": 1
  }, {
  	"id": 397,
  	"country": "United Kingdom",
@@ -5221,7 +5057,7 @@
  	"postcode": "LL29 8NB",
  	"company": "Computer Solutions Cymru Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-3.6944952999999714",
  	"latitude": "53.2907945"
  }, {
@@ -5237,7 +5073,7 @@
  	"postcode": "2037",
  	"company": "Ciel Tunisie",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "10.163800199999969",
  	"latitude": "36.8613406"
  }, {
@@ -5253,7 +5089,7 @@
  	"postcode": "WC1R 5DJ",
  	"company": "CentrePoint Software",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-0.11410999999998239",
  	"latitude": "51.5188342"
  }, {
@@ -5269,7 +5105,7 @@
  	"postcode": "SR5 3JN",
  	"company": "Cellular Solutions (NE) Ltd",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-1.4589253000000326",
  	"latitude": "54.9162689"
  }, {
@@ -5285,7 +5121,7 @@
  	"postcode": "WA15 6TG",
  	"company": "Ceetec Solutions Ltd",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-2.3354134999999587",
  	"latitude": "53.4032011"
  }, {
@@ -5301,25 +5137,9 @@
  	"postcode": "6301",
  	"company": "Caprez Consulting",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "8.51914499999998",
  	"latitude": "47.151953"
- }, {
- 	"id": 391,
- 	"country": "United Kingdom",
- 	"region": "Yorkshire and the Humber",
- 	"city": "Leeds",
- 	"contact": "",
- 	"phone": "01132166777",
- 	"email": "admin@cams-ltd.com",
- 	"website": "www.cams-ltd.com",
- 	"address": "375 Meanwood Road, Leeds, LS7 2LL",
- 	"postcode": "LS7 2LL",
- 	"company": "CAMS Ltd",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "-1.552381700000069",
- 	"latitude": "53.8185544"
  }, {
  	"id": 390,
  	"country": "United Kingdom",
@@ -5333,7 +5153,7 @@
  	"postcode": "RG31 5PR",
  	"company": "Caldere Associates Limited",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "-1.0422439000000168",
  	"latitude": "51.4603665"
  }, {
@@ -5349,7 +5169,7 @@
  	"postcode": "DE11 8AA",
  	"company": "CADS Ltd 2013 Computer Administration & Development Services Ltd ",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-1.508328600000027",
  	"latitude": "52.7651779"
  }, {
@@ -5365,7 +5185,7 @@
  	"postcode": "75008",
  	"company": "Cabinet Théron",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "2.3080191999999897",
  	"latitude": "48.8706384"
  }, {
@@ -5381,7 +5201,7 @@
  	"postcode": "92318",
  	"company": "Büroelektronik Grasenhiller GmbH",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "11.476318900000024",
  	"latitude": "49.2958437"
  }, {
@@ -5397,7 +5217,7 @@
  	"postcode": "CB24 4UQ",
  	"company": "Boldfield Ltd ",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-0.0071015999999417545",
  	"latitude": "52.2736011"
  }, {
@@ -5413,7 +5233,7 @@
  	"postcode": "",
  	"company": "BNC Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-6.6962839999999915",
  	"latitude": "53.2136698"
  }, {
@@ -5429,7 +5249,7 @@
  	"postcode": "DE14 2DH",
  	"company": "Bluebird Sales & Marketing",
  	"description": "",
- 	"level": 1,
+ 	"level": 0,
  	"longitude": "-1.552824",
  	"latitude": "52.860580"
  }, {
@@ -5445,7 +5265,7 @@
  	"postcode": "LS14 3DW",
  	"company": "Blue Logic Computer Systems Ltd",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-1.4398006000000123",
  	"latitude": "53.8411155"
  }, {
@@ -5461,7 +5281,7 @@
  	"postcode": "",
  	"company": "Beaver International Group Limited",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "114.155621",
  	"latitude": "22.2826055"
  }, {
@@ -5477,7 +5297,7 @@
  	"postcode": "PO7 7JD",
  	"company": "BBSol Limited",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-1.0322843000000148",
  	"latitude": "50.87742280000001"
  }, {
@@ -5493,7 +5313,7 @@
  	"postcode": "44300",
  	"company": "Atlanticom",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-1.5335403999999926",
  	"latitude": "47.251174"
  }, {
@@ -5509,7 +5329,7 @@
  	"postcode": "WA13 9AR",
  	"company": "Aston Berkeley Systems Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-2.4815338999999312",
  	"latitude": "53.3825645"
  }, {
@@ -5523,9 +5343,9 @@
  	"website": "www.ashgoal.com",
  	"address": "Unit C Ground Floor, Queens Road, Barnet, EN5 4DJ",
  	"postcode": "EN5 4DJ",
- 	"company": "Ashgoal Ltd ",
+ 	"company": "Ashgoal Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-0.21347820000005413",
  	"latitude": "51.6561044"
  }, {
@@ -5541,7 +5361,7 @@
  	"postcode": "26676",
  	"company": "AriBis GmbH",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "7.741359999999986",
  	"latitude": "53.17167999999999"
  }, {
@@ -5557,7 +5377,7 @@
  	"postcode": "21147",
  	"company": "AriBis GmbH",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "9.879770000000008",
  	"latitude": "53.47345"
  }, {
@@ -5573,7 +5393,7 @@
  	"postcode": "40599",
  	"company": "AriBis GmbH",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "6.86650869999994",
  	"latitude": "51.1757459"
  }, {
@@ -5589,7 +5409,7 @@
  	"postcode": "78300",
  	"company": "APSYS",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "2.0422373999999763",
  	"latitude": "48.9297058"
  }, {
@@ -5605,9 +5425,10 @@
  	"postcode": "82178",
  	"company": "Anywhere.24 GmbH",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "11.338250000000016",
- 	"latitude": "48.16241"
+ 	"latitude": "48.16241",
+    "hosting": 1
  }, {
  	"id": 368,
  	"country": "France",
@@ -5619,9 +5440,9 @@
  	"website": "",
  	"address": "4 chemin de Ravareil, Ternay , 69360",
  	"postcode": "69360",
- 	"company": "Alter Info ",
+ 	"company": "Alter Info",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "4.820663800000034",
  	"latitude": "45.6043843"
  }, {
@@ -5637,7 +5458,7 @@
  	"postcode": "NP16 6SE",
  	"company": "Alphalogix Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-2.682430199999999",
  	"latitude": "51.699181"
  }, {
@@ -5651,9 +5472,9 @@
  	"website": "www.alliance.org.za",
  	"address": "19\/20 The Promenade, La Lucia - PO BOX 1707, Umhlanga Rocks, Durban, 4320",
  	"postcode": "4320",
- 	"company": "Alliance Institute ",
+ 	"company": "Alliance Institute",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "31.064419999999927",
  	"latitude": "-29.76189399999999"
  }, {
@@ -5669,9 +5490,10 @@
  	"postcode": "B72 1UH",
  	"company": "Advantage Services (Europe) Ltd",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-1.823759500000051",
- 	"latitude": "52.5668537"
+ 	"latitude": "52.5668537",
+    "hosting": 1
  }, {
  	"id": 363,
  	"country": "United Kingdom",
@@ -5685,7 +5507,7 @@
  	"postcode": "KA1 1RB",
  	"company": "Active Office Scotland Limited",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-4.499069299999974",
  	"latitude": "55.60447629999999"
  }, {
@@ -5701,7 +5523,7 @@
  	"postcode": "",
  	"company": "ACT CRM",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "12.000385999999935",
  	"latitude": "55.659525"
  }, {
@@ -5717,7 +5539,7 @@
  	"postcode": "GU21 3JW",
  	"company": "ACT 4U",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-0.6004643999999644",
  	"latitude": "51.3200477"
  }, {
@@ -5733,7 +5555,7 @@
  	"postcode": "8790 ",
  	"company": "Alfasolutions",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "3.427308",
  	"latitude": "50.888137"
  }, {
@@ -5749,7 +5571,7 @@
  	"postcode": "W1S 1HU",
  	"company": "Access Networks Solutions Ltd",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-0.14477820000001884",
  	"latitude": "51.5142398"
  }, {
@@ -5765,7 +5587,7 @@
  	"postcode": "01 57",
  	"company": "Aarix (Pty) Ltd",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "28.14543900000001",
  	"latitude": "-25.8498449"
  }, {
@@ -5781,25 +5603,9 @@
  	"postcode": "CM4 9PD",
  	"company": "A C I T Solutions Limited ",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "0.4184609999999793",
  	"latitude": "51.6577733"
- }, {
- 	"id": 355,
- 	"country": "United Kingdom",
- 	"region": "East",
- 	"city": "Bury St. Edmonds",
- 	"contact": "",
- 	"phone": "01284 220333",
- 	"email": "info@3itltd.co.uk ",
- 	"website": "www.3itltd.co.uk",
- 	"address": "Unit 4 Greenwood Court, Skyliner Way, Bury St. Edmunds, IP32 7GY",
- 	"postcode": "IP32 7GY",
- 	"company": "3IT Limited",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "0.754651",
- 	"latitude": "52.243129"
  }, {
  	"id": 354,
  	"country": "United Kingdom",
@@ -5813,7 +5619,7 @@
  	"postcode": "L37 7BY",
  	"company": "1St Computer Consultancy",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-3.0703624999999874",
  	"latitude": "53.5707479"
  }, {
@@ -5829,14 +5635,14 @@
  	"postcode": "DD2 1XD",
  	"company": "1 Office Equipment Ltd",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-3.020317500000033",
  	"latitude": "56.4539342"
  }, {
  	"id": 316,
  	"country": "United Kingdom",
  	"region": "West Midlands",
- 	"city": null,
+ 	"city": "Sutton Coldfield",
  	"contact": "",
  	"phone": "0121 323 2304",
  	"email": "info@softext.co.uk",
@@ -5845,7 +5651,7 @@
  	"postcode": "B75 5BH",
  	"company": "Softext Limited",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "-1.8319899000000532",
  	"latitude": "52.5922187"
  }, {
@@ -5861,7 +5667,7 @@
  	"postcode": "x",
  	"company": "Smarter Business",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-6.135749400000009",
  	"latitude": "53.1897368"
  }, {
@@ -5877,7 +5683,7 @@
  	"postcode": "75009",
  	"company": "Power Act",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "2.328260099999966",
  	"latitude": "48.87742739999999"
  }];

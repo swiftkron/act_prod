@@ -166,7 +166,6 @@ _elqQ.push(['elqOptOut']);
       										<li><label for="cb-Sweden"><input type="radio" name="country" id="cb-Sweden"  value="country:Sweden" />Sweden</label></li>
       										<li><label for="cb-Switzerland"><input type="radio" name="country" id="cb-Switzerland"  value="country:Switzerland" />Switzerland</label></li>
       										<li><label for="cb-Tunisia"><input type="radio" name="country" id="cb-Tunisia"  value="country:Tunisia" />Tunisia</label></li>
-      										<li><label for="cb-United-Arab-Emirates"><input type="radio" name="country" id="cb-United-Arab-Emirates"  value="country:United Arab Emirates" />United Arab Emirates</label></li>
 		  		  		  			</ol>
 		  		  		  		</li>
 
@@ -182,6 +181,18 @@ _elqQ.push(['elqOptOut']);
 		  		  					<ol class="level">
 		  		  					</ol>
 		  		  				</li>
+                    <li class="filter-category"><span>Service d'h&eacute;bergement &or;</span>
+                      <ol class="hosting">
+                        <li>
+                          <input type="radio" name="hosting-services" value="" id="hosting-all" />
+                          <label for="hosting-all"><span>Tout</span></label>
+                        </li>
+                        <li>
+                          <input type="radio" name="hosting-services" value="hosting:1" id="hosting-services" />
+                          <label for="hosting-services"><span>Partenaire h&eacute;bergeur</span></label>
+                        </li>
+                      </ol>
+                    </li>
 
                   </div>
 

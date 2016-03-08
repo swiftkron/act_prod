@@ -77,6 +77,7 @@
             <li><a href="/resources">Act! Premium Resources</a></li>
             <li><a href="/resources/act-emarketing-getting-started">Act! emarketing Resources</a></li>
             <li><a href="https://actcloud1.zendesk.com/hc/en-us" target="_blank">Act! Essentials Resources</a></li>
+<li><a href="/resources/getting-started">Act! Premium Getting Started</a></li>
          </ul>
       </li>
       <li><a href="/partners">Partners</a>

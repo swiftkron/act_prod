@@ -202,5 +202,19 @@
                 </div>
               </div>
 
+              <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="" data-test-size="1-10" data-test-solution="actpro" >
+                <div class="test-popout" style="background-image:url('/de-de/img/zorgplein-noord-bg.jpg');">
+                  <div class="box">
+                    <div class="img-container">
+                      <img src="/de-de/img/zorgplein-noord-logo-white.png" alt="Zorgplein Noord logo"></div>
+
+                    <blockquote>
+                      „Wir sind mehr als zufrieden mit Act!. Unsere Erwartungen an ein Kundenmanagementsystem wurden..."
+                    </blockquote>
+                    <a href="kundenreferenzen/zorgplein-noord" title="" class="btn-second-white btn-white">Mehr erfahren</a>
+                  </div>
+                </div>
+              </div>
+
 
 

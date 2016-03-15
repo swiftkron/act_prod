@@ -55,4 +55,18 @@
               </div>
             </div>
           </div>
+
+          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Manufacturing" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="test-popout"  style="background-image:url('/nl-nl/img/zorgplein-noord-bg.jpg');">
+              <div class="box">
+                <div class="img-container">
+                  <img src="/nl-nl/img/zorgplein-noord-logo-white.png" alt="Zorgplein Noord Centers logo"></div>
+
+                <blockquote>
+                  "De verwachtingen die we Act! hadden, worden waargemaakt. We ontdekken steeds nieuwe functionaliteiten..."
+                </blockquote>
+                <a href="testimonials/zorgplein-noord" title="" class="btn-second-white btn-white">lees verder</a>
+              </div>
+            </div>
+          </div>
              

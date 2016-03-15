@@ -198,3 +198,17 @@
                 </div>
               </div>
 
+              <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="" data-test-size="1-10" data-test-solution="actpro" >
+                <div class="test-popout" style="background-image:url('/en-uk/img/zorgplein-noord-bg.jpg');">
+                  <div class="box">
+                    <div class="img-container">
+                      <img src="/en-uk/img/zorgplein-noord-logo-white.png" alt="Zorgplein Noord logo"></div>
+
+                    <blockquote>
+                      "Act! is not just living up to our initial expectations, it's exceeding them..."
+                    </blockquote>
+                    <a href="testimonials/zorgplein-noord" title="" class="btn-second-white btn-white">Find out more</a>
+                  </div>
+                </div>
+              </div>
+

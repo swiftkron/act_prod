@@ -201,5 +201,20 @@
               </div>
             </div>
           </div>
+
+
+          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="test-popout" style="background-image:url('img/zorgplein-noord-bg.jpg');">
+              <div class="box">
+                <div class="img-container">
+                  <img src="img/zorgplein-noord-logo-white.png" alt="Zorgplein Noord Centers logo"></div>
+
+                <blockquote>
+                  "Act! est plus qu&rsquo;&agrave; la hauteur de nos attentes, il les a d&eacute;pass&eacute;es ! On n&rsquo;arr&ecirc;te pas de d&eacute;couvrir de nouvelles fonctionnalit&eacute;s..."
+                </blockquote>
+                <a href="temoignage/zorgplein-noord" title="Référence client CRM" class="btn-second-white btn-white">en savoir plus</a>
+              </div>
+            </div>
+          </div>
           
           

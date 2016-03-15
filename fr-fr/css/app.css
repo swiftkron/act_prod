@@ -3029,6 +3029,7 @@ li.filter ol {
 }
 .result-list .orangetitle {
   font-weight: bold;
+  font-size:15px;
 }
 .bullets li {
   text-indent: -12px;

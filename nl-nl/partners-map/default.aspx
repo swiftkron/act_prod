@@ -136,7 +136,6 @@
                           <li><label for="cb-France"><input type="radio" name="country" id="cb-France"  value="country:France" />France</label></li>
                           <li><label for="cb-Germany"><input type="radio" name="country" id="cb-Germany"  value="country:Germany" />Germany</label></li>
                           <li><label for="cb-Greece"><input type="radio" name="country" id="cb-Greece"  value="country:Greece" />Greece</label></li>
-                          <li><label for="cb-Hungary"><input type="radio" name="country" id="cb-Hungary"  value="country:Hungary" />Hungary</label></li>
                           <li><label for="cb-India"><input type="radio" name="country" id="cb-India"  value="country:India" />India</label></li>
                           <li><label for="cb-Ireland"><input type="radio" name="country" id="cb-Ireland"  value="country:Ireland" />Ireland</label></li>
                           <li><label for="cb-Italy"><input type="radio" name="country" id="cb-Italy"  value="country:Italy" />Italy</label></li>
@@ -152,7 +151,6 @@
                           <li><label for="cb-Switzerland"><input type="radio" name="country" id="cb-Switzerland"  value="country:Switzerland" />Switzerland</label></li>
                           <li><label for="cb-Tunisia"><input type="radio" name="country" id="cb-Tunisia"  value="country:Tunisia" />Tunisia</label></li>
                           <li><label for="cb-Turkey"><input type="radio" name="country" id="cb-Turkey"  value="country:Turkey" />Turkey</label></li>
-                          <li><label for="cb-United-Arab-Emirates"><input type="radio" name="country" id="cb-United-Arab-Emirates"  value="country:United Arab Emirates" />United Arab Emirates</label></li>
 		  		  		  			</ol>
 		  		  		  		</li>
 
@@ -168,6 +166,18 @@
 		  		  					<ol class="level">
 		  		  					</ol>
 		  		  				</li>
+                    <li class="filter-category"><span>hostingdiensten &or;</span>
+                      <ol class="hosting">
+                        <li>
+                          <input type="radio" name="hosting-services" value="" id="hosting-all" />
+                          <label for="hosting-all"><span>Alle</span></label>
+                        </li>
+                        <li>
+                          <input type="radio" name="hosting-services" value="hosting:1" id="hosting-services" />
+                          <label for="hosting-services"><span>Hosting partner</span></label>
+                        </li>
+                      </ol>
+                    </li>
 			  		 </div>
 
 

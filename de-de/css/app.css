@@ -3002,6 +3002,7 @@ li.filter ol {
 }
 .result-list .orangetitle {
   font-weight: bold;
+  font-size:15px;
 }
 .slider-bg {
   height:100%;
@@ -4052,4 +4053,7 @@ li a:hover {
   }
   .fill-white {
     background-color: #ffffff;
+  }
+  .text-right {
+    text-align:right;
   }

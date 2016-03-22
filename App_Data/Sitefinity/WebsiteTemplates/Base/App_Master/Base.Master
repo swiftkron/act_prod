@@ -32,7 +32,7 @@
 
     <form id="form1" runat="server">
         <sf:JavaScriptEmbedControl runat="server" ID="jsLink1" ScriptEmbedPosition="Head" Url="~/Sitefinity/WebsiteTemplates/Base/App_Theme/js/jquery-1.11.3.min.js"></sf:JavaScriptEmbedControl>
-        <sf:JavaScriptEmbedControl runat="server" ID="jsLink2" ScriptEmbedPosition="Head" Url="~/Sitefinity/WebsiteTemplates/Base/App_Theme/js/common.js"></sf:JavaScriptEmbedControl>
+        <sf:JavaScriptEmbedControl runat="server" ID="jsLink2" ScriptEmbedPosition="Head" Url="~/Sitefinity/WebsiteTemplates/Base/App_Theme/js/common.js?version=reset"></sf:JavaScriptEmbedControl>
         
         <asp:ContentPlaceHolder ID="MainNavigation" runat="server"></asp:ContentPlaceHolder>
 

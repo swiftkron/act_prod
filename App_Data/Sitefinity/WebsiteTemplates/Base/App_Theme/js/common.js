@@ -156,6 +156,7 @@ $(document).ready(function () {
             $('#premBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremium/plan/Month?srid=' + srid + '&ror=' + ror + '');
         }
     });
+$('#proBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/actpro/plan/perpetual?srid=' + srid + '&ror=' + ror + '');
     // KM tracking on buy click
     $('#cloudBuy').click(function () {
         var term = $('#cloudFreq').val();

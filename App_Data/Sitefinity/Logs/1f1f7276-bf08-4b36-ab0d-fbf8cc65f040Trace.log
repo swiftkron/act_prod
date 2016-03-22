@@ -1,89 +1,89 @@
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:21 PM
+Timestamp: 3/21/2016 11:01:19 PM
 
 Message: Shutting down threadpool...
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:21 PM
+Timestamp: 3/21/2016 11:01:19 PM
 
 Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:22 PM
+Timestamp: 3/21/2016 11:01:19 PM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:22 PM
+Timestamp: 3/21/2016 11:01:19 PM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:22 PM
+Timestamp: 3/21/2016 11:01:19 PM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:22 PM
+Timestamp: 3/21/2016 11:01:19 PM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:22 PM
+Timestamp: 3/21/2016 11:01:19 PM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:22 PM
+Timestamp: 3/21/2016 11:01:19 PM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:22 PM
+Timestamp: 3/21/2016 11:01:19 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/21/2016 11:01:19 PM
 
 Message: Background task scheduler shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:22 PM
+Timestamp: 3/21/2016 11:01:19 PM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:22 PM
-
-Message: WorkerThread is shut down
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 3/21/2016 10:10:51 PM
+Timestamp: 3/21/2016 11:01:49 PM
 
 Message: Shutting down threadpool...
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 3/21/2016 10:10:51 PM
+Timestamp: 3/21/2016 11:01:49 PM
 
 Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
 

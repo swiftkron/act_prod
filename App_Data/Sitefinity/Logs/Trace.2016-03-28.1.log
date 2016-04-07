@@ -1,0 +1,66 @@
+----------------------------------------
+Timestamp: 24/03/2016 17:39:48
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/container.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/03/2016 17:39:48
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/container.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/03/2016 17:39:53
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/container.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/03/2016 17:40:07
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-12.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/03/2016 17:40:07
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-12.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/03/2016 17:40:12
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-12.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------

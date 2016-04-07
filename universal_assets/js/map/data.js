@@ -5285,22 +5285,6 @@
  	"longitude": "114.155621",
  	"latitude": "22.2826055"
  }, {
- 	"id": 379,
- 	"country": "United Kingdom",
- 	"region": "South East",
- 	"city": "Waterlooville",
- 	"contact": "",
- 	"phone": "0800 0743706",
- 	"email": "roger@bbsol.co.uk",
- 	"website": "www.bbsol.co.uk",
- 	"address": "15 Wellesley Close, Waterlooville, PO7 7JD",
- 	"postcode": "PO7 7JD",
- 	"company": "BBSol Limited",
- 	"description": "",
- 	"level": 3,
- 	"longitude": "-1.0322843000000148",
- 	"latitude": "50.87742280000001"
- }, {
  	"id": 376,
  	"country": "France",
  	"region": "Pays de la Loire",

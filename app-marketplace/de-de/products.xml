@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <PRODUCTS>
 	<!-- FEATURED SOLUTIONS -->
 	<featured_solutions>
@@ -18,7 +18,7 @@
 			<desc>Greifen Sie mit Ihrem Mobiltelefon von unterwegs auf Ihre Act! Kontakte, Kalendereinträge und Aktivitäten zu – selbst wenn Sie mal keine Verbindung zum Internet haben.</desc>
 			<price></price>
 			<cta>Erfahren Sie mehr »</cta>
-			<url>http://www.act.com/en-uk/marketplace/handheld-contact</url>
+			<url>http://www.actaddons.com/addons/handheld_contact.asp</url>
 			<tile>act_mkt_tile_bc_handheld.png</tile>
 			<thumb>act_mkt_thumb_handheld.png</thumb>
 		</product>

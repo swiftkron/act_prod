@@ -28,7 +28,7 @@
 
 					<li class="cta">
 						<div class="slider-bg">
-							<img src="/en-uk/img/Entrepreneur-using-Act-Essentials.jpg" alt="Entrepreneur using Act! Essentials" />
+							<img src="/en-uk/img/act-crm-demo.jpg" alt="Act! CRM demo" />
 						</div>
 
 						<div class="slider-overlay">
@@ -36,11 +36,10 @@
 								<div class="row section">
 								  	<div class="col-sm-8 col-left bottom mb-center ">
 								    		<h1 class="large_strapline_home semibold">
-								    		<strong class="essential">Act!&nbsp;Essentials </strong><br>Bring your business into focus</h1>
+								    		<strong>Call us now</strong><br>for a 15 minute demonstration</h1>
 										 <div class="btn-bottom">
-								      		<a href="https://mycloud.act.com/#/account/billing" target="_blank" class="btn-primary btn">buy now</a>
-								      		<a target="_blank" href="https://mycloud.act.com/signup/" class="btn-second btn">free trial</a>
-								      		<a href="https://www.youtube.com/watch?v=y2fid-EG5vE" data-video="y2fid-EG5vE" class="playVideo btn-second btn">watch now</a>
+								      		<span style="color:#fe5800;font-weight:bold;font-size:44px;line-height:50px;">0845 268 0220</span><span style="font-size:24px;line-height:28px;"> (UK)</span><br>
+								      		<span style="color:#fe5800;font-weight:bold;font-size:34px;line-height:38px;">0766 801 364</span> <span style="font-size:26px;line-height:30px;">(IE)</span>
 									  	</div>
 									 </div>
 									 <div class="col-sm-4 imagefix hidden-xs">

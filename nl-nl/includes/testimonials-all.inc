@@ -69,4 +69,18 @@
               </div>
             </div>
           </div>
+
+          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Manufacturing" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="test-popout"  style="background-image:url('/nl-nl/img/die-zeit-all-bg.jpg');">
+              <div class="box">
+                <div class="img-container">
+                  <img src="/nl-nl/img/die-zeit-logo.png" alt="Die Ziet logo"></div>
+
+                <blockquote>
+                  "We wisten dat we een betrouwbaar CRMsysteem nodig hadden om al onze historische en huidige klantgegevens..."
+                </blockquote>
+                <a href="testimonials/die-zeit" title="" class="btn-second-white btn-white">lees verder</a>
+              </div>
+            </div>
+          </div>
              

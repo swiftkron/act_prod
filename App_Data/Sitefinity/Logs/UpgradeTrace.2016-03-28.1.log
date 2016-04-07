@@ -1,0 +1,96 @@
+----------------------------------------
+Timestamp: 3/21/2016 10:51:52 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/21/2016 10:51:52 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/21/2016 10:51:52 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/21/2016 10:51:52 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.Connections.Connection
+CREATE TABLE [connections_connection] (
+    [base_id] uniqueidentifier NOT NULL,
+    [title_fr_ca] NVARCHAR(255) NULL,       -- Connection.Title_fr_ca
+    [title_en] NVARCHAR(255) NULL,          -- Connection.Title_en
+    [Title] NVARCHAR(255) NULL,             -- Connection.Title
+    [powered_by_fr_ca] NVARCHAR(255) NULL,  -- Connection.PoweredBy_fr_ca
+    [powered_by_en] NVARCHAR(255) NULL,     -- Connection.PoweredBy_en
+    [PoweredBy] NVARCHAR(255) NULL,         -- Connection.PoweredBy
+    [external_u_r_l_fr_ca] NVARCHAR(255) NULL, -- Connection.ExternalURL_fr_ca
+    [external_u_r_l_en] NVARCHAR(255) NULL, -- Connection.ExternalURL_en
+    [ExternalURL] NVARCHAR(255) NULL,       -- Connection.ExternalURL
+    [description_fr_ca] NVARCHAR(MAX) NULL, -- Connection.Description_fr_ca
+    [description_en] NVARCHAR(MAX) NULL,    -- Connection.Description_en
+    [Description] NVARCHAR(MAX) NULL,       -- Connection.Description
+    CONSTRAINT [pk_connections_connection] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/21/2016 10:51:52 PM
+
+Message: ALTER TABLE [connections_connection] ADD CONSTRAINT [ref_cnnctns_cnnctn_sf_F225AF3B] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/21/2016 10:54:31 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/21/2016 10:54:31 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/21/2016 10:54:31 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/21/2016 10:54:31 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.Connections.AddOn
+CREATE TABLE [connections_addon] (
+    [base_id] uniqueidentifier NOT NULL,
+    [title_fr_ca] NVARCHAR(255) NULL,       -- AddOn.Title_fr_ca
+    [title_en] NVARCHAR(255) NULL,          -- AddOn.Title_en
+    [Title] NVARCHAR(255) NULL,             -- AddOn.Title
+    [add_on_u_r_l_fr_ca] NVARCHAR(255) NULL, -- AddOn.AddOnURL_fr_ca
+    [add_on_u_r_l_en] NVARCHAR(255) NULL,   -- AddOn.AddOnURL_en
+    [AddOnURL] NVARCHAR(255) NULL,          -- AddOn.AddOnURL
+    CONSTRAINT [pk_connections_addon] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/21/2016 10:54:31 PM
+
+Message: ALTER TABLE [connections_addon] ADD CONSTRAINT [ref_cnnctns_ddn_sf_dy_EF9F6F77] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------

@@ -1,0 +1,41 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Act_ui_Empty.master.cs" %>
+<%@ Register TagPrefix="sf" Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI.PublicControls"%>
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700' rel='stylesheet' type='text/css'>
+<title></title>
+
+</head>
+<body>
+
+    
+<form id="form1" runat="server">
+
+
+        
+             
+<asp:ContentPlaceHolder ID="Header" runat="server"></asp:ContentPlaceHolder>
+
+<asp:ContentPlaceHolder ID="Body" runat="server"></asp:ContentPlaceHolder>
+
+<asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
+
+
+</form>
+
+    <script type="text/javascript" src="/js/jquery11.3.min.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+
+</body>
+
+</html>

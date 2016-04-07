@@ -91,6 +91,21 @@ _elqQ.push(['elqOptOut']);
 
     <!-- Google Tracking Scripts -->
 
+<!-- Kissmetrics -->
+<script type="text/javascript">var _kmq = _kmq || [];
+var _kmk = _kmk || 'fb3b6dd55e5635b7f5eb80ac69d927bd54d760b6';
+function _kms(u){
+  setTimeout(function(){
+    var d = document, f = d.getElementsByTagName('script')[0],
+    s = d.createElement('script');
+    s.type = 'text/javascript'; s.async = true; s.src = u;
+    f.parentNode.insertBefore(s, f);
+  }, 1);
+}
+_kms('//i.kissmetrics.com/i.js');
+_kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
+</script>
+<!-- end Kissmetrics -->
 </head>
 <body id="download">
         <!--[if lt IE 7]>
@@ -129,7 +144,7 @@ _elqQ.push(['elqOptOut']);
         <div class="row accordion">
           <div class="panel row col-md-12">
             <div class="title">
-              <h3>Hotfixes &#12297;</h3>
+              <h3>Updates &#12297;</h3>
             </div>
             <div class="panel-content">
 
@@ -147,15 +162,29 @@ _elqQ.push(['elqOptOut']);
 
                 <tbody>
                       <tr>
-                        <td>05/02/16</td>
-                        <td>Act! v18 Hotfix 6</td>
+                        <td>09/03/2016</td>
+                        <td>Act! v16.3 Hotfix 1</td>
+                        <td>act16sp3hf1.exe</td>
+                        <td>2.1 MB</td>
+                        <td><a href="http://CDN.updates.swiftpage.act.com/updates/act16sp3hf1.exe">download</td>
+                      </tr>
+                      <tr>
+                        <td>26/02/2016</td>
+                        <td>Act! v18 Update 7</td>
+                        <td>act18update7e.exe</td>
+                        <td>22.7 MB</td>
+                        <td><a href="https://updates-act-com.s3.amazonaws.com/NonESD/updates.act.com/updates/act18update7e.exe">download</td>
+                      </tr>
+                      <tr>
+                        <td>05/02/2016</td>
+                        <td>Act! v18 Update 6</td>
                         <td>act18update6b.exe</td>
                         <td>22.7 MB</td>
                         <td><a href="http://cdn.updates.swiftpage.act.com/updates/act18update6b.exe">download</td>
                       </tr>
 
                       <tr>
-                        <td>22/01/16</td>
+                        <td>22/01/2016</td>
                         <td>Act! 18.0 Hotfix 5</td>
                         <td>act18hf5c.exe</td>
                         <td>22.5 MB</td>
@@ -163,7 +192,7 @@ _elqQ.push(['elqOptOut']);
                       </tr>
 
                       <tr>
-                        <td>18/12/15</td>
+                        <td>18/12/2015</td>
                         <td>Act 18.0 Hotfix 4</td>
                         <td>act18hf4a.exe</td>
                         <td>22.1 MB</td>
@@ -171,7 +200,7 @@ _elqQ.push(['elqOptOut']);
                       </tr>
 
                       <tr>
-                        <td>17/12/15</td>
+                        <td>17/12/2015</td>
                         <td>Act! 18.0 Hotfix 3</td>
                         <td>act18hf3b.exe</td>
                         <td>22.1 MB</td>

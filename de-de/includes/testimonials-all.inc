@@ -216,5 +216,19 @@
                 </div>
               </div>
 
+              <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="" data-test-size="1-10" data-test-solution="actpro" >
+                <div class="test-popout" style="background-image:url('/de-de/img/die-zeit-all-bg.jpg');">
+                  <div class="box">
+                    <div class="img-container">
+                      <img src="/de-de/img/die-zeit-logo.png" alt="Die Zeit logo"></div>
+
+                    <blockquote>
+                      „Eine enge Kundenbeziehung ist gerade im hart umk&auml;mpften Anzeigengesch&auml;ft von Vorteil."
+                    </blockquote>
+                    <a href="kundenreferenzen/die-zeit" title="" class="btn-second-white btn-white">Mehr erfahren</a>
+                  </div>
+                </div>
+              </div>
+
 
 

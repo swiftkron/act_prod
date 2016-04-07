@@ -92,6 +92,21 @@ _elqQ.push(['elqOptOut']);
 
     <!-- Google Tracking Scripts -->
 
+<!-- Kissmetrics -->
+<script type="text/javascript">var _kmq = _kmq || [];
+var _kmk = _kmk || 'fb3b6dd55e5635b7f5eb80ac69d927bd54d760b6';
+function _kms(u){
+  setTimeout(function(){
+    var d = document, f = d.getElementsByTagName('script')[0],
+    s = d.createElement('script');
+    s.type = 'text/javascript'; s.async = true; s.src = u;
+    f.parentNode.insertBefore(s, f);
+  }, 1);
+}
+_kms('//i.kissmetrics.com/i.js');
+_kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
+</script>
+<!-- end Kissmetrics -->
 </head>
 <body>
   <div class="successOverlay"></div>
@@ -234,7 +249,7 @@ _elqQ.push(['elqOptOut']);
              	</div>
 			  	<div class="col-sm-5  col-sm-push-1">
 				 
-				  	<p>Interested in becoming an Act! Certified Consultant? The first step is to <a href="">get the required training</a>.</p>
+				  	<p>Interested in becoming an Act! Certified Consultant? The first step is to <a href="mailto:international.training@swiftpage.com">get the required training</a>.</p>
 				</div>
 			</div>
 			</div>

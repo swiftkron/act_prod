@@ -15,7 +15,7 @@
     <base href="/en-uk/" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Act! Premium Cloud - Getting Started</title>
+    <title>Act! emarketing - Getting Started</title>
     <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/act-emarketing/getting-started/" />
     <link rel="alternate" hreflang="en-us" href="http://www.act.com/products/act-emarketing/getting-started/" />
     <link rel="canonical" href="http://www.act.com/en-uk/act-emarketing/getting-started/" />
@@ -113,6 +113,21 @@
     </script>
     <!-- Google Tracking Scripts -->
     <!-- #Include File="/en-uk/includes/scripts.inc" -->
+<!-- Kissmetrics -->
+<script type="text/javascript">var _kmq = _kmq || [];
+var _kmk = _kmk || 'fb3b6dd55e5635b7f5eb80ac69d927bd54d760b6';
+function _kms(u){
+  setTimeout(function(){
+    var d = document, f = d.getElementsByTagName('script')[0],
+    s = d.createElement('script');
+    s.type = 'text/javascript'; s.async = true; s.src = u;
+    f.parentNode.insertBefore(s, f);
+  }, 1);
+}
+_kms('//i.kissmetrics.com/i.js');
+_kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
+</script>
+<!-- end Kissmetrics -->
 </head>
 
 <body>

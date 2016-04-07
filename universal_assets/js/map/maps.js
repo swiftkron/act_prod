@@ -149,9 +149,16 @@ function outputPopup(dataPartner, i)
 		'<img class="infowindow-badge" src="'+opt.badgeDirectoryBig+'/'+dataPartner.level+'.png" alt="" />'+
 		'<h1>'+dataPartner.company+'</h1>'+
 		'<p><strong>'+location_heading+'</strong> '+dataPartner.city+'</p>';
+
+		// Adds tracking to email address
+		var emailTracking = "_gaq.push(['_trackEvent', 'Email-Contact', '"+dataPartner.city+"', '"+dataPartner.email+"', false]);";
 		
 		if(dataPartner.contact){contentString += '<p><strong>Contact:</strong> '+dataPartner.contact+'</p>';}
-		if(dataPartner.email){contentString += '<p><strong>'+email_heading+'</strong> <a href="mailto:'+dataPartner.email+'">'+dataPartner.email+'</a></p>';}
+		if(dataPartner.country == "Netherlands") {
+			if(dataPartner.email){contentString += '<p><strong>'+email_heading+'</strong> <a href="mailto:'+dataPartner.email+'" onClick="'+emailTracking+'">'+dataPartner.email+'</a></p>';}
+		} else {
+			if(dataPartner.email){contentString += '<p><strong>'+email_heading+'</strong> <a href="mailto:'+dataPartner.email+'">'+dataPartner.email+'</a></p>';}
+		}
 		if(dataPartner.website){contentString += '<p><strong>'+website_heading+'</strong> '+dataPartner.website+'</p>';}
 		if(dataPartner.phone){contentString += '<p><strong>'+phone_heading+'</strong> '+dataPartner.phone+'</p>';}
 		if(dataPartner.address){contentString += '<p><strong>'+address_heading+'</strong> '+dataPartner.address+'</p>';}

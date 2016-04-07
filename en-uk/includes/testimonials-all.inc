@@ -212,3 +212,17 @@
                 </div>
               </div>
 
+              <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="" data-test-size="1-10" data-test-solution="actpro" >
+                <div class="test-popout" style="background-image:url('/en-uk/img/die-zeit-all-bg.jpg');">
+                  <div class="box">
+                    <div class="img-container">
+                      <img src="/en-uk/img/die-zeit-logo.png" alt="Die Zeit logo"></div>
+
+                    <blockquote>
+                      "We knew we needed a proven CRM system that stored all our current and historic client data so staff..."
+                    </blockquote>
+                    <a href="testimonials/die-zeit" title="" class="btn-second-white btn-white">Find out more</a>
+                  </div>
+                </div>
+              </div>
+

@@ -4057,3 +4057,7 @@ li a:hover {
   .text-right {
     text-align:right;
   }
+  .results .orangetitle {
+    font-size: 15px;
+    font-weight: normal;
+  }

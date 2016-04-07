@@ -216,5 +216,19 @@
               </div>
             </div>
           </div>
+
+          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="test-popout" style="background-image:url('img/die-zeit-all-bg.jpg');">
+              <div class="box">
+                <div class="img-container">
+                  <img src="img/die-zeit-logo.png" alt="Die Zeit logo"></div>
+
+                <blockquote>
+                  "On savait qu&rsquo;il nous fallait un syst&egrave;me CRM fiable et capable de stocker notre..."
+                </blockquote>
+                <a href="temoignage/die-zeit" title="Référence client CRM" class="btn-second-white btn-white">en savoir plus</a>
+              </div>
+            </div>
+          </div>
           
           

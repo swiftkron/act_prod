@@ -1,41 +1,48 @@
 <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Act_ui_Empty.master.cs" %>
 <%@ Register TagPrefix="sf" Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI.PublicControls"%>
 
-
-
 <!DOCTYPE html>
 
 <html>
-
-<head>
-
-<asp:ContentPlaceHolder ID="head" runat="server">
-</asp:ContentPlaceHolder>
-<meta name=viewport content="width=device-width, initial-scale=1">
-<link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700' rel='stylesheet' type='text/css'>
-<title></title>
-
-</head>
-<body>
-
-    
-<form id="form1" runat="server">
-
-
-        
-             
-<asp:ContentPlaceHolder ID="Header" runat="server"></asp:ContentPlaceHolder>
-
-<asp:ContentPlaceHolder ID="Body" runat="server"></asp:ContentPlaceHolder>
-
-<asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
-
-
-</form>
-
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700' rel='stylesheet' type='text/css'>
+    <title></title>
     <script type="text/javascript" src="/js/jquery11.3.min.js"></script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="/css/style.css?v=1.1">
+
+<%--        <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KW52GZ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-KW52GZ');</script>
+    <!-- End Google Tag Manager -->--%>
+
+
+    <form id="form1" runat="server">
+        
+        <asp:ContentPlaceHolder ID="Header" runat="server"></asp:ContentPlaceHolder>
+
+        <!-- BEGIN PAGE LAYOUT -->
+        <div class="page_wrap">
+            <asp:ContentPlaceHolder ID="BodyContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <!-- END PAGE LAYOUT -->
+        
+        <asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
+
+    </form>
+
     <script type="text/javascript" src="/js/common.js"></script>
-
 </body>
-
 </html>

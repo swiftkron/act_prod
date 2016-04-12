@@ -80,18 +80,18 @@
 <li><a href="/resources/getting-started">Act! Premium Getting Started</a></li>
          </ul>
       </li>
-      <li><a href="/partners">Partners</a>
-         <ul>
-            <li><a href="http://acc.swiftpage.com/Select">Swiftpage Select Certified Consultants</a></li>
-            <li><a href="http://acc.swiftpage.com/">Certified Consultants</a></li>
-            <li><a href="/partners/premier-trainers">Premier Trainers</a></li>
-            <li><a href="/partners/hosting-providers">Hosting Providers</a></li>
-            <li><a href="/partners/distributors">Distributors</a></li>
-            <li><a href="http://e.act.com/affiliates" target="_blank">Affiliate Partner</a></li>
-            <li><a href="/partners/development-partner-program">Development Partner Program</a></li>
-            <li><a href="/partners/become-a-partner">Become an Act! Certified Consultant</a></li>
-         </ul>
-      </li>
+                      <li>
+                    <a href="http://partners.act.com">Partners</a>
+                    <ul>
+                        <li><a href="http://partners.act.com/search?CountryID=1">Find an ACC</a></li>
+                        <li><a href="http://partners.act.com/hostingproviders">Hosting Providers</a></li>
+                        <li><a href="http://partners.act.com/distributors">Distributors</a></li>
+                        <!-- <li><a href="http://partners.act.com/developmentpartnerprogram">Development Partner Program</a></li> -->
+                        <li><a href="http://partners.act.com/becomeanacc">Become an Act! Certified Consultant</a></li>
+                        <li><a href="http://partners.act.com/affiliateprogram">Affiliate Partner Program</a></li>
+                    </ul>
+                </li>
+
       <li><a href="/act-blog">Blog</a></li>
       <li><a href="/about">About</a>
          <ul class="last">

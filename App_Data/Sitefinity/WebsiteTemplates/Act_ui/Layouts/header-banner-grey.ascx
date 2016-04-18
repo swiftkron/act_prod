@@ -5,7 +5,7 @@
         <div runat="server" class="sf_colsOut">
         <section id="page_top_grey" class="grey page_top">
             <div class="page_center">
-                <div runat="server" class="page_header_img inline sf_colsIn">
+                <div runat="server" class="sf_colsIn page_header_img inline">
                 </div>
                 <div class="page_header inline">
                     <h1 class="orange"><div runat="server" class="sf_colsIn"></div></h1>

@@ -145,8 +145,8 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
                       <td><b>Quick Start for New Users</b></td>
                       <td>Explains how to get started using Act!. You'll learn about the workspace, databases, adding contacts, tracking your schedule, and more</td>
                       <td>
-                        <a href="http://www.act.com/support/docs/ACTQSNU.pdf" target="_blank">Download</a><br />(For Windows desktop users)<br />
-                        <a href="http://www.act.com/support/docs/Web-Client-QSNU.pdf" target="_blank">Download</a><br />(For web users)
+                        <a href="http://www.act.com/docs/default-source/user-guides/ACTQSNU.pdf" target="_blank">Download</a><br />(For Windows desktop users)<br />
+                        <a href="http://www.act.com/docs/default-source/user-guides/Web-Client-QSNU.pdf" target="_blank">Download</a><br />(For web users)
                       </td>
                   </tr>
                   <tr>
@@ -199,7 +199,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
                       <td><b>Act! Premium Web Administrator's Guide</b></td>
                       <td>Explains how to complete your Act! Premium (access via web) installation. You'll learn how to plan your installation, set up user access, and integrate with applications, such as Microsoft Outlook<sup>&reg;</sup>, Word, or Google<sup>&reg;</sup></td>
                       <td>
-                        <a href="http://www.act.com/support/docs/UpgradingfromACT3xthrough6x.pdf" target="_blank">Download</a>
+                        <a href="http://www.act.com/docs/default-source/user-guides/actpremiumwebadministratorsguide.pdf" target="_blank">Download</a>
                       </td>
                   </tr>
             </table>

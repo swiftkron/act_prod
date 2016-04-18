@@ -41,22 +41,6 @@
     "longitude": "33.378999",
     "latitude": "35.183307"
  },{
-    "id": 745,
-    "country": "United Kingdom",
-    "region": "West Midlands",
-    "city": "Abbots Bromley, Staffordshire",
-    "contact": "",
-    "phone": "01283716944",
-    "email": "David@hunter-enterprises.com",
-    "website": "www.hunter-enterprises.com",
-    "address": "3 Bagots Bromley Cottages, Newton Hurst Lane",
-    "postcode": "WS15 3EL",
-    "company": "Hunter Enterprises",
-    "description": "",
-    "level": 2,
-    "longitude": "-1.903565",
-    "latitude": "52.830707"
- },{
     "id": 744,
     "country": "Netherlands",
     "region": "",
@@ -4830,7 +4814,7 @@
  	"postcode": "6301",
  	"company": "Köhli Informatik AG",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "8.48683630000005",
  	"latitude": "47.1869028",
     "hosting": 1

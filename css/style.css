@@ -1,5 +1,7 @@
 /*  Default / common  */
 
+@import url(https://fast.fonts.net/cssapi/2b711b0d-fbe0-4a83-80e8-86e2497fcbcb.css);
+
 /* CSS RESET RULES */
 html, nav, a, abbr, acronym, address, area, b, bdo, big, blockquote, button, caption, cite, code,
 col, colgroup, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, hr, i, img,
@@ -13,7 +15,7 @@ sup, table, tbody, td, textarea, input, tfoot, th, thead, tr, tt, ul, var, artic
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'HelveticaNeueW01-55Roma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     background: #d9dfe3;
     color: #39464f;
@@ -25,7 +27,8 @@ img {
     border: 0;
     max-width: 100%;
 }
-.align_center {
+.align_center, 
+.align_center img {
     display: block;
     margin: 0 auto;
 }
@@ -135,7 +138,7 @@ h2.navy {
 }
 
 .page_main h2 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'HelveticaNeueW01-55Roma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: inherit;
@@ -143,7 +146,7 @@ h2.navy {
 }
 
 #subscription_includes h2,
-#ten_reasons h2 {
+.ten_reasons h2 {
      margin-bottom: 50px;
     text-align: center;
  }
@@ -157,7 +160,7 @@ h3 {
 
 .page_main .article_right h3,
 .thumb_grid h3 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'HelveticaNeueW01-55Roma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .resource h3,
@@ -177,6 +180,7 @@ ul.featured_connections h3 {
     font-size: 12px;
     margin-bottom: 12px;
     line-height: inherit;
+text-transform:uppercase;
 }
 
 ul,
@@ -283,6 +287,10 @@ header #bottom {
     width: 60px;
     height: 60px;
     margin-right: 40px;
+}
+#logo img{
+width:60px;
+height:60px;
 }
 
 header .trial {
@@ -426,7 +434,6 @@ header li li:hover ul {
 /*  Blurb / top section  */
 
 #main_blurb {
-    /*background: transparent url(images/denver.jpg) center center no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -578,7 +585,7 @@ ul.packages div.more a {
     text-align: center;
 }
 
-#pro_features.thumb_grid li {
+.pro_features.thumb_grid li {
     width: 30%;
     margin: 0 9% 50px;
 }
@@ -594,6 +601,9 @@ ul.packages div.more a {
 .four_wide li {
     width: 20%;
     margin: 0 2% 50px;
+}
+.four_wide li img, .three_wide li img, .two_wide li img{
+max-width:100px;
 }
 
 /*  Thumbnail deviations / overwrites  */
@@ -614,7 +624,7 @@ ul.packages div.more a {
 }
 
 .customer_resource h3 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'HelveticaNeueW01-55Roma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 28px;
     margin-bottom: 20px;
 }
@@ -630,8 +640,8 @@ ul.packages div.more a {
 /* end overrites  */
 
 /*  whenever you float things you have to do the following to the containing element  */
-#integration_partners,
-#connections_resources,
+.integration_partners,
+.connections_resources,
 .two_column {
     width: auto;
     overflow: hidden;
@@ -654,7 +664,7 @@ ul.packages div.more a {
     margin-bottom: 105px;
 }
 
-#pro_features {
+.pro_features {
     width: 80%;
     margin: 0 auto;
 }
@@ -696,18 +706,18 @@ ul.packages div.more a:hover,
 
 /*  Why act top ten reasons  */
 
-#ten_reasons {
+.ten_reasons {
     background: #fff;
 }
 
-#ten_reasons .center_700 h4 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.ten_reasons .center_700 h4 {
+    font-family: 'HelveticaNeueW01-55Roma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #39464f;
     font-size: 20px;
     margin-bottom: 0;
 }
 
-#ten_reasons .reason_wrap {
+.ten_reasons .reason_wrap {
     padding-bottom: 20px;
 }
 
@@ -740,7 +750,7 @@ section#act_newsletter input.button_orange {
 }
 
 section#act_newsletter input.email {
-    background: #edf0f2 url(images/letter.gif) no-repeat;
+    background: #edf0f2 url(/images/default-source/UI-Kit/letter.gif) no-repeat;
     background-position: 20px center;
     color: #a8acb9;
     border: none;
@@ -781,7 +791,7 @@ footer {
     font-size: 14px;
 }
 
-.copyright {
+.copyright p{
     font-size: 12px;
     width: 660px;
     margin: 0 auto;
@@ -789,7 +799,7 @@ footer {
 }
 
 #footer_social a {
-    background: transparent url(images/social.gif) no-repeat;
+    background: transparent url(/images/default-source/UI-Kit/social.gif) no-repeat;
     width: 34px;
     height: 34px;
     display: block;
@@ -899,6 +909,9 @@ footer {
 .tab_content {
     display: none;
 }
+.sfPageEditor .tab_content{
+display:block;
+}
 
 /*  end page nav  */
 
@@ -941,8 +954,15 @@ ul.featured_connections li {
     -webkit-border-radius: 6px;
     -o-border-radius: 6px;
     width: 210px;
+height:300px;
+overflow:hidden;
     margin: 0 15px 30px;
     padding: 30px 30px 20px;
+font-size:14px;
+}
+ul.featured_connections li .blue{
+color:#0087b8;
+
 }
 
 ul.featured_connections li img {
@@ -954,11 +974,23 @@ ul.featured_connections li img {
     padding: 0 4%;
     margin-left: -4%;
 }
+.partner img{
+margin:30px auto;
+}
 
 .resource {
     width: 46%;
     padding: 0 2%;
     margin: 0;
+}
+
+.resource_image img{
+max-width:160px;
+}
+
+.sfPageEditor .resource_image{
+float:unset;
+clear:both !important;
 }
 
 /*  end connections page  */
@@ -968,7 +1000,7 @@ ul.featured_connections li img {
 
 @media only screen
 and (max-width: 1170px) {
-    #pro_features {
+    .pro_features {
         width: 80%;
         margin: 0 auto;
     }
@@ -1052,11 +1084,11 @@ and (max-width: 820px) {
         left: 0;
     }
 
-    #pro_features {
+    .pro_features {
         width: 100%;
     }
 
-    #pro_features.thumb_grid li,
+    .pro_features.thumb_grid li,
     .customer_resource li,
     .thumb_grid li {
         width: 100%;
@@ -1104,13 +1136,13 @@ and (max-width: 780px) {
     }
 
 
-    div.sub_text,
-    .copyright {
+    div.sub_text p,
+    .copyright p{
         width: 80% !important;
         margin: 0 10%;
     }
 
-    div.sub_text {
+    div.sub_text p{
         display:block;
         margin-bottom: 80px !important;
     }

@@ -86,7 +86,7 @@
                         <li><a href="http://partners.act.com/search?CountryID=1">Find an ACC</a></li>
                         <li><a href="http://partners.act.com/hostingproviders">Hosting Providers</a></li>
                         <li><a href="http://partners.act.com/distributors">Distributors</a></li>
-                        <!-- <li><a href="http://partners.act.com/developmentpartnerprogram">Development Partner Program</a></li> -->
+                        <li><a href="http://partners.act.com/developmentpartnerprogram">Development Partner Program</a></li>
                         <li><a href="http://partners.act.com/becomeanacc">Become an Act! Certified Consultant</a></li>
                         <li><a href="http://partners.act.com/affiliateprogram">Affiliate Partner Program</a></li>
                     </ul>

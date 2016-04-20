@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/css/style.css?v=1.1">
 <link rel="stylesheet" href="/css/full-glyphicons.css">
 
-<%--        <!-- Google Tag Manager -->
+<!-- Google Tag Manager -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KW52GZ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script>(function (w, d, s, l, i) {
@@ -26,7 +26,7 @@
     j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
     '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
 })(window, document, 'script', 'dataLayer', 'GTM-KW52GZ');</script>
-    <!-- End Google Tag Manager -->--%>
+    <!-- End Google Tag Manager -->
 
 
     <form id="form1" runat="server">
@@ -43,6 +43,6 @@
 
     </form>
 
-    <script type="text/javascript" src="/js/common.js"></script>
+    <script type="text/javascript" src="/js/common.js?v=1.3.2"></script>
 </body>
 </html>

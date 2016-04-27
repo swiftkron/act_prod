@@ -1,0 +1,44 @@
+----------------------------------------
+Timestamp: 3/28/2016 2:26:05 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/28/2016 2:26:05 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/28/2016 2:26:05 PM
+
+Message: -- add column for field Connection.Priority
+ALTER TABLE [connections_connection] ADD [Priority] DECIMAL(20) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/28/2016 2:33:35 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/28/2016 2:33:35 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 3/28/2016 2:33:35 PM
+
+Message: -- add column for field AddOn.Priority
+ALTER TABLE [connections_addon] ADD [Priority] DECIMAL(20) NULL
+
+
+----------------------------------------

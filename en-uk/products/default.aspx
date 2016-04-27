@@ -161,7 +161,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
             Mobile and Marketplace Solutions Available <sup>2</sup>
           </p>
           <p>
-            <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-primary btn">test drive</a>
+            <a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-primary btn" target="_blank">free trial</a>
           </p>
         </div>
       </div>
@@ -190,7 +190,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
           </p>
           <p>Hosting Options Available</p>
           <p>
-            <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-primary btn">test drive</a>
+            <a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-primary btn" target="_blank">free trial</a>
             <a href="contact-us" title="Get in touch by telephone, email or send us a message" class="btn-second btn">call for details</a>
           </p>
         </div>

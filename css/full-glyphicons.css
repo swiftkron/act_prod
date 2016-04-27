@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Glyphicons';
 
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/ui/glyphicons-halflings-regular.eot');
+  src: url('../fonts/ui/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ui/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/ui/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/ui/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -425,7 +425,7 @@
   content: "\e134";
 }
 .glyphicon-globe:before {
-  content: "\e341";
+  content: "\e135";
 }
 .glyphicon-wrench:before {
   content: "\e136";

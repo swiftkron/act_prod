@@ -123,7 +123,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
                   	  	  	  	<h1 class="large_strapline" >On-premises or Cloud:<br />
                    	  	  	  	It's Your Choice</h1>
                                 <p class="strapline_intro">Act! gives you the freedom to choose the deployment option that's right for your business. Implement Act! on your business premises or have it hosted for you and available in the Cloud.</p>
-                              <div class="btn-bottom"><p class="mobile-center"><a href="demo" title="Request a demonstration of Act!" class="btn-primary btn">request demo</a> <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a></p></div>
+                              <div class="btn-bottom"><p class="mobile-center"><a href="demo" title="Request a demonstration of Act!" class="btn-primary btn">request demo</a> <a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-second btn" target="_blank">free trial</a></p></div>
                  	  	  </div>
                   	  	<div class="col-sm-6"></div>
                   	 
@@ -174,7 +174,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
 			</div>
 			</div>
           	<div class="row  ">
-					<p><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=7486&qty=1&selcurrency=2&selsubsidiary=7&selshopperlanguage=en_EN" class="btn-primary btn buy-popup">buy now</a> <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a></p>
+					<p><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=7486&qty=1&selcurrency=2&selsubsidiary=7&selshopperlanguage=en_EN" class="btn-primary btn buy-popup">buy now</a> <a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-second btn" target="_blank">free trial</a></p>
           <br>
           	</div>
 				</div>
@@ -210,7 +210,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
 						</div>
 						<div class="row  ">
 							<p>
-                <a href="test-drive" class="btn-primary btn">test drive</a>
+                <a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" class="btn-primary btn" target="_blank">free trial</a>
                 <a target="_blank" href="/en-uk/demo" class="btn-second btn">request demo</a> 
               </p>
               <br>

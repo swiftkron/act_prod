@@ -135,7 +135,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
               </p>
               <div class="btn-bottom">
                 <a class="btn-primary btn buy-popup">buy now</a>
-                <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a>
+                <a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-second btn" target="_blank">free trial</a>
                 <a href="demo" title="Request a demonstration of Act!" class="btn-second btn">request demo</a>
               </div>
             </div>
@@ -455,7 +455,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
            
             <div  class="orangebuttons">
               <a target="_blank" class="btn-primary btn buy-popup">buy now</a>
-              <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a>
+              <a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-second btn" target="_blank">free trial</a>
               <a href="demo" title="Request a demonstration of Act!" class="btn-second btn">request demo</a>
             </div>
              </div>

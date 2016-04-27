@@ -742,7 +742,7 @@ section#act_newsletter input.email {
     margin: 0 10px;
 }
 
-section#act_newsletter input.button_orange {
+section#act_newsletter input.button_orange, #enews_button {
     border: none;
     height: 42px;
     line-height: 38px;
@@ -1136,10 +1136,10 @@ and (max-width: 780px) {
     }
 
 
-    div.sub_text p,
+    div.sub_text, div.sub_text p,
     .copyright p{
         width: 80% !important;
-        margin: 0 10%;
+        margin: 0 auto;
     }
 
     div.sub_text p{
@@ -1387,4 +1387,20 @@ and (max-width: 425px) {
 /* Styles for SF modules */
 a.button_orange:link, a.button_orange:active, a.button_orange:visited, a.button_orange:hover{
 color:#FFF !important;
+}
+
+@media(max-width:780px){
+.cta .button{
+margin-top:24px;
+}
+}
+
+.disclaimer{
+max-width:1024px;
+margin:48px auto;
+padding:0 48px;
+font-size:12px;
+}
+.disclaimer p{
+margin-bottom:12px;
 }

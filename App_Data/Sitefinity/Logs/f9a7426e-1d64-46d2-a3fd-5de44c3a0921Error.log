@@ -1,0 +1,4315 @@
+----------------------------------------
+Timestamp: 4/27/2016 4:48:55 PM
+
+Message: HandlingInstanceID: a25f3bba-1382-496f-a93c-ea9b1c737fe3
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:48:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Unsupported HTTP method. Supported methods are: GET / POST.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Security.Claims.SecurityTokenServiceHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:48:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/Authenticate/SWT?realm=http://www.act.com/&redirect_uri=/sitefinity/status?ReturnUrl=http%253a%252f%252fwww.act.com%252f2012startup3&deflate=true
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1644
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:49:01 PM
+
+Message: HandlingInstanceID: 99ea9173-9221-477a-90e3-18e76b3e756c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:49:01
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:49:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/arrowDn.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6896
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:49:01 PM
+
+Message: HandlingInstanceID: f80f3b43-fbc4-4bde-b168-1465e2e60dab
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:49:01
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:49:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/expand.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7908
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:49:01 PM
+
+Message: HandlingInstanceID: 8d1a1af8-3a50-4aee-b46a-57591a7db18c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:49:01
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:49:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/arrowUp.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:828
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:52:04 PM
+
+Message: HandlingInstanceID: 8b62586b-fa98-4209-a231-121d551ebf62
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:52:04
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:52:04 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/arrowDn.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3480
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:52:04 PM
+
+Message: HandlingInstanceID: 5a0d357f-62e1-4d6a-91a7-6b9e0ce50e5c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:52:04
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:52:04 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/arrowUp.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4364
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:55:10 PM
+
+Message: HandlingInstanceID: 587dab85-c642-4c3b-b0fd-b375256106a3
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:55:10
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:55:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/arrowDn.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8888
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:55:10 PM
+
+Message: HandlingInstanceID: c293f781-fe56-47a4-8d5d-5f5816e7a7a8
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:55:10
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:55:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/arrowUp.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5904
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:55:44 PM
+
+Message: HandlingInstanceID: b73bcbc7-7b86-42de-8f69-fb06c75e0842
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:55:44
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:55:44 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/expand.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4364
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: e6c56fb3-b84e-432d-b1ed-1fa1143e52e4
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: 0ada1eec-63fc-43a3-8545-5559d9bd3008
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5160
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: a7845ec4-e6b0-4d05-ad76-b643b7057758
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: 530bf710-4d46-4d60-b22f-affc5d76c4dd
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: 4d7fb37f-ea79-4a77-ae51-ce82d0c47eda
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: 87228acb-d1b6-4dfe-9a96-03a4b424dccb
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8820
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: 5b063898-fc3a-45ac-8687-cb532263fea8
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10132
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: c198d00e-b31f-4dfe-8e88-4b0c7d0449ed
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: f17c0439-ba6a-4746-9759-3660bd1cbb50
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9736
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: 43c8da27-5f71-47a2-b11d-797bbc481b00
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: bb15e017-7d31-4b41-9cbd-0eda9d1222bc
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:53 PM
+
+Message: HandlingInstanceID: 18389b43-4ae1-4793-9d8f-e07d5096bd34
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: e86dc5fa-ff4c-4888-9a12-887893eddcd0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1644
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: 865da06a-786b-478d-b5c5-d68efe0e2a8d
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: 36219af8-7d9d-44b6-8b7e-26a3c322ec23
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: 87a9343d-fc95-4acd-9047-08aee389fdaa
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1644
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: 20981234-b62c-41da-a46b-b54a8cb4a415
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1644
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: 6e97bc66-9071-42e8-855e-697825ae876e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: 22a123f3-6f16-469a-a1fe-c7536521bc59
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9736
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: 263dcbb6-80f6-484e-8b81-2904df92f0c1
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: f826d787-4c89-47a8-af72-4921283090f8
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1644
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: d108d5e2-5780-481b-a95c-38bd4c5f834a
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9736
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: c050a33f-be0a-445b-91c9-da6e32ad8a06
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: 40e6f8b4-cb7a-459c-9a9d-14c93db8d5d0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:54 PM
+
+Message: HandlingInstanceID: 65d21285-44a2-48d6-9b35-d33ce857d74b
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1644
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:55 PM
+
+Message: HandlingInstanceID: 92666127-bac8-44d4-a96b-b7b8099976aa
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9736
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:55 PM
+
+Message: HandlingInstanceID: d55f84dc-c339-4b79-814c-939ebd385bbf
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:55 PM
+
+Message: HandlingInstanceID: 71371c07-f0d3-4942-8b68-4e501209375f
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:55 PM
+
+Message: HandlingInstanceID: 718ef6f5-4efd-4ccb-a88a-18b200189bb5
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:55 PM
+
+Message: HandlingInstanceID: 3e7caf86-17c4-4768-ad72-0620e4380c3c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1644
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:55 PM
+
+Message: HandlingInstanceID: 7cdf1563-12ec-4e59-9057-3757bdfa8421
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10132
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:55 PM
+
+Message: HandlingInstanceID: 6deed79b-b796-45c5-bedc-c082ae21297f
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:55 PM
+
+Message: HandlingInstanceID: c9da989f-15ff-432b-afe6-bb484ff097fa
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:55 PM
+
+Message: HandlingInstanceID: 369b4c27-6243-4d23-941c-b91dc1582a35
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:55 PM
+
+Message: HandlingInstanceID: fd91a0e4-c8cc-4dc5-844d-b58926b42118
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9736
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:57:55 PM
+
+Message: HandlingInstanceID: 4d8a59bd-a9e9-439a-aa51-281a83ce0ad6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 16:57:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.WebsiteTemplatesHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 4:57:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/WebsiteTemplates/Base/App_Theme/global/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:00:39 PM
+
+Message: HandlingInstanceID: c7cfca3d-b1eb-4faf-9ea7-da058a504b2c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 17:00:39
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:00:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/arrowUp.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:00:39 PM
+
+Message: HandlingInstanceID: 51588056-5d7e-45bd-b0a4-f05032e1f0fe
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 17:00:39
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:00:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/arrowDn.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:01:10 PM
+
+Message: HandlingInstanceID: 61990f3a-9f2a-4132-89af-7c6fcc5c88f6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 17:01:10
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:01:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/expand.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8000
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:01:10 PM
+
+Message: HandlingInstanceID: b2c1ff13-fda4-4eb1-bf4b-708a2acd02ab
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 17:01:10
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:01:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/arrowUp.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9548
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:01:17 PM
+
+Message: HandlingInstanceID: 42ba32fa-00eb-4c2b-9430-31b4db40fc8d
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 17:01:17
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:01:17 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/images/support/arrowDn.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10132
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:02:00 PM
+
+Message: HandlingInstanceID: 14cd3ee0-1597-4419-85f4-9f4afbb45105
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+04/27/2016 17:02:00
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:02:00 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/285766e7-96e1-633a-9d88-ff00001e67f5/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9800
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:05:07 PM
+
+Message: HandlingInstanceID: fb562a6e-3fed-4f80-bbce-e50edf032b6b
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 17:05:07
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateInputIfRequiredByConfig()
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:05:07 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/tel:8668732006
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8036
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:05:18 PM
+
+Message: HandlingInstanceID: 12e9b6ca-97d9-49e2-a0ba-dc7897b0d2fe
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 17:05:18
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateInputIfRequiredByConfig()
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:05:18 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/js/,data:b}).done(function(a){e=arguments,g.html(d?m(
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9220
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:05:18 PM
+
+Message: HandlingInstanceID: 75a64c15-c25b-4c89-8ddc-ae5f2cdf30fa
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 17:05:18
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateInputIfRequiredByConfig()
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:05:18 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/js/],_default:k.htmlSerialize?[0,
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:05:22 PM
+
+Message: HandlingInstanceID: 2f31ef26-6d47-4326-b8ff-a83db64caf8a
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/27/2016 17:05:22
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateInputIfRequiredByConfig()
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:05:22 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/https:/mycloud.act.com
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3032
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:14 PM
+
+Message: HandlingInstanceID: 7e3ea7dd-eb98-4dee-90e9-68d13623290b
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:14
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:14 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/pricing/act-essentials
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2800
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:14 PM
+
+Message: HandlingInstanceID: 076038a1-1015-4fa4-b861-a4547f490a45
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:14
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:14 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/error-pages/500?aspxerrorpath=/pricing/act-essentials
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:16 PM
+
+Message: HandlingInstanceID: aced8556-5b30-4b19-9d2f-17f347942a3b
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:16
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/error-pages/500?aspxerrorpath=/pricing/act-essentials
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4960
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:26 PM
+
+Message: HandlingInstanceID: eb30cb7b-6a30-4764-815d-0c77619a48f7
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:26
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/resources/act-emarketing-getting-started
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3032
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:26 PM
+
+Message: HandlingInstanceID: 6ddc65f6-68c4-48a2-85e2-80a125487184
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:26
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/error-pages/500?aspxerrorpath=/resources/act-emarketing-getting-started
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6964
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:36 PM
+
+Message: HandlingInstanceID: d4341c53-9694-4217-8fde-dd1ee5491671
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:36
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/products/whats-new?utm_campaign=act_na_April_2016_Prem_subs_v18.1_launch_4.26.16&utm_medium=email&utm_source=elq
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8820
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:36 PM
+
+Message: HandlingInstanceID: c44121cd-9d16-4a83-aa04-8139f164b8cf
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:36
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/error-pages/500?aspxerrorpath=/products/whats-new
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4108
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:37 PM
+
+Message: HandlingInstanceID: 8a1c950f-33cb-4489-be1e-2e6c512ef7f7
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:37
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:37 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/error-pages/404?404;http://www.act.com:80/hp_trial
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8036
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:41 PM
+
+Message: HandlingInstanceID: 8884e6df-b4e0-44e6-907a-3bf063331123
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:41
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/products/whats-new?utm_campaign=act_na_April_2016_Prem_subs_v18.1_launch_4.26.16&utm_medium=email&utm_source=elq
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:41 PM
+
+Message: HandlingInstanceID: 04a0865c-b79c-4b8a-83a3-a9ac30683566
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:41
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/error-pages/500?aspxerrorpath=/products/whats-new
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3032
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:45 PM
+
+Message: HandlingInstanceID: 94d19075-8463-41b9-a820-a8431cc71bf1
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:45
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:45 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/error-pages/500?aspxerrorpath=/products/whats-new
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8820
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:54 PM
+
+Message: HandlingInstanceID: 9bee364b-07a2-44a3-9807-50e849040ece
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:54
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/resources/getting-started
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3492
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:54 PM
+
+Message: HandlingInstanceID: cfbd896b-fa3f-4160-a6aa-f3ef4cbc06a8
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:54
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/error-pages/500?aspxerrorpath=/resources/getting-started
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9076
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:55 PM
+
+Message: HandlingInstanceID: e8628e8e-daf7-4f6e-b3f6-a4d5092dddfb
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:55
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/pricing
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4960
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:08:55 PM
+
+Message: HandlingInstanceID: f890c47c-635e-485e-8512-3a48e82015d6
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:08:55
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:08:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/error-pages/500?aspxerrorpath=/pricing
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2800
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:09:02 PM
+
+Message: HandlingInstanceID: 2a7a94c1-bda6-4eef-b143-cb940263e466
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:09:02
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:09:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/pricing
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8892
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 5:09:02 PM
+
+Message: HandlingInstanceID: 44857164-6ffe-41a8-b2b5-26362704f2f7
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+04/27/2016 17:09:02
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 4/27/2016 5:09:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-131062493167377338
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/error-pages/500?aspxerrorpath=/pricing
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Type 'Telerik.Sitefinity.Web.UI.PublicControls.JavaScriptEmbedControl' does not have a public property named 'JavaScriptEmbedControl'.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+	   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-3-131062493167377338
+
+ProcessId: 7936
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6964
+
+Extended Properties: 
+----------------------------------------

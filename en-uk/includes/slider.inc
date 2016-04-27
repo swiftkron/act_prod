@@ -14,7 +14,7 @@
 								    		<strong>Act! is the #1 </strong>best-selling Contact &amp; Customer Manager </h1>
 										 <div class="btn-bottom">
 								      		<a target="_blank" class="btn-primary btn buy-popup">buy now</a>
-								      		<a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a>
+								      		<a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-second btn" target="_blank">free trial</a>
 								      		<a href="demo" title="Request a demonstration of Act!" class="btn-second btn">request demo</a>
 									  	</div>
 									 </div>
@@ -113,7 +113,7 @@
 									    <span class="large_strapline_home semibold"><strong>On-premises<br>or Cloud:</strong><br>It's your choice</span>
 										<div class="btn-bottom">
 										    <a href="why-choose-act/cloud-on-premise-deployment" title="Choose the deployment option that's right for your business" class="btn-primary btn">find out more</a>
-										    <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a>
+										    <a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-second btn" target="_blank">free trial</a>
 										    <a href="demo" title="Request a demonstration of Act!" class="btn-second btn">request demo</a>
 										</div>
 									</div>

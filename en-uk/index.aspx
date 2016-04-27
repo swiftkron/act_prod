@@ -164,7 +164,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
 		  	  		  	<a href="products/act-pro" title="Find out more about Act! Pro. Designed for individuals and teams of up to 10 users." class="txtlink">read more &gt;</a>
 		  	  		  	<br><br>
 		  	  		  	<a target="_blank" class="btn-primary btn buy-popup">buy now</a>
-		  	  		  	<a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a>
+		  	  		  	<a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-second btn" target="_blank">free trial</a>
 		  	  		</div>
 		  	  		<div class="col-sm-7">
 		  	  	    		<img src="/en-uk/img/contact-management-software.png" alt="Contact Management Software">
@@ -183,7 +183,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
               			<a href="products/act-premium" title="Find out more about Act! Premium. Designed for individuals and teams of up to 10 or more users." class="txtlink" style="display:block;"> read more &gt;</a>
               			<br>
 			  			<a href="demo" title="Request a demonstration of Act!" class="btn-primary btn">request demo</a>
-			  			<a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a>
+			  			<a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-second btn" target="_blank">free trial</a>
 			  		</div>
 			  		<div class="col-sm-7">
 			  			<img src="/en-uk/img/act-premium-crm-on-ipad.png" alt="iPad using Act! CRM software">

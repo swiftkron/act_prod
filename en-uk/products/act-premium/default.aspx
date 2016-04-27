@@ -129,7 +129,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
                     <p class="strapline_intro">Act! Premium and Act! Premium Cloud help organise all your prospect and customer details in one place so you can prioritise your day and market your products and services more effectively, driving sales results while creating customers for life.</p>
                       <div class="btn-bottom">
                   <a href="partners-map" title="Find a local partner to help get you up and running effectively and keep you running smoothly" class="btn-primary btn">find partner</a>
-                  <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a> 
+                  <a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-second btn" target="_blank">free trial</a> 
                   <a target="_blank" href="/en-uk/demo" class="btn-second btn">request demo</a>
                 </div>
               </div>
@@ -301,7 +301,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
 
           <div class=" greybuttons">
           <a href="partners-map" title="Find a local partner to help get you up and running effectively and keep you running smoothly" class="btn-primary btn">find partner</a>
-              <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a>
+              <a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn-second btn" target="_blank">free trial</a>
               <a href="/en-uk/demo" class="btn-second btn">request demo</a>
             </div>
              </div>

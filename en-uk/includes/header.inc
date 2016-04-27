@@ -65,7 +65,7 @@
 				
 				<div class="col-md-3 col-sm-8 tl_links hidden-xs">
 					<a href="contact-us" title="Get in touch by telephone, email or send us a message" class="btn btn-second">Contact us</a>
-					<a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn btn-second">Test drive</a> 
+					<a href="https://buy.act.com/en-gb/trial/product/ActPremium/plan/Month" title="Online access to Act! desktop software through your web browser" class="btn btn-second" target="_blank">free trial</a> 
 				</div>
 				<div class="col-sm-1">
 					<nav class="langmenu">

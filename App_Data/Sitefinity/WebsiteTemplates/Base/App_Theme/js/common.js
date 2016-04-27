@@ -171,7 +171,7 @@ $('#proBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/actpro/pla
     $('.pageBottomTrialCTA').click(function () {
         _kmq.push(["record", "Initiated Trial", ["Page Bottom CTA Blue"]]);
     });
-    
+
     // Submit forms to 3rd Party
     $('#form1').removeAttr('runat');
     $('#form1').removeAttr('action');

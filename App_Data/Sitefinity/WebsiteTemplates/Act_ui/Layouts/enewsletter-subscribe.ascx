@@ -19,7 +19,8 @@
                           <input type="hidden" name="elq_utm_name" value="">
                           <input type="hidden" name="elq_utm_term" value="">
             <input name="emailAddress" class="email" type="email" placeholder="name@mail.com">
-            <input id="enews_button" class="button inline button_orange" type="submit" name="newsletter_signup_submit" value="Sign up">
+            <!-- <input id="enews_button" class="button inline button_orange" type="submit" name="newsletter_signup_submit" value="Sign up"> -->
+<a id="enews_button" class="button inline button_orange">Sign up</a>
     </section>
         </div>
  </div>

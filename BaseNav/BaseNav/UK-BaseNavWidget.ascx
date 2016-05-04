@@ -13,8 +13,8 @@
     <li>Ireland: <a href="tel:0766801364">0766 801 364</a></li>
     <li>South Africa: <a href="tel:0105003672">0105 003 672</a></li>
     <span class="separator"></span>
-    <li><a href="~/">U.S. English</a></li>
-                            <li><a href="/au/">Australia</a></li>
+    <li><a href="/?regLang=en-US">U.S. English</a></li>
+                            <li><a href="/au/">Australia/New Zealand</a></li>
                             <li><a href="/de-de/">Deutsch</a></li>
                             <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
                             <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
@@ -24,15 +24,15 @@
 <div class="uBrand" title="Act!">&nbsp;</div>
 <div class="uToggleElements">
 <div class="uTrial">
-<a href="https://buy.act.com/en-GB/trial/product/ActPremium/plan/Month"><span class="button btnSecondary">Free trial</span></a>
-<a href="http://e.act.com/uk-contact-us"><span class="button btnSecondary">Contact Us</span></a>
+<a href="https://buy.act.com/en-GB/trial/product/ActPremium/plan/Month" target="_blank"><span class="button btnSecondary">Free trial</span></a>
 </div>
-<div class="uPhone" style="margin-top:-56px; left: 380px; font-size:12px;"><span style="color:#2a353d;">UK:</span> <a href="tel:08452680220">0845 268 0220</a> <br/><span style="color:#2a353d;">Ireland:</span> <a href="tel:0766801364">0766 801 364</a> <br/><span style="color:#2a353d;">South Africa:</span> <a href="tel:0105003672">0105 003 672</a></div>
-<div class="uIntl" style="margin-top:-36px;">
+<div class="uPhone" style="margin-top:-56px; left: 240px; font-size:12px;line-height:15px;"><span style="color:#2a353d;">UK:</span> <a href="tel:08452680220">0845 268 0220</a><br/><span style="color:#2a353d;">Ireland:</span> <a href="tel:0766801364">0766 801 364</a> <br/><span style="color:#2a353d;">South Africa:</span> <a href="tel:0105003672">0105 003 672</a>
+</div>
+<div class="uIntl" style="clear:left;margin-top:-30px;">
 <span class="glyphicon glyphicon-globe" title="Language"></span><span>&nbsp;▾</span>
                         <ul class="uDropdown lang">
-                            <li><a href="~/">U.S. English</a></li>
-                            <li><a href="/au/">Australia</a></li>
+                            <li><a href="/?regLang=en-US">U.S. English</a></li>
+                            <li><a href="/au/">Australia/New Zealand</a></li>
                             <li><a href="/de-de/">Deutsch</a></li>
                             <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
                             <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
@@ -57,7 +57,7 @@
 <ul id="main-nav">
     <li><a href="/en-uk/why-act">Why Act!</a>
     <ul>
-        <li><a href="/en-uk/why-act/get-organised">Get Organized</a></li>
+        <li><a href="/en-uk/why-act/get-organised">Get Organised</a></li>
         <li><a href="/en-uk/why-act/know-my-customers">Know My Customers</a></li>
         <li><a href="/en-uk/why-act/market-my-business">Market My Business</a></li>
         <li><a href="/en-uk/why-act/drive-sales">Drive Sales</a></li>
@@ -75,7 +75,7 @@
     </li>
     <li><a href="/en-uk/customers">Customers</a>
     <ul>
-        <li><a href="/en-uk/testimonials">Testimonials</a></li>
+        <li><a href="/en-uk/testimonials">Customer Testimonials</a></li>
     </ul>
     </li>    
     <li><a href="/en-uk/pricing">Pricing</a>
@@ -84,7 +84,7 @@
         <li><a href="/en-uk/pricing/eur">Euro pricing</a></li>
     </ul>
     </li>
-    <li><a href="/en-uk/resources">Customer Resources</a>
+    <li><a href="/en-uk/resources">Resources</a>
     <ul>
         <li><a href="/en-uk/resources">Act! Premium Resources</a></li>
         <li><a href="/en-uk/resources/act-emarketing-getting-started">Act! emarketing Resources</a></li>
@@ -99,6 +99,7 @@
         <li><a href="/en-uk/partners/distributors">Distributors</a></li>
     </ul>
     </li>
+<li><a href="http://e.act.com/uk-contact-us" target="_blank">Contact Us</a></li>
 </ul>
 </nav>
 </div>

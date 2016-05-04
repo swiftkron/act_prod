@@ -32,15 +32,6 @@
       						<a href="produits/act-premium" title="Découvrir Act! Premium">Act! Premium</a>
       					</li>
                                           <li><a href="produits/act-emarketing/" title="Act! emarketing">Act! emarketing</a></li>
-      				<!--	<li>
-      						<a href="products/act-cloud">Act! Cloud</a>
-      					</li>-->
-
-              <!--  <li>
-                  <a href="#">Mobilité</a></li>-->
-      					<li>
-      						<a href="produits/nouveautes" title="Nouveautés v16 de Act!">Nouveautés Act! v17</a>
-      					</li>
       				</ul>
 
       			</div>

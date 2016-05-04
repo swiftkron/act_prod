@@ -1,0 +1,69 @@
+----------------------------------------
+Timestamp: 4/21/2016 5:37:14 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/21/2016 5:37:14 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/21/2016 5:37:14 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/21/2016 5:37:14 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.CustomerTestimonials.Testimonial
+CREATE TABLE [customertestimonials_testimonial] (
+    [base_id] uniqueidentifier NOT NULL,
+    [title_fr_ca] NVARCHAR(255) NULL,       -- Testimonial.Title_fr_ca
+    [title_en] NVARCHAR(255) NULL,          -- Testimonial.Title_en
+    [Title] NVARCHAR(255) NULL,             -- Testimonial.Title
+    [testimonial_story_fr_ca] NVARCHAR(MAX) NULL, -- Testimonial.TestimonialStory_fr_ca
+    [testimonial_story_en] NVARCHAR(MAX) NULL, -- Testimonial.TestimonialStory_en
+    [TestimonialStory] NVARCHAR(MAX) NULL,  -- Testimonial.TestimonialStory
+    [short_quote_fr_ca] NVARCHAR(255) NULL, -- Testimonial.ShortQuote_fr_ca
+    [short_quote_en] NVARCHAR(255) NULL,    -- Testimonial.ShortQuote_en
+    [ShortQuote] NVARCHAR(255) NULL,        -- Testimonial.ShortQuote
+    [results_fr_ca] NVARCHAR(MAX) NULL,     -- Testimonial.Results_fr_ca
+    [results_en] NVARCHAR(MAX) NULL,        -- Testimonial.Results_en
+    [Results] NVARCHAR(MAX) NULL,           -- Testimonial.Results
+    [quote_fr_ca] NVARCHAR(255) NULL,       -- Testimonial.Quote_fr_ca
+    [quote_en] NVARCHAR(255) NULL,          -- Testimonial.Quote_en
+    [Quote] NVARCHAR(255) NULL,             -- Testimonial.Quote
+    [intro_copy_fr_ca] NVARCHAR(255) NULL,  -- Testimonial.IntroCopy_fr_ca
+    [intro_copy_en] NVARCHAR(255) NULL,     -- Testimonial.IntroCopy_en
+    [IntroCopy] NVARCHAR(255) NULL,         -- Testimonial.IntroCopy
+    [headline_fr_ca] NVARCHAR(255) NULL,    -- Testimonial.Headline_fr_ca
+    [headline_en] NVARCHAR(255) NULL,       -- Testimonial.Headline_en
+    [Headline] NVARCHAR(255) NULL,          -- Testimonial.Headline
+    [demo_u_r_l_fr_ca] NVARCHAR(255) NULL,  -- Testimonial.DemoURL_fr_ca
+    [demo_u_r_l_en] NVARCHAR(255) NULL,     -- Testimonial.DemoURL_en
+    [DemoURL] NVARCHAR(255) NULL,           -- Testimonial.DemoURL
+    [customer_title_fr_ca] NVARCHAR(255) NULL, -- Testimonial.CustomerTitle_fr_ca
+    [customer_title_en] NVARCHAR(255) NULL, -- Testimonial.CustomerTitle_en
+    [CustomerTitle] NVARCHAR(255) NULL,     -- Testimonial.CustomerTitle
+    [customer_name_fr_ca] NVARCHAR(255) NULL, -- Testimonial.CustomerName_fr_ca
+    [customer_name_en] NVARCHAR(255) NULL,  -- Testimonial.CustomerName_en
+    [CustomerName] NVARCHAR(255) NULL,      -- Testimonial.CustomerName
+    CONSTRAINT [pk_cstmrtstmnls_tstmn_5B3FF9F3] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/21/2016 5:37:14 PM
+
+Message: ALTER TABLE [customertestimonials_testimonial] ADD CONSTRAINT [ref_cstmrtstmnls_tstm_3240BDC4] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------

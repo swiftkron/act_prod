@@ -1,0 +1,405 @@
+----------------------------------------
+Timestamp: 26/04/2016 21:16:50
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-3+9.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2016 21:16:50
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-3+9.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2016 21:16:54
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-3+9.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2016 21:16:59
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-3+9.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2016 21:16:59
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-3+9.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2016 21:17:02
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-3+9.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2016 21:17:27
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-3+6+3.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2016 21:17:27
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-3+6+3.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2016 21:17:30
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/grid-3+6+3.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2016 21:21:10
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/container.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2016 21:21:10
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/container.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2016 21:21:14
+
+Message: System.ArgumentException: Cannot find template "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/GridSystem/Templates/container.html".
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate(Boolean isVirtualPath, Boolean isHtmlTemplate, String layout)
+   at Telerik.Sitefinity.Frontend.GridSystem.GridControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:47:34 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:47:34 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:47:35 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:47:35 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:47:35 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:47:35 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:47:35 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:47:35 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:47:35 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:47:35 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:47:35 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:48:04 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/26/2016 11:48:04 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:13 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:13 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:13 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:13 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:13 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:13 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:13 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:13 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:13 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:13 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:13 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:43 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:02:43 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:48:36 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:48:36 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:48:36 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:48:36 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:48:36 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:48:36 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:48:36 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:48:36 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:48:36 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:48:36 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:48:36 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:49:06 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/27/2016 4:49:06 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------

@@ -32,9 +32,6 @@
 					  		 	<li><a href="produits/act-pro" title="Logiciel et solutions Act! Pro">Act! Pro</a></li>
 					  		 	<li><a href="produits/act-premium" title="Logiciel CRM Act! Premium">Act! Premium</a></li>
 					  		 	<li><a href="produits/act-emarketing/" title="Act! emarketing">Act! emarketing</a></li>
-					  		 	<!--<li><a href="#">Mobilité</a></li>-->
-								<!--<li><a href="products/act-cloud">Act! Cloud</a></li>-->
-					  		 	<li><a href="produits/nouveautes" title="Nouveautés Act!">Nouveautés Act! v17</a></li>
 					  		</ul>
 					  	</li>
 					  	<li><a href="assistance" title="Assistance Act!">Assistance&nbsp;&nbsp;<span class="down_arrow"></span></a>

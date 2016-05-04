@@ -40,7 +40,7 @@ $(document).ready(function () {
     });
     $('#uk-nav .navLink').click(function (event) {
         event.stopPropagation();
-        location.href = "/en-gb";
+        location.href = "/en-uk";
     });
     $('.uIntl').click(function (event) {
         event.stopPropagation();

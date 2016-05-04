@@ -9,7 +9,7 @@
                                 <li><a href="http://www.swiftpage.com/en-gb" target="_blank">Swiftpage</a></li>
                                 <li><a href="http://www.swiftpage.com/en-us/about/legal.shtml" target="_blank">Legals</a></li> 
                                 <li><a href="/en-uk/payments">Payments</a></li>                       
-                                <li><a href="/en-uk/refunds">Refunds</a></li>
+                                <li><a href="/en-uk/billing-policy">Billing Policy</a></li>
                             </ul>
                         </div>
                         <div class="col-2">
@@ -20,7 +20,7 @@
                                 <li><a href="http://kb.act.com" target="_blank">Knowledgebase</a></li>
                                 <li><a href="/en-uk/products/system">System Requirements</a></li>
                                 <li><a href="/en-uk/pricing">Pricing</a></li>
-                                <li><a href="https://buy.act.com/en-GB/trial/product/ActPremium/plan/Month">Free Trial</a></li>
+                                <li><a href="https://buy.act.com/en-GB/trial/product/ActPremium/plan/Month" target="_blank">Free Trial</a></li>
                             </ul>
                         </div>
                         <div class="col-2">

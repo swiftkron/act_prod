@@ -134,7 +134,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
     <div class="col-sm-6 txtcenter" style="padding: 0;">
       <div class="row">
         <div class="col-sm-12 compare_head_l" >
-          <h2 class="">Act! Pro v17</h2>
+          <h2 class="">Act! Pro</h2>
 
         </div>
       </div>
@@ -159,7 +159,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
     <div class="col-sm-6 txtcenter">
       <div class="row">
       <div class="col-sm-12 compare_head_r" >
-        <h2>Act! Premium v17</h2>
+        <h2>Act! Premium</h2>
 
       </div>
     </div>

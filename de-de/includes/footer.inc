@@ -32,9 +32,6 @@
       						<a href="produkte/act-premium" title="CRM Software Version Act! Premium">Act! Premium</a>
       					</li>
                                     <li><a href="act-emarketing/" title="Act! emarketing">Act! emarketing</a></li>
-      					<li>
-      						<a href="produkte/was-ist-neu" title="Das ist neu bei der aktuellen Act! Software Version">Act! v17: Was ist neu?</a>
-      					</li>
       				</ul>
 
       			</div>

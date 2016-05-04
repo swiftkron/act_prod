@@ -7,14 +7,14 @@
                 <div class="uToggle">
                     <span class="glyphicon glyphicon-chevron-down"></span>
                     <ul class="uDropdown uAlt">
-                        <li class="uTrial"><a href="javascript:alert(AU Partner Listings')">Free Trial</a></li>
+                        <li class="uTrial"><a href="/au/partners">Free Trial</a></li>
                         <span class="separator"></span>
                         <li><a href="/?regLang=en-US">U.S. English</a></li>
                         <li><a href="/en-uk/">International English</a></li>
                         <li><a href="/de-de/">Deutch</a></li>
                         <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
                         <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                        <li><a href="/nl-nl/">Netherlands</a></li>
+                        <li><a href="/nl-nl/">Nederlands</a></li>
                     </ul>
                 </div>
                 <div class="uBrand" title="Act!"></div>
@@ -23,7 +23,7 @@
                         <a href="/au/partners"><span class="button btnSecondary">Free trial</span></a>
                     </div>
                     <div class="uIntl">
-                        Australia <span class="glyphicon glyphicon-globe" title="Language"></span>
+                        Australia/New Zealand <span class="glyphicon glyphicon-globe" title="Language"></span>
                         <span>&#9662;</span>
                         <ul class="uDropdown lang">
                             <li><a href="/?regLang=en-US">U.S. English</a></li>
@@ -31,7 +31,7 @@
                             <li><a href="/de-de/">Deutch</a></li>
                             <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
                             <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                            <li><a href="/nl-nl/">Netherlands</a></li>
+                            <li><a href="/nl-nl/">Nederlands</a></li>
                         </ul>
                     </div>
                 </div>
@@ -55,7 +55,11 @@
             <li><a href="/au/act-emarketing">Act! emarketing</a></li>
          </ul>
       </li>
-      <li><a href="/au/pricing">Pricing</a></li>
+      <li><a href="/au/pricing">Pricing</a>
+<ul>
+<li><a href="/au/pricing/aud/">Australian Dollars</a></li>
+<li><a href="/au/pricing/nzd/">New Zealand Dollars</a></li>
+</ul></li>
       <li><a href="/au/partners">Partners</a></li>
    </ul>
 </nav>

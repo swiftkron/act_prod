@@ -9,7 +9,7 @@
         <div id="footer_fat_nav">
             <div runat="server" class="sf_colsIn"></div>
         </div>
-        <div runat="server" class="sf_colsIn copyright"></div>
+        <div runat="server" class="sf_colsIn"></div>
 
 </div>
 </div>

@@ -1,0 +1,30 @@
+----------------------------------------
+Timestamp: 4/28/2016 7:21:59 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/28/2016 7:21:59 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/28/2016 7:21:59 PM
+
+Message: -- add column for field Testimonial.Priority
+ALTER TABLE [customertestimonials_testimonial] ADD [Priority] DECIMAL(20) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/28/2016 7:21:59 PM
+
+Message: -- add column for field Testimonial.LightBackground
+ALTER TABLE [customertestimonials_testimonial] ADD [LightBackground] BIT NULL
+
+
+----------------------------------------

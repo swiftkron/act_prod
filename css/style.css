@@ -303,6 +303,17 @@ header .phone_number {
     font-weight: 700;
 }
 
+header .ukPhone, header .ukPhone .phone_number {
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+.ukPhone{
+display:block;
+float:right;
+padding-top:10px;
+}
+
 .glyphicon {
     font-size: 20px;
     position: absolute !important;

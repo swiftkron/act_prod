@@ -94,9 +94,10 @@
 <!-- carousel -->
 <script type="text/javascript">
 $(document).ready(function(){
-	$('.carousel').carousel({
+ $('.carousel').carousel({
+    pause: true,
     interval: false
-	}) 
+}); 
 });
 </script>
 
@@ -113,8 +114,8 @@ $(document).ready(function(){
 		var step = getParameterByName('step');
 		$(document).ready(function(){
 			if (step == "2"){
-				$('#step2').addClass('active');
-				$('#stepCurrent').html('2');			
+				$('#step2').addClass('active');				
+$('#stepCurrent').html('2');			
 			}
 			else if (step == "3"){
 				$('#step3').addClass('active');			

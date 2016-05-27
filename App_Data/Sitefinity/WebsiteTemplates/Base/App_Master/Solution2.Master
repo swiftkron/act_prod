@@ -40,7 +40,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-8 inner">
-                        <h2>Why Act!</h2>
+                        <h2><asp:ContentPlaceHolder ID="WhyAct" runat="server"></asp:ContentPlaceHolder></h2>
                         <asp:ContentPlaceHolder ID="SolutionOverview" runat="server"></asp:ContentPlaceHolder>
                     </div>
                     <div class="col-4 inner">

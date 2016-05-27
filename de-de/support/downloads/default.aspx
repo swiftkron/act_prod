@@ -162,6 +162,13 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
                         <td><a href="http://CDN.updates.swiftpage.act.com/updates/act16sp3hf1frde.exe">download</td>
                       </tr>
                       <tr>
+                        <td>24/09/2015</td>
+                        <td>Act! v17 SP1 Hotfix 4</td>
+                        <td>act17sp1hf4a.exe</td>
+                        <td>6.2 MB</td>
+                        <td><a href="http://cdn.updates.swiftpage.act.com/updates/act17sp1hf4a.exe">download</td>
+                      </tr>
+                      <tr>
                         <td>11/06/2015</td>
                         <td>Act! v17 SP1 Hotfix 3</td>
                         <td>act17sp1hf3c.exe</td>
@@ -225,6 +232,13 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
                   </tr>
                 </thead>
                <tbody>
+                      <tr>
+                        <td>09/05/2016</td>
+                        <td>Act! Premium v18.1 Update 3</td>
+                        <td>act1810update3.exe</td>
+                        <td>316 MB</td>
+                        <td><a href="http://CDN.updates.swiftpage.act.com/updates/18.1/act1810update3.exe">download</td>
+                      </tr>
                       <tr>
                         <td >17/03/2015</td>
                         <td>Act! Pro v16 SP3 Update - DE</td>

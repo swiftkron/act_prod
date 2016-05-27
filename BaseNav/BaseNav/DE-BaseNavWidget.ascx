@@ -23,9 +23,9 @@
 <div class="uBrand" title="Act!">&nbsp;</div>
 <div class="uToggleElements">
 <div class="uTrial">
-<a href="https://buy.act.com/de-DE/trial/product/ActPremium/plan/Month" target="_blank"><span class="button btnSecondary">Free trial</span></a>
+<a href="https://buy.act.com/de-DE/trial/product/ActPremium/plan/Month" target="_blank"><span class="button btnSecondary">Gratis testen</span></a>
 </div>
-<div class="uPhone" style="margin-top:-56px; left: 240px; font-size:12px;line-height:15px;"><span style="color:#2a353d;">
+<div class="uPhone" style="margin-top:-56px; left: 260px; font-size:12px;line-height:15px;"><span style="color:#2a353d;">
 Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span style="color:#2a353d;">Schweiz:</span> <a href="tel:0435082364">043 508 2364</a>
 </div>
 <div class="uIntl" style="clear:left;margin-top:-30px;">
@@ -55,51 +55,42 @@ Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span sty
 </div>
 <nav>
 <ul id="main-nav">
-    <li><a href="/de-de/why-act">Why Act!</a>
+    <li><a href="/de-de/warum-act">Warum Act!</a>
     <ul>
-        <li><a href="/de-de/why-act/get-organised">Get Organised</a></li>
-        <li><a href="/de-de/why-act/know-my-customers">Know My Customers</a></li>
-        <li><a href="/de-de/why-act/market-my-business">Market My Business</a></li>
-        <li><a href="/de-de/why-act/drive-sales">Drive Sales</a></li>
-        <li><a href="/de-de/why-act/understand-my-business">Understand My Business</a></li>
+        <li><a href="/de-de/warum-act/besser-organisiert">Besser organisiert</a></li>
+        <li><a href="/de-de/warum-act/kundendaten-verwalten">Verwalten Sie Ihre Kundendaten</a></li>
+        <li><a href="/de-de/warum-act/professionelles-marketing">Professionelles Marketing für Ihr Unternehmen</a></li>
+        <li><a href="/de-de/warum-act/umsatz-steigern">Steigern Sie Ihren Umsatz</a></li>
+        <li><a href="/de-de/warum-act/fundierte-entscheidungen-treffen">Treffen Sie fundierte Entscheidungen</a></li>
     </ul>
     </li>
-    <li><a href="/en-uk/products">Products</a>
+    <li><a href="/de-de/produkte">Produkte</a>
     <ul>
-        <li><a href="/de-de/products/act-premium">Act! Premium</a></li>
-        <li><a href="/de-de/products/act-pro">Act! Pro</a></li>
-        <li><a href="/de-de/products/act-emarketing">Act! emarketing</a></li>
-        <li><a href="/de-de/products/act-essentials">Act! Essentials</a></li>
-        <li><a href="/de-de/products/whats-new">What&rsquo;s New</a></li>
+        <li><a href="/de-de/produkte/act-premium">Act! Premium</a></li>
+        <li><a href="/de-de/produkte/act-pro">Act! Pro</a></li>
+        <li><a href="/de-de/produkte/act-emarketing">Act! emarketing</a></li>
+        <li><a href="/de-de/produkte/act-essentials">Act! Essentials</a></li>
+        <li><a href="/de-de/was-ist-neu">Was ist neu?</a></li>
     </ul>
     </li>
-    <li><a href="/de-de/customers">Customers</a>
+    <li><a href="/de-de/kundenreferenzen-alle">Act! Kunden</a>
     <ul>
-        <li><a href="/de-de/testimonials">Customer Testimonials</a></li>
+        <li><a href="/de-de/kundenreferenzen-alle">Kundenreferenzen</a></li>
     </ul>
     </li>    
-    <li><a href="/de-de/pricing">Pricing</a>
+    <li><a href="/de-de/preise">Preise</a></li>
+    <li><a href="/de-de/resources">Hilfsmittel</a>
     <ul>
-        <li><a href="/de-de/pricing/gbp">Sterling pricing</a></li>
-        <li><a href="/de-de/pricing/eur">Euro pricing</a></li>
+        <li><a href="/de-de/hilfsmittel">Act! Premium Hilfsmittel</a></li>
+        <li><a href="https://actcloud1.zendesk.com/hc/de" target="_blank">Act! Essentials Hilfsmittel</a></li>
     </ul>
     </li>
-    <li><a href="/de-de/resources">Resources</a>
+    <li><a href="/de-de/partner">Partner</a>
     <ul>
-        <li><a href="/de-de/resources">Act! Premium Resources</a></li>
-        <li><a href="/de-de/resources/act-emarketing-getting-started">Act! emarketing Resources</a></li>
-        <li><a href="https://actcloud1.zendesk.com/hc/en-gb" target="_blank">Act! Essentials Resources</a></li>
-        <li><a href="/de-de/resources/getting-started">Act! Premium Getting Started</a></li>
-        <li><a href="/de-de/resources/training-opportunities">Training Opportunities</a></li>
+        <li><a href="/de-de/partner">Partner finden</a></li>
     </ul>
     </li>
-    <li><a href="/de-de/partners">Partners</a>
-    <ul>
-        <li><a href="/de-de/partners">Find a Partner</a></li>
-        <li><a href="/de-de/partners/distributors">Distributors</a></li>
-    </ul>
-    </li>
-<li><a href="http://e.act.com/de-contact-us" target="_blank">Contact Us</a></li>
+<li><a href="http://e.act.com/de-kontakt" target="_blank">Kontakt</a></li>
 </ul>
 </nav>
 </div>

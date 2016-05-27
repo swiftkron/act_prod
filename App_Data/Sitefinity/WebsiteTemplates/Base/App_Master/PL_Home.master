@@ -63,17 +63,23 @@
             </div>
         </div>
 
-        <!-- 3-COL -->
+        <!-- Product Overview -->
         <div class="outer bg_white">
-            <div class="container inner">
+            <div class="container">
                 <div class="row">
-                    <div class="col-4 inner">
+                    <div class="col-12 inner">
                         <asp:ContentPlaceHolder ID="ContentCopy1" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-4 inner">
+                </div>
+            </div>
+        </div>
+        <div class="outer bg_white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 inner">
                         <asp:ContentPlaceHolder ID="ContentCopy2" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-4 inner">
+                    <div class="col-6 inner">
                         <asp:ContentPlaceHolder ID="ContentCopy3" runat="server"></asp:ContentPlaceHolder>
                     </div>
                 </div>

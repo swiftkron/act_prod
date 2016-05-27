@@ -3,44 +3,43 @@
         <div class="container footer">
                     <div class="row">
                         <div class="col-2">
-                            <h4><a href="/en-uk/about">About</a></h4>
+                            <h4><a href="/de-de/allgemeines">Allgemeines</a></h4>
                             <ul>
-                                <li><a href="/en-uk/privacy-policy" target="_blank">Privacy</a></li>
-                                <li><a href="http://www.swiftpage.com/en-gb" target="_blank">Swiftpage</a></li>
-                                <li><a href="http://www.swiftpage.com/en-us/about/legal.shtml" target="_blank">Legals</a></li> 
-                                <li><a href="/en-uk/payments">Payments</a></li>                       
-                                <li><a href="/en-uk/billing-policy">Billing Policy</a></li>
+                                <li><a href="/de-de/datenschutzbestimmungen">Datenschutzbestimmungen</a></li>
+                                <li><a href="http://www.swiftpage.com/de-de" target="_blank">Swiftpage</a></li>
+                                <li><a href="http://www.swiftpage.com/en-us/about/legal.shtml" target="_blank">AGB</a></li> 
+                                <li><a href="/de-de/zahlungsinformation">Zahlungsinformation</a></li>                       
+                                <li><a href="/de-de/zahlungsbedingunen">Zahlungsbedingunen</a></li>
                             </ul>
                         </div>
                         <div class="col-2">
-                            <h4><a href="/en-uk/products/act-premium">Act! Premium</a></h4>
+                            <h4><a href="/de-de/produkte/act-premium">Act! Premium</a></h4>
                             <ul>
-                                <li><a href="/en-uk/products/act-emarketing">Email Marketing</a></li>
+                                <li><a href="/de-de/produkte/act-emarketing">Email Marketing</a></li>
                                 <li><a href="http://community.act.com" target="_blank">Community</a></li>
-                                <li><a href="http://kb.act.com" target="_blank">Knowledgebase</a></li>
-                                <li><a href="/en-uk/products/system">System Requirements</a></li>
-                                <li><a href="/en-uk/pricing">Pricing</a></li>
-                                <li><a href="https://buy.act.com/en-GB/trial/product/ActPremium/plan/Month" target="_blank">Free Trial</a></li>
+                                <li><a href="http://kb-de.act.com" target="_blank">Knowledgebase</a></li>
+                                <li><a href="/de-de/produkte">Systemvoraussetzungen</a></li>
+                                <li><a href="/de-de/preise">Preise</a></li>
+                                <li><a href="https://buy.act.com/de-de/trial/product/ActPremium/plan/Month" target="_blank">Gratis Test</a></li>
                             </ul>
                         </div>
                         <div class="col-2">
-                            <h4><a href="/en-uk/products/act-essentials">Act! Essentials</a></h4>
+                            <h4><a href="/de-de/produkte/act-essentials">Act! Essentials</a></h4>
                             <ul>
-                                <li><a href="https://mycloud.act.com/#/login" target="_blank">Login</a></li>
-                                <li><a href="https://actcloud1.zendesk.com/hc/en-gb" target="_blank">Resources</a></li>
-                                <li><a href="/en-uk/pricing/gbp/act-essentials">Pricing</a></li>
-                                <li><a href="https://mycloud.act.com/signup" target="_blank">Free Trial</a></li>
+                                <li><a href="https://actcloud1.zendesk.com/hc/de" target="_blank">Hilfsmittel</a></li>
+                                <li><a href="/de-de/preise/act-essentials">Preise</a></li>
+				<li><a href="https://mycloud.act.com/de-de/signup" target="_blank">Gratis Test</a></li>
                             </ul>
                         </div>
                         <div class="col-2">
-                            <h4><a href="/en-uk/partners">Partners</a></h4>
+                            <h4><a href="/de-de/partner">Act! Partner</a></h4>
                             <ul>
-                                <li><a href="/en-uk/partners">Find a Partner</a></li>
-                                <li><a href="/en-uk/partners/distributors">Distributors</a></li>
+                                <li><a href="/de-de/partner">Act! Partner finden</a></li>
+                                <li><a href="/de-de/partner/distributoren">Distributoren</a></li>
                             </ul>
                         </div>
                     <div class="col-4">
-                        <h4>Connect with Act!</h4>
+                        <h4>Folgen Sie uns auf:</h4>
                         <a href="https://www.linkedin.com/groups/?gid=1914089" target="_blank"><span class="socialIcons glyphicon-linkedin"></span></a>
                         <a href="https://www.facebook.com/actcrm" target="_blank"><span class="socialIcons glyphicon-facebook"></span></a>
                         <a href="https://twitter.com/actstory" target="_blank"><span class="socialIcons glyphicon-twitter"></span></a>

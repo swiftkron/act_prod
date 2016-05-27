@@ -42,7 +42,15 @@ $(document).ready(function () {
         event.stopPropagation();
         location.href = "/en-uk";
     });
-    $('.uIntl').click(function (event) {
+    $('#fr-nav .navLink').click(function (event) {
+        event.stopPropagation();
+        location.href = "/fr-fr";
+    }); 
+    $('#de-nav .navLink').click(function (event) {
+        event.stopPropagation();
+        location.href = "/de-de";
+    }); 
+   $('.uIntl').click(function (event) {
         event.stopPropagation();
         $('.lang').slideToggle(400);
     });

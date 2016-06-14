@@ -18,6 +18,7 @@
                             <li><a href="/de-de/">Deutsch</a></li>
                             <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
                             <li><a href="/nl-nl/">Nederlands</a></li>
+			    <li><a href="/pl-pl/">Polski</a></li>
 </ul>
 </div>
 <div class="uBrand" title="Act!">&nbsp;</div>
@@ -36,6 +37,7 @@
                             <li><a href="/de-de/">Deutsch</a></li>
                             <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
                             <li><a href="/nl-nl/">Nederlands</a></li>
+			    <li><a href="/pl-pl/">Polski</a></li>
                         </ul>
 </ul>
 </div>
@@ -56,11 +58,11 @@
 <ul id="main-nav">
     <li><a href="/fr-fr/pourquoi-choisir-act">Pourquoi choisir Act!</a>
     <ul>
-        <li><a href="/fr-fr/pourquoi-choisir-act/organisation">Organisation</a></li>
-        <li><a href="/fr-fr/pourquoi-choisir-act/capital-client">Capital client</a></li>
-        <li><a href="/fr-fr/pourquoi-choisir-act/marketing">Marketing</a></li>
-        <li><a href="/fr-fr/pourquoi-choisir-act/ventes">Ventes</a></li>
-        <li><a href="/fr-fr/pourquoi-choisir-act/activites">Activités</a></li>
+        <li><a href="/fr-fr/pourquoi-choisir-act/organisation">Organisation ultime</a></li>
+        <li><a href="/fr-fr/pourquoi-choisir-act/capital-client">Capital d’informations client</a></li>
+        <li><a href="/fr-fr/pourquoi-choisir-act/marketing">Marketing efficace</a></li>
+        <li><a href="/fr-fr/pourquoi-choisir-act/ventes">Ventes boostées</a></li>
+        <li><a href="/fr-fr/pourquoi-choisir-act/activites">Analyse des activités</a></li>
     </ul>
     </li>
     <li><a href="/fr-fr/produits">Produits</a>
@@ -72,14 +74,14 @@
         <li><a href="/fr-fr/produits/nouveautes">Nouveautés Act!</a></li>
     </ul>
     </li>
-    <li><a href="/fr-fr/temoignages">Clients</a>
+    <li><a href="/fr-fr/temoignages-client">Clients</a>
     <ul>
-        <li><a href="/fr-fr/temoignages">Témoignages clients</a></li>
+        <li><a href="/fr-fr/temoignages-client">Témoignages clients</a></li>
     </ul>
     </li>    
     <li><a href="/fr-fr/tarifs">Éditions et tarifs</a>
     </li>
-    <li><a href="/fr-fr/resources">Ressources</a>
+    <li><a href="/fr-fr/ressources">Ressources</a>
     <ul>
         <li><a href="/fr-fr/ressources">Ressources Act! Premium</a></li>
         <li><a href="https://actcloud1.zendesk.com/hc/fr" target="_blank">Ressources Act! Essentials</a></li>

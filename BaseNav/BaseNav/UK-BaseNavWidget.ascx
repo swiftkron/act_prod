@@ -19,6 +19,7 @@
                             <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
                             <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
                             <li><a href="/nl-nl/">Nederlands</a></li>
+			    <li><a href="/pl-pl/">Polski</a></li>
 </ul>
 </div>
 <div class="uBrand" title="Act!">&nbsp;</div>
@@ -37,6 +38,7 @@
                             <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
                             <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
                             <li><a href="/nl-nl/">Nederlands</a></li>
+			    <li><a href="/pl-pl/">Polski</a></li>
                         </ul>
 </ul>
 </div>
@@ -76,6 +78,7 @@
     <li><a href="/en-uk/customers">Customers</a>
     <ul>
         <li><a href="/en-uk/testimonials">Customer Testimonials</a></li>
+	<li><a href="/en-uk/why-act/customer-success">Customer Success</a></li>
     </ul>
     </li>    
     <li><a href="/en-uk/pricing">Pricing</a>
@@ -91,6 +94,7 @@
         <li><a href="https://actcloud1.zendesk.com/hc/en-gb" target="_blank">Act! Essentials Resources</a></li>
         <li><a href="/en-uk/resources/getting-started">Act! Premium Getting Started</a></li>
         <li><a href="/en-uk/resources/training-opportunities">Training Opportunities</a></li>
+	<li><a href="/en-uk/resources/api">Act! API Resources</a></li>
     </ul>
     </li>
     <li><a href="/en-uk/partners">Partners</a>

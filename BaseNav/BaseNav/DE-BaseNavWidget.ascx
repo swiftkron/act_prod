@@ -13,11 +13,12 @@
     <li>Schweiz: <a href="tel:0435082364">043 508 2364</a></li>
     <span class="separator"></span>
     <li><a href="/?regLang=en-US">U.S. English</a></li>
-                            <li><a href="/de-de/">English</a></li>
+                            <li><a href="/en-uk/">English</a></li>
                             <li><a href="/au/">Australia/New Zealand</a></li>
                             <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
                             <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
                             <li><a href="/nl-nl/">Nederlands</a></li>
+			    <li><a href="/pl-pl/">Polski</a></li>
 </ul>
 </div>
 <div class="uBrand" title="Act!">&nbsp;</div>
@@ -32,11 +33,12 @@ Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span sty
 <span class="glyphicon glyphicon-globe" title="Language"></span><span>&nbsp;▾</span>
                         <ul class="uDropdown lang">
                             <li><a href="/?regLang=en-US">U.S. English</a></li>
-                            <li><a href="/de-de/">English</a></li>
+                            <li><a href="/en-uk/">English</a></li>
                             <li><a href="/au/">Australia/New Zealand</a></li>
                             <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
                             <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
                             <li><a href="/nl-nl/">Nederlands</a></li>
+			    <li><a href="/pl-pl/">Polski</a></li>
                         </ul>
 </ul>
 </div>
@@ -70,7 +72,7 @@ Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span sty
         <li><a href="/de-de/produkte/act-pro">Act! Pro</a></li>
         <li><a href="/de-de/produkte/act-emarketing">Act! emarketing</a></li>
         <li><a href="/de-de/produkte/act-essentials">Act! Essentials</a></li>
-        <li><a href="/de-de/was-ist-neu">Was ist neu?</a></li>
+        <li><a href="/de-de/produkte/was-ist-neu">Was ist neu?</a></li>
     </ul>
     </li>
     <li><a href="/de-de/kundenreferenzen-alle">Act! Kunden</a>
@@ -79,7 +81,7 @@ Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span sty
     </ul>
     </li>    
     <li><a href="/de-de/preise">Preise</a></li>
-    <li><a href="/de-de/resources">Hilfsmittel</a>
+    <li><a href="/de-de/hilfsmittel">Hilfsmittel</a>
     <ul>
         <li><a href="/de-de/hilfsmittel">Act! Premium Hilfsmittel</a></li>
         <li><a href="https://actcloud1.zendesk.com/hc/de" target="_blank">Act! Essentials Hilfsmittel</a></li>

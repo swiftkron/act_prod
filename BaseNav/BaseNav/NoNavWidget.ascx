@@ -16,6 +16,7 @@
                         <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
                         <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
                         <li><a href="/nl-nl/">Netherlands</a></li>
+			<li><a href="/pl-pl/">Polski</a></li>
                     </ul>
                 </div>
                 <div class="uBrand" title="Act!"></div>
@@ -31,6 +32,7 @@
                             <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
                             <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
                             <li><a href="/nl-nl/">Netherlands</a></li>
+			    <li><a href="/pl-pl/">Polski</a></li>
                         </ul>
                     </div>
                     <div class="uLogin"><a href="https://mycloud.act.com/#/login"><span class="glyphicon glyphicon-user" title="Login"></span></a></div>

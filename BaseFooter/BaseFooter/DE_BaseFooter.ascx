@@ -17,7 +17,7 @@
                             <ul>
                                 <li><a href="/de-de/produkte/act-emarketing">Email Marketing</a></li>
                                 <li><a href="http://community.act.com" target="_blank">Community</a></li>
-                                <li><a href="http://kb-de.act.com" target="_blank">Knowledgebase</a></li>
+                                <li><a href="http://kb-de.swiftpage.com" target="_blank">Knowledgebase</a></li>
                                 <li><a href="/de-de/produkte">Systemvoraussetzungen</a></li>
                                 <li><a href="/de-de/preise">Preise</a></li>
                                 <li><a href="https://buy.act.com/de-de/trial/product/ActPremium/plan/Month" target="_blank">Gratis Test</a></li>

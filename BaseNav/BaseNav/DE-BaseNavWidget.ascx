@@ -75,9 +75,9 @@ Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span sty
         <li><a href="/de-de/produkte/was-ist-neu">Was ist neu?</a></li>
     </ul>
     </li>
-    <li><a href="/de-de/kundenreferenzen-alle">Act! Kunden</a>
+    <li><a href="/de-de/kundenreferenzen/alle">Act! Kunden</a>
     <ul>
-        <li><a href="/de-de/kundenreferenzen-alle">Kundenreferenzen</a></li>
+        <li><a href="/de-de/kundenreferenzen/alle">Kundenreferenzen</a></li>
     </ul>
     </li>    
     <li><a href="/de-de/preise">Preise</a></li>

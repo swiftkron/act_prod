@@ -464,7 +464,8 @@ div.sub_text {
 }
 
 .choose_your_act div.sub_text p{
-    width: 585px;
+    /*width: 585px;*/
+text-align:center;
 }
 
 #page_top_grey .page_center {

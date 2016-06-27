@@ -52,10 +52,10 @@
       <script type="text/javascript">
       function elqCreateOptInBanner() {
       if (navigator.appVersion.indexOf('MSIE') != -1) {
-      var css = '.cookieBanner {z-index:30; position: absolute; bottom: 0px; left: 0px; width: 100%; background-color:#444444; font-size:11px; font-family:verdana; color:#fff; padding:5px;} .cookieBannerText {float: left; text-align:left; width:96%;} .cookieButton {padding:3px 5px; background-color:#fff; border:0; font-size:11px; color:#362b22;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;} .cookieClose {float:right; font-size:14px; font-weight:bold; cursor:pointer; padding-right:15px;color:#fff;} ';
+      var css = '.cookieBanner {z-index:30; position: absolute; bottom: 0px; left: 0px; width: 100%; background-color:#444444; font-size:11px; font-family:verdana; color:#fff; padding:5px 280px 5px 5px;} .cookieBannerText {float: left; text-align:left; width:96%;} .cookieButton {padding:3px 5px; background-color:#fff; border:0; font-size:11px; color:#362b22;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;} .cookieClose {float:right; font-size:14px; font-weight:bold; cursor:pointer; padding-right:15px;color:#fff;} ';
       }
       else {
-      var css = '.cookieBanner {z-index:30; position: fixed; bottom: 0px; left: 0px; width: 100%; background-color:#444444; font-size:11px; font-family:verdana; color:#fff; padding:5px;} .cookieBannerText {float: left; text-align:left; width:96%;} .cookieButton {padding:3px 5px; background-color:#fff; border:0; font-size:11px; color:#362b22;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;} .cookieClose {float:right; font-size:14px; font-weight:bold; cursor:pointer; padding-right:15px;color:#fff;} ';
+      var css = '.cookieBanner {z-index:30; position: fixed; bottom: 0px; left: 0px; width: 100%; background-color:#444444; font-size:11px; font-family:verdana; color:#fff; padding:5px 280px 5px 5px;} .cookieBannerText {float: left; text-align:left; width:96%;} .cookieButton {padding:3px 5px; background-color:#fff; border:0; font-size:11px; color:#362b22;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;} .cookieClose {float:right; font-size:14px; font-weight:bold; cursor:pointer; padding-right:15px;color:#fff;} ';
       }
       var style = document.createElement('STYLE');
       style.type = 'text/css';

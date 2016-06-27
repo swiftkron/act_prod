@@ -1,0 +1,198 @@
+/* Solutions (Why Act) */
+.solutions{
+    margin:24px auto 96px;
+}
+.solutions h2{
+}
+.solutionHero{
+padding:48px 0 0 0 !important;
+}
+.solutionHero .quote p{
+    font-size:1.5em;
+    line-height:1.3em;
+    color:#788e9e;
+}
+.solutionFeatures h3{
+    border-top:#a5b7c2 2px solid;
+    padding-top:48px;
+}
+.solutionFeatures img{
+    max-width:120px;
+    margin:1.5em auto;
+}
+.solutionHero h1{
+margin:0 0 0 0;
+}
+.solutionHero h2{
+    font-size:1.25em;
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+font-weight:normal;
+margin: 0 0 0 0;
+}
+.solutionHero ul{
+	margin:0 0 0 0;
+    text-align:right;
+    list-style-type:none;
+}
+.solutionHero .glyphicon{
+    font-size:.8em;
+    padding-right:8px;
+}
+.solutionHero a {
+    font-family: 'HelveticaNeueW01-55Roma',Helvetica,Arial,sans serif;
+    text-decoration:none;
+}
+.solutionHero a.active {
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+}
+.solutionIntro img{
+    margin:48px 0;
+}
+.solutionIntro .quote{
+    border:#008cc5 2px solid;
+    color:#008cc5;
+    padding:12px 24px;
+    margin:48px 0;
+}
+.solutionIntro .quote p:first-child{
+    font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+    font-size:1.5em;
+}
+.solutionCallout p{
+    font-size:1.5em;
+}
+.solutionCallout p a{
+    font-size:.75em;
+    color:#fe5000;
+}
+.solutionFeatures{
+    padding-bottom:48px;
+    text-align:center;
+}
+.solutionFeatures h4{
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+    font-size:1em;
+    color:#008cc5;
+}
+.solutionFeatures .ctas a{
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+    color:#Fe5000;
+    padding-top:0px;
+    text-decoration:underline;
+}
+.solutionStory{
+margin:-24px 0 0 0 !important;
+}
+.solutionStory p{
+margin:12px 0 24px;
+}
+@media(max-width:767px){
+    .solutionHero li{
+        padding:12px 0;
+    }
+    .solutionHero a {
+        font-size:1.2em;    
+    }
+    .solutionIntro .quote{
+        margin-top:-24px;
+    }
+}
+
+/* revised solution template */
+.solutionHero h1, .solutionHero h2{
+}
+.solutionHero li.active a {
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+}
+.solutionHero li span.glyphicon{
+    color:#edf0f2;
+margin-top:4px;
+}
+.solutionHero li.active span.glyphicon{
+    color:#008cc5;
+}
+.solutionQuote{
+  background: #FFF; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#edf0f2 50%,#FFF 50%); /*Safari 5.1-6*/
+  background: -o-linear-gradient(#edf0f2 50%,#FFF 50%); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(#edf0f2 50%,#FFF 50%); /*Fx 3.6-15*/
+  background: linear-gradient(#edf0f2 50%,#FFF 50%); /*Standard*/
+}
+
+.solutionQuote .container{
+    min-height:500px;
+}
+
+.quoteCircle{
+    background:#FFF;
+    border-radius:50%;
+    width:300px;
+    height:300px;
+    padding:48px 36px;
+    margin:25% 48px;
+    color:#fe5000;
+    text-align:center;
+}
+.quoteCircle .byline{
+    margin-top:-12px;
+font-size:14px;
+}
+.pullQuote{
+    color:#FE5000;
+    font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+    font-size:1.25em;
+    text-align:center;
+    margin:2em auto;
+}
+.solutionsSidebar{
+text-align:center;
+padding:0 0 0 0 !important;
+}
+.solutionsSidebar h3{
+    font-size:1.2em;
+margin:0 0;
+font-weight:normal;
+}
+.solutionsSidebar h4 {
+    font-size: 1em;
+margin:0 0 24px;
+font-weight:normal;
+}
+.solutionsSidebar img{
+margin:24px auto 0;
+padding:0 0;
+}
+.solutionsSidebar h3, .solutionsSidebar h4{
+    text-align:center;
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+}
+.moreSolutions ul{
+    list-style-type:none;
+    margin:1em 0 0 0;
+    padding:0 0;
+}
+@media(max-width:908px){
+    .solutionHero ul{
+    font-size:.8em;
+}
+}
+@media(max-width:768px) {
+    .solutionHero ul {
+        text-align:left;
+        margin:0;
+        padding:0;
+    }
+}
+@media(max-width:420px) {
+.solutionQuote .container{
+    min-height:unset;
+    background-image:none !important;
+    background-color:#008cc5 !important;
+}
+.solutionQuote{
+  background: unset !important;
+}
+.quoteCircle{
+    margin:25% 12px;
+}
+}

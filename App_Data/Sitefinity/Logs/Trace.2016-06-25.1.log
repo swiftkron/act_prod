@@ -1,0 +1,254 @@
+----------------------------------------
+Timestamp: 6/24/2016 7:16:02 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:02 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:02 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:32 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:16:32 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:12 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:12 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:12 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:12 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:12 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:12 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:12 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:12 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:12 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:12 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:12 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:42 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 5:09:42 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:57:49 PM
+
+Message: System.ArgumentException: Cannot find template "~/App_Data/Sitefinity/WebsiteTemplates/Act_Global/Layouts/two_col_4-4-4.ascx".
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration, Boolean addChildrenAsDirectDescendants)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration)
+   at Telerik.Sitefinity.Web.UI.LayoutControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:57:49 PM
+
+Message: System.ArgumentException: Cannot find template "~/App_Data/Sitefinity/WebsiteTemplates/Act_Global/Layouts/two_col_4-4-4.ascx".
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration, Boolean addChildrenAsDirectDescendants)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration)
+   at Telerik.Sitefinity.Web.UI.LayoutControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:57:57 PM
+
+Message: System.ArgumentException: Cannot find template "~/App_Data/Sitefinity/WebsiteTemplates/Act_Global/Layouts/two_col_4-4-4.ascx".
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration, Boolean addChildrenAsDirectDescendants)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration)
+   at Telerik.Sitefinity.Web.UI.LayoutControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:58:20 PM
+
+Message: System.ArgumentException: Cannot find template "~/App_Data/Sitefinity/WebsiteTemplates/Act_Global/Layouts/two_col_4-4-4.ascx".
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration, Boolean addChildrenAsDirectDescendants)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration)
+   at Telerik.Sitefinity.Web.UI.LayoutControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:58:20 PM
+
+Message: System.ArgumentException: Cannot find template "~/App_Data/Sitefinity/WebsiteTemplates/Act_Global/Layouts/two_col_4-4-4.ascx".
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration, Boolean addChildrenAsDirectDescendants)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration)
+   at Telerik.Sitefinity.Web.UI.LayoutControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 7:58:25 PM
+
+Message: System.ArgumentException: Cannot find template "~/App_Data/Sitefinity/WebsiteTemplates/Act_Global/Layouts/two_col_4-4-4.ascx".
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration, Boolean addChildrenAsDirectDescendants)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTemplate(String virtualPath, String resourceFileName, Type assemblyInfo, String templateDeclaration)
+   at Telerik.Sitefinity.Web.UI.LayoutControl.GetTemplate()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.Initialize()
+   at Telerik.Sitefinity.Web.UI.LayoutControl.CreateChildControls()
+
+
+----------------------------------------

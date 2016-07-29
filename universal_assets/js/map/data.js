@@ -22,8 +22,8 @@
     "company": "SDC Kommunikation",
     "description": "",
     "level": 3,
-    "longitude": "7.149518",
-    "latitude": "50.729483"
+    "longitude": "7.101151",
+    "latitude": "50.736761"
  },{
     "id": 746,
     "country": "Cyprus",
@@ -4189,22 +4189,6 @@
  	"longitude": "-118.00080000000003",
  	"latitude": "34.157457"
  }, {
- 	"id": 473,
- 	"country": "Sweden",
- 	"region": "",
- 	"city": "Umea",
- 	"contact": "",
- 	"phone": "4690713550",
- 	"email": "lennart@zoft80.com",
- 	"website": "www.zoft80.com",
- 	"address": "Applevagen 16, Umea, S-904 36",
- 	"postcode": "S-904 36",
- 	"company": "ZOFT 80 AB",
- 	"description": "",
- 	"level": 3,
- 	"longitude": "20.263035400000035",
- 	"latitude": "63.8258471"
- },{
  	"id": 471,
  	"country": "United Kingdom",
  	"region": "West Midlands",
@@ -4460,7 +4444,7 @@
  	"postcode": "27356",
  	"company": "rocon GmbH",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "9.422360000000026",
  	"latitude": "53.12513"
  }, {
@@ -4662,7 +4646,7 @@
  	"region": "Nordrhein-Westfalen",
  	"city": "Krefeld",
  	"contact": "",
- 	"phone": "004921519756500",
+ 	"phone": "00492151971980",
  	"email": "mstein@niwis.com",
  	"website": "www.niwis.com",
  	"address": "Prinz-Ferdinand-Stradfe 124, Krefeld, 47798",
@@ -4781,7 +4765,7 @@
  	"postcode": "96250",
  	"company": "Krauss Computing",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "10.95828830000005",
  	"latitude": "50.06711050000001"
  }, {
@@ -5242,8 +5226,8 @@
  	"region": "Yorkshire and the Humber",
  	"city": "Leeds",
  	"contact": "",
- 	"phone": "0113 273 9040",
- 	"email": "emma.barker@bluelogic.co.uk",
+ 	"phone": "0333 200 59 50",
+ 	"email": "info@bluelogic.co.uk",
  	"website": "www.bluelogic.co.uk",
  	"address": "Unit 2 Bramley Grange, Skeltons Lane, Thorner, Leeds, LS14 3DW",
  	"postcode": "LS14 3DW",

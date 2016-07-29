@@ -134,8 +134,9 @@ margin-top:4px;
     text-align:center;
 }
 .quoteCircle .byline{
-    margin-top:-12px;
+    margin-top:-6px;
 font-size:14px;
+line-height:15px;
 }
 .pullQuote{
     color:#FE5000;
@@ -168,7 +169,7 @@ padding:0 0;
 }
 .moreSolutions ul{
     list-style-type:none;
-    margin:1em 0 0 0;
+    margin:0 0 0 0;
     padding:0 0;
 }
 @media(max-width:908px){
@@ -195,4 +196,12 @@ padding:0 0;
 .quoteCircle{
     margin:25% 12px;
 }
+}
+.moreSolutions h4{
+	margin-bottom:6px;
+font-weight:normal;
+}
+.moreSolutions h2{
+font-size:28px;
+margin: 0 0 6px 0;
 }

@@ -12,16 +12,13 @@ $(document).ready(function () {
     $('.dropdown').mouseleave(function () {
         $('.child').removeClass('active');
     });
-    // mobile nav toggle
-    $('.navToggle').click(function () {
+    // mobile nav toggle   
+	$('.hamburger').click(function () {
         $('nav').slideToggle(300);
-	$('nav').toggleClass('block');
     });
     $(window).on("resize", function () {
         if ($(window).width() > 908) {
             $('nav').show();
-        } else {
-            $('nav').hide();
         }
         if ($(window).width() <+ 701) {
             $('header span.glyphicon').removeClass('glyphicon-globe');
@@ -49,6 +46,7 @@ var utm_content = getParameterByName('utm_content');
 var utm_campaign = getParameterByName('utm_campaign');
 var utm_name = getParameterByName('utm_name');
 var utm_term = getParameterByName('utm_term');
+utm_term = utm_term.split(' ').join('_'); 
 // Preload UTM Data for Elq Forms
 $(document).ready(function () {
     $('input[name="elq_utm_source"]').attr('value', utm_source);
@@ -57,6 +55,10 @@ $(document).ready(function () {
     $('input[name="elq_utm_campaign"]').attr('value', utm_campaign);
     $('input[name="elq_utm_name"]').attr('value', utm_name);
     $('input[name="elq_utm_term"]').attr('value', utm_term);
+      $('input[name=utm_campaign]').attr('value', utm_campaign);
+      $('input[name=utm_source]').attr('value', utm_source);
+      $('input[name=utm_medium]').attr('value', utm_medium);
+      $('input[name=utm_term]').attr('value', utm_term);
 });
 
 // Carryover
@@ -145,6 +147,7 @@ $(document).ready(function () {
         }
         else {
             $('#premPrice').html('<span class="usd">$</span>25');
+            $('#premPriceU').html('<span class="usd">$</span>19');
             $('#premTerm').html('USD/user/month');
             $('#premBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremium/plan/Month?srid=' + srid + '&ror=' + ror + '');
         }
@@ -210,5 +213,65 @@ $(document).ready(function () {
     }
     hideContentDivs();
     $('.tab_content').first().show();
+
+// Standard form validation
+	// Place ID's of all required fields here.
+	required = ["firstName", "lastName", "emailAddress", "company", "busPhone", "country"];
+	// If using an ID other than #email or #error then replace it here
+	email = $("#emailAddress");
+	errornotice = $("#error");
+	// The text to show up within a field when it is incorrect
+	emptyerror = "Please fill out this field.";
+	emailerror = "Please enter a valid e-mail.";
+
+	$("#form1").submit(function(){	
+		//Validate required fields
+		for (i=0;i<required.length;i++) {
+			var input = $('#'+required[i]);
+			if ((input.val() == "") || (input.val() == emptyerror)) {
+				input.addClass("needsfilled");
+				input.val(emptyerror);
+				errornotice.fadeIn(750);
+			} else {
+				input.removeClass("needsfilled");
+			}
+
+		}
+		// Validate the e-mail.
+		if (!/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(email.val())) {
+			email.addClass("needsfilled");
+			email.val(emailerror);
+		}
+
+	// Clears any fields in the form when the user clicks on them
+	$(":input").focus(function(){		
+	   if ($(this).hasClass("needsfilled") ) {
+			$(this).val("");
+			$(this).removeClass("needsfilled");
+	   }
+	});
+
+		//if any inputs on the page have the class 'needsfilled' the form will not submit
+		if ($(":input").hasClass("needsfilled")) {
+			return false;
+		} else {
+			errornotice.hide();
+			return true;
+		}
+	});
+
+// Country optin
+$('#country').change(function(){
+  var country = $('#country').val();
+  if((country == "Canada") ||
+     (country == "Germany") ||
+     (country == "Australia")){
+  $('#optin').removeClass('hidden');
+  }
+  else{
+  $('#optin').addClass('hidden');
+  }
+});	
+
 
 });

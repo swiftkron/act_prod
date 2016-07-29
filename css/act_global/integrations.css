@@ -1,0 +1,39 @@
+.connections .col-4:nth-child(4), .connections .col-4:nth-child(7) {
+  clear:both;
+}
+.connection{
+  border:#FE5000 1px solid;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  padding:24px;
+  text-align:center;
+  margin-bottom:24px;
+}
+@media(min-width:768px){
+  .connection{
+    height:400px;
+  }
+  .connection:hover{
+    background-color: #edf0f2;  
+  }
+}
+.connection h4{
+  font-size:16px;
+}
+.connection p{
+  font-size:13px;
+  line-height:15px;
+  margin:6px 0 12px;
+}
+.connection a:link,.connection a:active,.connection a:visited{
+  color:#fe5000;
+  text-decoration:underline;
+}
+.connection a:hover{
+  color:#000;
+}
+.blue {
+    color: #0087b8;
+}

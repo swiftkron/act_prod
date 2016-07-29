@@ -154,9 +154,10 @@ nav ul.child li:hover{
 	nav ul li{
 		display:block;
 		padding:12px 0;
+background:#FFF;
 	}
 	nav ul li:hover{
-		background:unset;
+		background:#FFF;
 	}
 	nav ul a{
 		color:#2a353d !important;

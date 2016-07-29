@@ -1,0 +1,15 @@
+.training .button{
+  margin:6px auto;
+  padding:24px;
+}
+.training .button .glyphicon{
+  padding-bottom: 6px;
+  font-size: 24px;
+}
+
+.supportTile{
+padding:48px 24px;
+}
+.supportTile h3{
+margin:0 0;
+}

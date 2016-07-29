@@ -14,9 +14,11 @@ footer ul{
 footer li{
 	padding-bottom:.5em;
 }
+footer h5 a:link, footer h5 a:active, footer h5 a:visited,
 footer li a:link, footer li a:active, footer li a:visited{
 	color:#39464f;
 }
+footer h5 a:hover,
 footer li a:hover{
 	color:#2a353d;
 }

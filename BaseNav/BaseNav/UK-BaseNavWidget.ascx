@@ -68,7 +68,7 @@
     </li>
     <li><a href="/en-uk/products">Products</a>
     <ul>
-        <li><a href="/en-uk/products/act-premium">Act! Premium</a></li>
+        <li><a href="/en-uk/products">Act! Premium</a></li>
         <li><a href="/en-uk/products/act-pro">Act! Pro</a></li>
         <li><a href="/en-uk/products/act-emarketing">Act! emarketing</a></li>
         <li><a href="/en-uk/products/act-essentials">Act! Essentials</a></li>

@@ -83,7 +83,7 @@
     </li>
     <li><a href="/fr-fr/ressources">Ressources</a>
     <ul>
-        <li><a href="/fr-fr/ressources">Ressources Act! Premium</a></li>
+        <!-- <li><a href="/fr-fr/ressources">Ressources Act! Premium</a></li> -->
         <li><a href="https://actcloud1.zendesk.com/hc/fr" target="_blank">Ressources Act! Essentials</a></li>
     </ul>
     </li>

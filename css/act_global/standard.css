@@ -47,22 +47,27 @@ img {
 a:link, a:active, a:visited{
 	text-decoration:none;
 	color:#008cc5;
+color:#FE5000;
 }
 a:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover {
     cursor: pointer;
 		color:#0881b4;
+color:#da4c1f;
 }
 
 h1,
 h2,
-h3,
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
 h4,
 h5,
 h6 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+font-family: 'HelveticaNeueW01-65Medi', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight:normal;
 }
 h1 {
     font-size: 48px;
@@ -147,6 +152,7 @@ span.reverse{
 .dark-grey{color:#39464F !important;}
 .white{color:#FFF !important;}
 .black{color:#2a353d !important;}
+.blue{color:#008cc5 !important;}
 .bg_orange{
     background-color:#FE5000;
     color:#FFF;
@@ -195,6 +201,11 @@ color:#e5cd48;
 }
 .bg_lightgreen h2{
     color:#00b19f;
+}
+
+/* borders */
+.border-grey{
+border:#dfe3e6 2px solid;
 }
 
 /* Forms */

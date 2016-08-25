@@ -1,65 +1,269 @@
 ----------------------------------------
-Timestamp: 7/13/2016 4:23:51 PM
+Timestamp: 8/23/2016 1:31:45 AM
 
 Message: Db Migration Complexity: Trivial
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 7/13/2016 4:23:51 PM
+Timestamp: 8/23/2016 1:31:45 AM
 
 Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 7/13/2016 4:23:51 PM
+Timestamp: 8/23/2016 1:31:45 AM
 
 Message: Adding a new table(s).
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 7/13/2016 4:23:51 PM
+Timestamp: 8/23/2016 1:31:45 AM
 
-Message: -- Telerik.Sitefinity.DynamicTypes.Model.Conference.Agenda
-CREATE TABLE [conference_agenda] (
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.ActVideos.ActVideo
+CREATE TABLE [actvideos_actvideo] (
     [base_id] uniqueidentifier NOT NULL,
-    [title_pl] NVARCHAR(255) NULL,          -- Agenda.Title_pl
-    [title_fr_ca] NVARCHAR(255) NULL,       -- Agenda.Title_fr_ca
-    [title_fr] NVARCHAR(255) NULL,          -- Agenda.Title_fr
-    [title_en] NVARCHAR(255) NULL,          -- Agenda.Title_en
-    [title_de] NVARCHAR(255) NULL,          -- Agenda.Title_de
-    [Title] NVARCHAR(255) NULL,             -- Agenda.Title
-    [start_time_pl] NVARCHAR(255) NULL,     -- Agenda.StartTime_pl
-    [start_time_fr_ca] NVARCHAR(255) NULL,  -- Agenda.StartTime_fr_ca
-    [start_time_fr] NVARCHAR(255) NULL,     -- Agenda.StartTime_fr
-    [start_time_en] NVARCHAR(255) NULL,     -- Agenda.StartTime_en
-    [start_time_de] NVARCHAR(255) NULL,     -- Agenda.StartTime_de
-    [StartTime] NVARCHAR(255) NULL,         -- Agenda.StartTime
-    [Location] NVARCHAR(255) NULL,          -- Agenda.Location
-    [end_time_pl] NVARCHAR(255) NULL,       -- Agenda.EndTime_pl
-    [end_time_fr_ca] NVARCHAR(255) NULL,    -- Agenda.EndTime_fr_ca
-    [end_time_fr] NVARCHAR(255) NULL,       -- Agenda.EndTime_fr
-    [end_time_en] NVARCHAR(255) NULL,       -- Agenda.EndTime_en
-    [end_time_de] NVARCHAR(255) NULL,       -- Agenda.EndTime_de
-    [EndTime] NVARCHAR(255) NULL,           -- Agenda.EndTime
-    [description_pl] NVARCHAR(MAX) NULL,    -- Agenda.Description_pl
-    [description_fr_ca] NVARCHAR(MAX) NULL, -- Agenda.Description_fr_ca
-    [description_fr] NVARCHAR(MAX) NULL,    -- Agenda.Description_fr
-    [description_en] NVARCHAR(MAX) NULL,    -- Agenda.Description_en
-    [description_de] NVARCHAR(MAX) NULL,    -- Agenda.Description_de
-    [Description] NVARCHAR(MAX) NULL,       -- Agenda.Description
-    [Date] DATETIME NULL,                   -- Agenda.Date
-    CONSTRAINT [pk_conference_agenda] PRIMARY KEY ([base_id])
+    [video_u_r_l_pl] NVARCHAR(255) NULL,    -- ActVideo.VideoURL_pl
+    [video_u_r_l_fr_ca] NVARCHAR(255) NULL, -- ActVideo.VideoURL_fr_ca
+    [video_u_r_l_fr] NVARCHAR(255) NULL,    -- ActVideo.VideoURL_fr
+    [video_u_r_l_en] NVARCHAR(255) NULL,    -- ActVideo.VideoURL_en
+    [video_u_r_l_de] NVARCHAR(255) NULL,    -- ActVideo.VideoURL_de
+    [VideoURL] NVARCHAR(255) NULL,          -- ActVideo.VideoURL
+    [video_i_d_pl] NVARCHAR(255) NULL,      -- ActVideo.VideoID_pl
+    [video_i_d_fr_ca] NVARCHAR(255) NULL,   -- ActVideo.VideoID_fr_ca
+    [video_i_d_fr] NVARCHAR(255) NULL,      -- ActVideo.VideoID_fr
+    [video_i_d_en] NVARCHAR(255) NULL,      -- ActVideo.VideoID_en
+    [video_i_d_de] NVARCHAR(255) NULL,      -- ActVideo.VideoID_de
+    [VideoID] NVARCHAR(255) NULL,           -- ActVideo.VideoID
+    [title_pl] NVARCHAR(255) NULL,          -- ActVideo.Title_pl
+    [title_fr_ca] NVARCHAR(255) NULL,       -- ActVideo.Title_fr_ca
+    [title_fr] NVARCHAR(255) NULL,          -- ActVideo.Title_fr
+    [title_en] NVARCHAR(255) NULL,          -- ActVideo.Title_en
+    [title_de] NVARCHAR(255) NULL,          -- ActVideo.Title_de
+    [Title] NVARCHAR(255) NULL,             -- ActVideo.Title
+    [product_pl] NVARCHAR(255) NULL,        -- ActVideo.Product_pl
+    [product_fr_ca] NVARCHAR(255) NULL,     -- ActVideo.Product_fr_ca
+    [product_fr] NVARCHAR(255) NULL,        -- ActVideo.Product_fr
+    [product_en] NVARCHAR(255) NULL,        -- ActVideo.Product_en
+    [product_de] NVARCHAR(255) NULL,        -- ActVideo.Product_de
+    [Product] NVARCHAR(255) NULL,           -- ActVideo.Product
+    [filename_pl] NVARCHAR(255) NULL,       -- ActVideo.Filename_pl
+    [filename_fr_ca] NVARCHAR(255) NULL,    -- ActVideo.Filename_fr_ca
+    [filename_fr] NVARCHAR(255) NULL,       -- ActVideo.Filename_fr
+    [filename_en] NVARCHAR(255) NULL,       -- ActVideo.Filename_en
+    [filename_de] NVARCHAR(255) NULL,       -- ActVideo.Filename_de
+    [Filename] NVARCHAR(255) NULL,          -- ActVideo.Filename
+    [data_source_pl] NVARCHAR(255) NULL,    -- ActVideo.DataSource_pl
+    [data_source_fr_ca] NVARCHAR(255) NULL, -- ActVideo.DataSource_fr_ca
+    [data_source_fr] NVARCHAR(255) NULL,    -- ActVideo.DataSource_fr
+    [data_source_en] NVARCHAR(255) NULL,    -- ActVideo.DataSource_en
+    [data_source_de] NVARCHAR(255) NULL,    -- ActVideo.DataSource_de
+    [DataSource] NVARCHAR(255) NULL,        -- ActVideo.DataSource
+    CONSTRAINT [pk_actvideos_actvideo] PRIMARY KEY ([base_id])
 )
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 7/13/2016 4:23:51 PM
+Timestamp: 8/23/2016 1:31:45 AM
 
-Message: ALTER TABLE [conference_agenda] ADD CONSTRAINT [ref_cnfrnc_gnd_sf_dyn_66C88BCD] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+Message: ALTER TABLE [actvideos_actvideo] ADD CONSTRAINT [ref_actvds_ctvd_sf_dy_98A7EC28] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 1:38:47 AM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 1:38:47 AM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 1:38:47 AM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 1:38:47 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 1:38:47 AM
+
+Message: -- Telerik.OpenAccess.TrackedList`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Telerik.Sitefinity.DynamicTypes.Model.ActVideos.ActVideo.Category
+CREATE TABLE [actvideos_actvideo_category] (
+    [base_id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] uniqueidentifier NULL,            -- <value>
+    CONSTRAINT [pk_actvideos_actvideo_category] PRIMARY KEY ([base_id], [seq])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 1:38:47 AM
+
+Message: -- Telerik.OpenAccess.TrackedList`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Telerik.Sitefinity.DynamicTypes.Model.ActVideos.ActVideo.Tags
+CREATE TABLE [actvideos_actvideo_tags] (
+    [base_id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] uniqueidentifier NULL,            -- <value>
+    CONSTRAINT [pk_actvideos_actvideo_tags] PRIMARY KEY ([base_id], [seq])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 1:38:47 AM
+
+Message: ALTER TABLE [actvideos_actvideo_category] ADD CONSTRAINT [ref_actvds_ctvd_ctgry_4814D216] FOREIGN KEY ([base_id]) REFERENCES [actvideos_actvideo]([base_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 1:38:47 AM
+
+Message: ALTER TABLE [actvideos_actvideo_tags] ADD CONSTRAINT [ref_actvds_ctvd_tgs_c_C732EF55] FOREIGN KEY ([base_id]) REFERENCES [actvideos_actvideo]([base_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 1:38:47 AM
+
+Message: -- Index 'idx_ctvds_ctvideo_category_val' was not detected in the database. It will be created
+CREATE INDEX [idx_ctvds_ctvideo_category_val] ON [actvideos_actvideo_category]([val])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 1:38:47 AM
+
+Message: -- Index 'idx_ctvideos_actvideo_tags_val' was not detected in the database. It will be created
+CREATE INDEX [idx_ctvideos_actvideo_tags_val] ON [actvideos_actvideo_tags]([val])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: Removing a column(s) from an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [video_u_r_l_pl]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [video_u_r_l_pl]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [video_u_r_l_fr_ca]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [video_u_r_l_fr_ca]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [video_u_r_l_fr]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [video_u_r_l_fr]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [video_u_r_l_en]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [video_u_r_l_en]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [video_u_r_l_de]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [video_u_r_l_de]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [VideoURL]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [VideoURL]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [video_i_d_pl]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [video_i_d_pl]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [video_i_d_fr_ca]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [video_i_d_fr_ca]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [video_i_d_fr]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [video_i_d_fr]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [video_i_d_en]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [video_i_d_en]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [video_i_d_de]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [video_i_d_de]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/23/2016 2:33:13 AM
+
+Message: -- dropping unknown column [VideoID]
+ALTER TABLE [actvideos_actvideo] DROP COLUMN [VideoID]
 
 
 ----------------------------------------

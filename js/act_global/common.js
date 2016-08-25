@@ -73,6 +73,31 @@ $(document).ready(function () {
 		// Pricing
 
 var price = getParameterByName('price');
+    if (price == 'pro') {
+        $('.premCloud').css('display', 'none');
+        $('.prem').css('display', 'none');
+        $('.pro').css('display', 'block');
+        $('#togglePrem2').removeClass('active');
+        $('#toggleCloud2').removeClass('active');
+        $('#togglePro').addClass('active');
+    }
+    else if (price == 'premCloud') {
+        $('.premCloud').css('display', 'block');
+        $('.prem').css('display', 'none');
+        $('.pro').css('display', 'none');
+        $('#togglePrem2').removeClass('active');
+        $('#toggleCloud2').addClass('active');
+        $('#togglePro').removeClass('active');
+    }
+    else {
+        $('.prem').css('display', 'block');
+        $('.premCloud').css('display', 'none');
+        $('.pro').css('display', 'none');
+        $('#togglePrem2').addClass('active');
+        $('#toggleCloud2').removeClass('active');
+        $('#togglePro').removeClass('active');
+    }
+
 
     // define partner attribution Variables
     var srid = getParameterByName('srid');

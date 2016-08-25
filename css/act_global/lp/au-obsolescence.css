@@ -1,0 +1,116 @@
+.hero1{
+  background-image:url('/images/default-source/landing-pages/obsolescense/sunset2.jpg');
+}
+.priceCircle{
+    display:block;
+    background:#FE5000;
+    border-radius:50%;
+    width:300px !important;
+    height:300px;
+    padding:66px 36px;
+    text-align:center;
+  margin:0 auto;
+}
+.priceCircle p{
+  margin-bottom:0;
+}
+.promoPrice{
+  font-size:96px;
+}
+.sup{
+  display:inline-block;
+  font-size:24px;
+  letter-spacing:normal;
+}
+.sub{
+  display:inline-block;
+  font-size:24px;
+  letter-spacing:normal;
+}
+.sub{
+  padding-top:10px;
+}
+.sup{
+  padding-top:24px;
+}
+.upgrade select{
+  max-width:250px;
+}
+
+@media(max-width:999px){
+  .priceCircle{
+    border-radius:100%;    
+    width:200px !important;
+    height:200px;
+    padding:40px 24px;
+  }
+  .promoPrice{
+    font-size:72px;
+  }
+  .sup, .sub{
+    font-size:15px;
+  }
+  .sub{
+    padding-top:54px;
+  }
+  .sup{
+    padding-top:12px;
+  }
+}
+
+/* top ten */
+.circleNumber{
+    background:#788e9e;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    padding:18px 24px;
+    text-align:center;
+  font-size:48px;
+  margin:24px auto 0;
+}
+.slide{display:none;}
+.sfPageEditor .slide, .slideActive{display:block;}
+.next, .prev{
+  font-size:48px;
+  color:#526774;
+	cursor:pointer;
+}
+.sideControl .next, .sideControl .prev{
+	margin-top:250%;
+}
+.bottomControls{
+  display:none;
+}
+.upgrade .button{
+  display:block;
+  max-width:240px;
+  margin:12px auto;
+}
+.contact > .container{
+  max-width:768px;
+}
+@media(max-width:1279px){
+ .sideControl{
+    display:none;
+}  
+   .bottomControls{
+    display:block;
+    text-align:center;
+    margin:24px auto 0;
+}
+  .next, .prev{
+    padding:0 24px;
+    font-size:36px;
+  }
+}
+@media(max-width:768px){
+  .button{
+    display:block;
+    margin:12px auto 0;
+    max-width:250px;
+  }
+  .hero1{
+    padding:24px 12px !important;
+  } 
+}

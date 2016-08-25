@@ -1,0 +1,65 @@
+----------------------------------------
+Timestamp: 7/13/2016 4:23:51 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/13/2016 4:23:51 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/13/2016 4:23:51 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/13/2016 4:23:51 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.Conference.Agenda
+CREATE TABLE [conference_agenda] (
+    [base_id] uniqueidentifier NOT NULL,
+    [title_pl] NVARCHAR(255) NULL,          -- Agenda.Title_pl
+    [title_fr_ca] NVARCHAR(255) NULL,       -- Agenda.Title_fr_ca
+    [title_fr] NVARCHAR(255) NULL,          -- Agenda.Title_fr
+    [title_en] NVARCHAR(255) NULL,          -- Agenda.Title_en
+    [title_de] NVARCHAR(255) NULL,          -- Agenda.Title_de
+    [Title] NVARCHAR(255) NULL,             -- Agenda.Title
+    [start_time_pl] NVARCHAR(255) NULL,     -- Agenda.StartTime_pl
+    [start_time_fr_ca] NVARCHAR(255) NULL,  -- Agenda.StartTime_fr_ca
+    [start_time_fr] NVARCHAR(255) NULL,     -- Agenda.StartTime_fr
+    [start_time_en] NVARCHAR(255) NULL,     -- Agenda.StartTime_en
+    [start_time_de] NVARCHAR(255) NULL,     -- Agenda.StartTime_de
+    [StartTime] NVARCHAR(255) NULL,         -- Agenda.StartTime
+    [Location] NVARCHAR(255) NULL,          -- Agenda.Location
+    [end_time_pl] NVARCHAR(255) NULL,       -- Agenda.EndTime_pl
+    [end_time_fr_ca] NVARCHAR(255) NULL,    -- Agenda.EndTime_fr_ca
+    [end_time_fr] NVARCHAR(255) NULL,       -- Agenda.EndTime_fr
+    [end_time_en] NVARCHAR(255) NULL,       -- Agenda.EndTime_en
+    [end_time_de] NVARCHAR(255) NULL,       -- Agenda.EndTime_de
+    [EndTime] NVARCHAR(255) NULL,           -- Agenda.EndTime
+    [description_pl] NVARCHAR(MAX) NULL,    -- Agenda.Description_pl
+    [description_fr_ca] NVARCHAR(MAX) NULL, -- Agenda.Description_fr_ca
+    [description_fr] NVARCHAR(MAX) NULL,    -- Agenda.Description_fr
+    [description_en] NVARCHAR(MAX) NULL,    -- Agenda.Description_en
+    [description_de] NVARCHAR(MAX) NULL,    -- Agenda.Description_de
+    [Description] NVARCHAR(MAX) NULL,       -- Agenda.Description
+    [Date] DATETIME NULL,                   -- Agenda.Date
+    CONSTRAINT [pk_conference_agenda] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/13/2016 4:23:51 PM
+
+Message: ALTER TABLE [conference_agenda] ADD CONSTRAINT [ref_cnfrnc_gnd_sf_dyn_66C88BCD] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------

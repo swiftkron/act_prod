@@ -86,32 +86,27 @@ font-weight:normal;
 }
 .video-data .glyphicon{
   color:#fe5000;
-  font-size:28px;
-  width:28px;
+  font-size:30px;
+  width:30px;
   display:block;
   position:absolute;
 }
 
-/* Frame Heights */
+/* Video Thumbs */
 
-/* 160px */
-.fh160{
-height:160px;
+/* 3-Column */
+.video-open{
+height:180px;
+max-width:320px;
 }
-.fh160 .videoBgd{
-height:160px;
+.videoBgd{
+height:180px;
 }
-.fh160 .video-data{
-margin-top:-160px;
+.video-data{
+margin-top:-180px;
 }
-.fh160 .video-data .glyphicon{
-  margin:27.5% 40%;
-}
-@media(max-width:768px){
-.fh160 .video-data .glyphicon{
-  position:relative;
-  margin-top:0;
-}
+.video-data .glyphicon{
+  margin:75px 33%;
 }
 
 /* 240px */

@@ -1,0 +1,125 @@
+#overview{
+  display:none;
+  margin-top:0px;
+}
+.tabs{
+  margin:24px auto 0;
+}
+.tabs .col-3, .tabs .col-4, .tabs .col-6{
+  background:#edf0f2;
+  padding:24px;
+  border-right:#FFF 3px solid;
+  border-left:#FFF 3px solid;
+  cursor:pointer;
+}
+.tabs .col-6:hover, .tabs .col-3:hover, .tabs .col-4:hover, .tabs .col-6.active, .tabs .col-3.active, .tabs .col-4.active{
+  background:#Fe5000;
+  color:#FFF;
+}
+.tabTitle{
+  clear:both;
+}
+.tabTitle h3, .tabTitle h4{
+  font-size:16px;
+  line-height:18px;
+  margin:6px 0 0 24px;
+  float:left;
+}
+.tabTitle h3{
+  width:160px;
+}
+.tabTitle h4{
+  font-family: 'Poppins', sans-serif;
+  font-weight:600;
+  width:120px;
+}
+.tabs p{
+  font-size:13px;
+  line-height:15px;
+}
+.tabTitle .circleNumber{
+    background:#FE5000;
+  color:#fff;
+    border-radius:50%;
+    width:50px;
+    height50px;
+    padding:9px 12px;
+    text-align:center;
+  font-size:24px;
+  margin:0 0 6px;
+  text-indent:2px;
+  float:left;
+}
+.tabs .col-3:hover .circleNumber, .tabs .col-3.active .circleNumber, .tabs .col-4:hover .circleNumber, .tabs .col-4.active .circleNumber, .tabs .col-6:hover .circleNumber, .tabs .col-6.active .circleNumber{
+    background:#FFF;
+  color:#FE5000;
+}
+
+.RadMediaPlayer{
+  display:block;
+  margin:0 auto;
+}
+
+.contentTab{
+  display:none;
+}
+.sfPageEditor .contentTab{
+  display:block;
+}
+.featureTours .circleNumber{
+    background:#008cc5;
+  color:#fff;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    padding:18px 24px;
+    text-align:center;
+  font-size:48px;
+  margin:18px 0;
+  text-indent:2px;
+}
+.tools h3{
+  width:100%;
+  height:150px;
+  padding:60px 24px 48px;
+  text-align:center;
+  font-weight:normal;
+  background:#008cc5;
+  color:#FFF;
+  border:#dfe3e6 2px solid;
+}
+.tools .col-4 h3.tileWrapTitle{
+padding-top:48px;
+}
+.tools p{
+  padding:24px;
+  min-height:280px;
+}
+.tools .button{
+display:block;
+margin:0 auto;
+}
+.tools .col-6 p{
+min-height:200px;
+}
+.tools .col-6 .button{
+max-width:250px;
+}
+
+.resources{
+margin-top:-24px;
+}
+.resources h3, .primaryResources h3{
+margin:0 auto 24px;
+}
+.resources h4{
+margin:36px auto 12px;
+}
+.resources p{
+font-size:14px;
+line-height:17px;
+}
+.leadin_sm{
+color:#788e9e;
+margin-bottom:24px;
+}

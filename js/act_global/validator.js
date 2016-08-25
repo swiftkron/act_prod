@@ -1,3 +1,4 @@
+$(document).ready(function(){
 // Standard form validation
 	// Place ID's of all required fields here.
 	required = ["firstName", "lastName", "emailAddress", "company", "busPhone", "country"];
@@ -55,4 +56,6 @@ $('#country').change(function(){
   else{
   $('#optin').addClass('hidden');
   }
+});
+
 });

@@ -93,7 +93,7 @@
         <li><a href="/en-uk/resources/act-emarketing-getting-started">Act! emarketing Resources</a></li>
         <li><a href="https://actcloud1.zendesk.com/hc/en-gb" target="_blank">Act! Essentials Resources</a></li>
         <li><a href="/en-uk/resources/getting-started">Act! Premium Getting Started</a></li>
-        <li><a href="/en-uk/resources/training-opportunities">Training Opportunities</a></li>
+        <li><a href="/en-uk/resources/training-opportunities">Act! Training Services</a></li>
 	<li><a href="/en-uk/resources/api">Act! API Resources</a></li>
     </ul>
     </li>

@@ -1,0 +1,119 @@
+----------------------------------------
+Timestamp: 8/5/2016 1:39:07 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Telerik.Sitefinity.Web.UrlEvaluation.TaxonomyEvaluator.GetTaxonByName(String taxonomyName, String taxonName)
+   at Telerik.Sitefinity.Web.UrlEvaluation.TaxonomyEvaluator.Evaluate(String url, Type contentType, UrlEvaluationMode urlEvaluationMode, String urlKeyPrefix, Guid& taxonId)
+   at Telerik.Sitefinity.Web.UrlEvaluation.TaxonomyEvaluator.Evaluate(String url, String propertyName, Type contentType, UrlEvaluationMode urlEvaluationMode, String urlKeyPrefix, Object[]& values)
+   at Telerik.Sitefinity.Web.UrlEvaluation.UrlEvaluator.EvaluateUrl[TData](Control control, IQueryable`1 query, String evaluatorName, String propertyName, Type contentType, UrlEvaluationMode urlEvaluationMode, String urlKeyPrefix)
+   at Telerik.Sitefinity.Modules.Blogs.Web.UI.Public.MasterPostsView.GetItemsList(Nullable`1& totalCount)
+   at Telerik.Sitefinity.Modules.Blogs.Web.UI.Public.MasterPostsView.InitializeControls(GenericContainer container, IContentViewDefinition definition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:01:04 PM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Telerik.Sitefinity.Web.UrlEvaluation.TaxonomyEvaluator.GetTaxonByName(String taxonomyName, String taxonName)
+   at Telerik.Sitefinity.Web.UrlEvaluation.TaxonomyEvaluator.Evaluate(String url, Type contentType, UrlEvaluationMode urlEvaluationMode, String urlKeyPrefix, Guid& taxonId)
+   at Telerik.Sitefinity.Web.UrlEvaluation.TaxonomyEvaluator.Evaluate(String url, String propertyName, Type contentType, UrlEvaluationMode urlEvaluationMode, String urlKeyPrefix, Object[]& values)
+   at Telerik.Sitefinity.Web.UrlEvaluation.UrlEvaluator.EvaluateUrl[TData](Control control, IQueryable`1 query, String evaluatorName, String propertyName, Type contentType, UrlEvaluationMode urlEvaluationMode, String urlKeyPrefix)
+   at Telerik.Sitefinity.Modules.Blogs.Web.UI.Public.MasterPostsView.GetItemsList(Nullable`1& totalCount)
+   at Telerik.Sitefinity.Modules.Blogs.Web.UI.Public.MasterPostsView.InitializeControls(GenericContainer container, IContentViewDefinition definition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:11 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:11 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:11 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:11 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:11 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:11 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:11 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:11 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:11 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:11 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:12 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:41 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/5/2016 2:16:41 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------

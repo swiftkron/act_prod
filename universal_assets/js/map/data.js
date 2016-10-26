@@ -4364,7 +4364,7 @@
  	"postcode": "SN14 0QR",
  	"company": "Skill Sets Solutions Ltd",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-2.1389140999999654",
  	"latitude": "51.4577132"
  }, {
@@ -4605,7 +4605,7 @@
  	"postcode": "2830 ",
  	"company": "ONE IT",
  	"description": "",
- 	"level": 3,
+ 	"level": 1,
  	"longitude": "4.3600565000000415",
  	"latitude": "51.0595799"
  }, {
@@ -4637,7 +4637,7 @@
  	"postcode": "78197",
  	"company": "Objectline",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "1.979084999999941",
  	"latitude": "48.7923767"
  }, {
@@ -4720,22 +4720,6 @@
  	"level": 0,
  	"longitude": "10.233127800000034",
  	"latitude": "53.6666325"
- }, {
- 	"id": 428,
- 	"country": "United Kingdom",
- 	"region": "West Midlands",
- 	"city": "Worcester",
- 	"contact": "",
- 	"phone": "01905 380920",
- 	"email": "beth@marketinganswers.co.uk",
- 	"website": "www.marketinganswers.co.uk",
- 	"address": "3 Lowesmoor Wharf, Worcester, Worcestershire, WR1 2RS",
- 	"postcode": "WR1 2RS",
- 	"company": "Marketing Answers & Solutions",
- 	"description": "",
- 	"level": 2,
- 	"longitude": "-2.0856972999999925",
- 	"latitude": "52.1861498"
  }, {
  	"id": 427,
  	"country": "United Kingdom",
@@ -4938,7 +4922,7 @@
  	"contact": "",
  	"phone": "01.30.16.09.05",
  	"email": "infos@act-france.com",
- 	"website": "www.act-France.net",
+ 	"website": "www.act-france.com",
  	"address": "19, Les Nouveaux Horizons, Elancourt, 78990 ",
  	"postcode": "78990 ",
  	"company": "eSolution",
@@ -4976,7 +4960,7 @@
  	"postcode": "Dublin 2",
  	"company": "DDM Limited",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-6.254589900000042",
  	"latitude": "53.3378192"
  },  {
@@ -5008,7 +4992,7 @@
  	"postcode": "86488",
  	"company": "CRMADDON Factory GmbH",
  	"description": "",
- 	"level": 1,
+ 	"level": 0,
  	"longitude": "10.316980899999976",
  	"latitude": "48.2352061",
     "hosting": 1
@@ -5442,7 +5426,7 @@
  	"postcode": "B72 1UH",
  	"company": "Advantage Services (Europe) Ltd",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "-1.823759500000051",
  	"latitude": "52.5668537",
     "hosting": 1
@@ -5501,7 +5485,7 @@
  	"city": "Waregem",
  	"contact": "",
  	"phone": "056.627.675",
- 	"email": "bart.plaete@alfasolutions.be",
+ 	"email": "info@act-crm.be",
  	"website": "www.alfasolutions.be",
  	"address": "Processiestraat 2, 8790 Waregem ",
  	"postcode": "8790 ",
@@ -5635,7 +5619,7 @@
  	"postcode": "75009",
  	"company": "Power Act",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "2.328260099999966",
  	"latitude": "48.87742739999999"
  }];

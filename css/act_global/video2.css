@@ -48,10 +48,10 @@ padding:0 0;
 a.video-open{
   background:none;
   opacity:1;
-color:#fe5000;
+  /*color:#fe5000;*/
 }
 a.video-open:hover{
-color:#da4c1f;
+/*color:#da4c1f;*/
 }
 a.video-open .glyphicon{
 padding-right:12px;

@@ -20,14 +20,14 @@ $(document).ready(function () {
         if ($(window).width() > 908) {
             $('nav').show();
         }
-        if ($(window).width() <+ 701) {
-            $('header span.glyphicon').removeClass('glyphicon-globe');
-            $('header span.glyphicon').addClass('glyphicon-chevron-down');
+        /* if ($(window).width() <+ 701) {
+            $('.language span.glyphicon').removeClass('glyphicon-globe');
+            $('.language span.glyphicon').addClass('glyphicon-chevron-down');
         }
         if ($(window).width() > 701) {
-            $('header span.glyphicon').removeClass('glyphicon-chevron-down');
-            $('header span.glyphicon').addClass('glyphicon-globe');
-        }
+            $('.language span.glyphicon').removeClass('glyphicon-chevron-down');
+            $('.language span.glyphicon').addClass('glyphicon-globe');
+        } */
     });
 });
 

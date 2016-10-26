@@ -1,0 +1,8 @@
+.tab{
+  min-height:60px;
+}
+.contentTab p{
+  color:#2a353d;
+  font-size:21px;
+  padding:0 0 12px 24px;
+}

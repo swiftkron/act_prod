@@ -4,3 +4,11 @@ Disallow: /*?thanks=*
 Disallow: /errors/*
 Disallow: /error-pages/*
 Disallow: /partners/apply/thank-you
+Disallow: /download/download-act!-premium-v18
+Disallow: /download/download-act!-pro-v18
+Disallow: /en-uk/download/v18/premium
+Disallow: /en-uk/download/v18/pro
+Disallow: /fr-fr/telechargement/v18/pro
+Disallow: /fr-fr/telechargement/v18/premium
+Disallow: /de-de/download/v18/pro
+Disallow: /de-de/download/v18/premium

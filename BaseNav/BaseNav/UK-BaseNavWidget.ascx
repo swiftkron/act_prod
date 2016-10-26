@@ -72,6 +72,7 @@
         <li><a href="/en-uk/products/act-pro">Act! Pro</a></li>
         <li><a href="/en-uk/products/act-emarketing">Act! emarketing</a></li>
         <li><a href="/en-uk/products/act-essentials">Act! Essentials</a></li>
+        <li><a href="/en-uk/products/act!-link-for-accounting">Act! Link for Accounting</a></li>
         <li><a href="/en-uk/products/whats-new">What&rsquo;s New</a></li>
     </ul>
     </li>

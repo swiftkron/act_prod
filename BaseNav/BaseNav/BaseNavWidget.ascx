@@ -76,10 +76,10 @@
       <li><a href="/pricing">Pricing</a></li>
       <li><a href="/resources">Customer Resources</a>
          <ul>
-            <li><a href="/resources">Act! Premium Resources</a></li>
-            <li><a href="/resources/act-emarketing-getting-started">Act! emarketing Resources</a></li>
+            <li><a href="/resources">Act! Customer Resources</a></li>
+            <li><a href="/resources/getting-started/act!-emarketing/?tab=2">Act! emarketing Resources</a></li>
             <li><a href="https://actcloud1.zendesk.com/hc/en-us" target="_blank">Act! Essentials Resources</a></li>
-<li><a href="/resources/getting-started">Act! Premium Getting Started</a></li>
+<li><a href="/resources/getting-started">Act! Getting Started</a></li>
 <li><a href="http://community.act.com" target="_blank">Community Resources</a></li>
 <li><a href="http://developer.act.com">Act! API Resources</a></li>
          </ul>

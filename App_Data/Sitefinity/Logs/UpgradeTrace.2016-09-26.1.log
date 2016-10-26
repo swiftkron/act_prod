@@ -1,0 +1,22 @@
+----------------------------------------
+Timestamp: 8/30/2016 5:07:27 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/30/2016 5:07:27 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/30/2016 5:07:27 PM
+
+Message: -- add column for field BackgroundColor
+ALTER TABLE [sf_blog_posts] ADD [background_color] NVARCHAR(255) NULL
+
+
+----------------------------------------

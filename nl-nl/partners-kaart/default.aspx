@@ -19,12 +19,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
         <!-- HREF LANG TAG -->
-        <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/partners-map/" />
-        <link rel="alternate" hreflang="en-us" href="http://www.act.com/partners/" />
-        <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/partenaires/" />
-        <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/partner-finden/" />
-        <link rel="alternate" hreflang="nl" href="http://www.act.com/nl-nl/partners-kaart/" />
-		<link rel="canonical" href="http://www.act.com/nl-nl/partners-kaart/" />
+        <link rel="alternate" hreflang="en" href="https://www.act.com/en-uk/partners-map/" />
+        <link rel="alternate" hreflang="en-us" href="https://www.act.com/partners/" />
+        <link rel="alternate" hreflang="fr" href="https://www.act.com/fr-fr/partenaires/" />
+        <link rel="alternate" hreflang="de" href="https://www.act.com/de-de/partner-finden/" />
+        <link rel="alternate" hreflang="nl" href="https://www.act.com/nl-nl/partners-kaart/" />
+		<link rel="canonical" href="https://www.act.com/nl-nl/partners-kaart/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="../universal_assets/css/map.css">
@@ -59,7 +59,7 @@
     <noscript><img src="http://bux1le001.com/images/track/25203.png?trk_user=25203&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
     <!-- Sales Fusion Script -->
-    <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
+    <script type="text/javascript" language="JavaScript" src="http://www.msgapp.com/js/frs-app.js"></script>
     <script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
     <!-- Google Tracking Scripts -->
@@ -272,7 +272,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
 
 <!-- #Include File="/nl-nl/includes/footer.inc" -->
 <!-- #Include File="/nl-nl/includes/footer-scripts.inc" -->
-    <script src="http://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
 
      <script  type="text/javascript">
 	     var current_country = "Netherlands";

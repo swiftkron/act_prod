@@ -1,0 +1,157 @@
+﻿/*header .utility{
+  background:#39464f;
+}*/
+h1{
+  margin:0 0 0 0;
+}
+.blogOverview{
+  background:#008cc5 url('/images/default-source/background-images/aemgs-bg.png') top left no-repeat;
+}
+.blogOverview [class*='col-']{
+  padding:0 0 0 0;
+  margin:0;
+}
+.featuredBlog{
+  padding:48px 24px;
+  height:540px;
+  margin:0 0;
+}
+.blogTop3{
+  padding:24px;
+  height:180px;
+  margin:0 0;
+}
+.blogSecondary{
+  padding:24px !important;
+  margin:0 0;
+  background:#FFF;
+  color:#2a353d;
+  min-height:320px;
+  border:#edf0f2 1px solid;
+}
+.blogSecondary:nth-child(3n+2){
+  background:#edf0f2;
+}
+.blogSecondary a:link, .blogSecondary a:visited, .blogSecondary a:active, .blogSecondary a:hover{
+  color:#008cc5 !important;
+}
+.blogSecondary h3{
+  font-family:"HelveticaNeueW01-55Roma",helvetica,arial,sans serif;
+  font-size:21px;
+  line-height:24px;
+  margin:0 0 6px 0;
+}
+.blogSecondary p{
+  font-size:14px;
+  line-height:18px;
+}
+.blogTop3 h2{
+  font-family:"HelveticaNeueW01-55Roma",helvetica,arial,sans serif;
+  font-size:21px;
+  line-height:24px;
+  margin:0 0 9px 0;
+}
+.byline{
+  font-size:13px;
+  line-height:15px;
+}
+.blogPost .byline{
+  margin:0 0 24px;
+  color:#5d7483;
+}
+.blogPost h2{
+font-size:27px;
+line-height:normal;
+margin:24px 0;
+color:#2a353d;
+}
+.blogPost img, .blogPost iframe{
+display:block;
+margin:24px auto;
+}
+.blogPost figcaption{
+font-size:12px;
+}
+
+.readmore{
+    font-family:"HelveticaNeueW01-75Bold",helvetica,arial,sans serif;
+}
+.blogOverview p{
+  margin: 0 0 18px;
+}
+
+[class*='bg_'] a:link, [class*='bg_'] a:visited, [class*='bg_'] a:active{
+ color:#FFF;
+}
+[class*='bg_'] a:hover{
+  color:#edf0f2;
+}
+
+.bg_grey, .bg_white{
+  color:#39464f;
+}
+.bg_grey a:link, .bg_grey a:visited, .bg_grey a:active,
+.bg_white a:link, .bg_white a:visited, .bg_white a:active{
+ color:#FE5000;
+}
+.bg_grey a:hover, .bg_white a:hover{
+  color:#d14818;
+}
+
+@media(max-width:767px){
+  .featuredBlog, .blogTop3, .blogSecondary{
+   height:unset !important;
+  }
+.blogSecondary{
+min-height:0;
+}
+.blogSecondary h3{
+padding-top:24px !important;
+}
+}
+
+/*****************/
+/*.phone, .language{display:none;}
+.trial{
+  color:#FFF;
+  font-family:"HelveticaNeueW01-45Ligh",helvetica,arial,sans serif;
+  font-size:28px;
+  letter-spacing:1px;
+  padding-top:6px;
+  margin-left:-24px !important;
+}
+.trial a{
+  color:#FFF;
+}
+@media(max-width:680px){
+.utility .trial{
+display:block;
+padding-left:24px;
+}
+}*/
+.topPosts .blogTop3:nth-child(1), 
+.morePosts .blogSecondary:nth-child(-n+4){
+  display:none;
+}
+
+/**** SF Rad Social ****/
+.RadSocialShare_Default {
+    font-family: "HelveticaNeueW01-55Roma",Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+}
+@media(max-width:680px){
+.leadin{
+margin:0 0;
+padding:0 0;
+}
+.leadin [class*='col-']{
+text-align:center;
+padding:0 0 0 0;
+}
+.RadSocialShare_Default{
+margin:-36px 0 0;
+padding:0 0;
+}
+}

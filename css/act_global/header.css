@@ -80,6 +80,37 @@ ul.regions li{
 	}
 }
 
+/* Search */
+.headSearch{
+  float:right;
+  margin:12px 48px 0 0;
+}
+#ipsearch{
+  padding:3px 6px;
+  font-size:14px;
+  float:left;
+  border-color:#a5b7c2;
+  color:#fe5000;
+}
+#ipsearch:focus{
+  box-shadow:none;
+}
+#ipsearchbtn{
+  display:block;
+  float:right;
+  font-size:14px;
+  margin-top:-27px;
+  margin-right:12px;
+  color:#a5b7c2;
+}
+@media(max-width:680px){
+.headSearch{
+  float:unset;
+  clear:both;
+  margin:6px 24px;
+}
+}
+
 /** MAIN NAV **/
 nav{
 	background:#2a353d;
@@ -105,6 +136,7 @@ nav ul.child{
 	position:absolute;
 	margin:12px 0 0 -30px;
 	text-align:left;
+z-index:800;
 }
 nav ul.active{
 	display:block;

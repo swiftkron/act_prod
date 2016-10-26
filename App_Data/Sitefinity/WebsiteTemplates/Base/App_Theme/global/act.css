@@ -217,10 +217,10 @@ span.reverse{
 .post{
     border-top:#dfe3e6 2px solid;
 }
-.post > p:first-child{
+/*.post > p:first-child{
     font-size:1.35em;
     line-height:1.2em;
-}
+}*/
 
 /* Table templates */
 table, .downloadTable{

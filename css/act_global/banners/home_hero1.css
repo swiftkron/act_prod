@@ -1,0 +1,128 @@
+.videoTestContainer{
+  max-width:1024px;
+  margin:0 auto;
+}
+.videoBgdTest{
+  position:relative;
+  height:100%;
+  z-index:1;
+}
+.videoBgdTest video, .videoBgdTest img{
+  width:100%;
+}
+.videoTextOverlay{
+  position:absolute;
+  top:250px;
+  text-align:center;
+  width:1024px;
+  z-index:2;
+  display:none;
+}
+.videoTextOverlay h1{
+  /*font-family: 'HelveticaNeueW01-55Roma', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-size:42px;
+  line-height:48px;
+}
+.videoBtnRow{
+  position:absolute;
+  top:500px;
+  width:1024px;
+  z-index:4;
+  text-align:center;
+}
+.replayWrap{
+  position:absolute;
+  top:672px;
+  width:1024px;
+  z-index:3;
+  text-align:center;
+}
+a.replay{
+display:none;
+color:#5d7483;
+}
+a.replay:hover{
+color:#788e9e;
+}
+.videoBtnOverlay{
+  display:none;
+}
+.videoBtnRow .col-3{
+  padding-top:6px !important;
+}
+@media(max-width:1397px){
+ .col-1{
+    width: 8.66666666667%;
+}
+}
+@media(max-width:1221px){
+.videoTestContainer{
+max-width:700px;
+}
+.videoTextOverlay{
+  top:200px;
+width:700px;
+}
+.videoTextOverlay h1{
+font-size:36px;
+line-height:38px;
+}
+.videoBtnRow{
+  top:430px;
+  width:700px;
+}
+.replayWrap{
+  top:496px;
+padding-left:48px;
+  width:700px;
+}
+.videoBtnRow .col-3, .videoBtnRow .col-4{
+  width:30%;
+  padding:0 3px 0 3px !important;
+}
+.videoTestContainer .button{
+    margin:0 auto;
+    font-size: 16px;
+    padding: 12px 36px;
+}
+.videoTestContainer .button_lg{
+    padding: 12px 36px;
+}
+}
+@media(max-width:767px){
+.videoTestContainer{
+max-width:320px;
+}
+.videoTextOverlay{
+  top:160px;
+width:320px;
+}
+.videoTextOverlay h1{
+font-size:18px;
+line-height:21px;
+}
+.videoBtnOverlay{
+display:block;
+}
+.videoBtnRow{
+  top:310px;
+  width:320px;
+}
+.videoBtnRow .col-1{
+  display:none;
+}
+.videoBtnRow .col-3, .videoBtnRow .col-4{
+  width:33%;
+}
+.replayWrap{
+display:none;
+}
+.videoTestContainer .button{
+    margin:0 auto;
+    font-size: 12px;
+    padding: 6px 24px;
+}
+.videoTestContainer .button_lg{
+    padding: 6px 24px;
+}
+}

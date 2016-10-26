@@ -21,8 +21,8 @@
         <!-- HREF LANG TAG -->
         <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/partners-map" />
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/partners/" />
-        <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/partenaires" />
-        <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/partner-finden" />
+        <link rel="alternate" hreflang="fr" href="https://www.act.com/fr-fr/partenaires" />
+        <link rel="alternate" hreflang="de" href="https://www.act.com/de-de/partner-finden" />
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
@@ -30,9 +30,9 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
     <!-- Lead Forensics -->
-    <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
+    <script type="text/javascript" src="https://bux1le001.com/js/25201.js"></script>
     <noscript>
-        <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" /></noscript>
+        <img src="https://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" /></noscript>
 
     <!-- Sales Fusion Script -->
     <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
@@ -93,7 +93,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
         <p class="browsehappy">
           You are using an <strong>outdated</strong>
           browser. Please
-          <a href="http://browsehappy.com/">upgrade your browser</a>
+          <a href="https://browsehappy.com/">upgrade your browser</a>
           to improve your experience.
         </p>
         <![endif]-->
@@ -246,7 +246,7 @@ _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
 
 <!-- #Include File="/nl-nl/includes/footer.inc" -->
 <!-- #Include File="/nl-nl/includes/footer-scripts.inc" -->
-    <script src="http://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
 
      <script  type="text/javascript">
 	     var current_country = "Netherlands";

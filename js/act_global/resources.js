@@ -1,4 +1,5 @@
 $(document).ready(function(){
+$('body').addClass('ShowChat');
 //Direct nav
 var tab = getParameterByName('tab');
   if(tab == '1'){

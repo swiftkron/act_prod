@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="/css/act_global/glyphicons.css">
     <link rel="stylesheet" href="/css/act_global/grid.css">
     <link rel="stylesheet" href="/css/act_global/standard.css">
-    <link rel="stylesheet" href="/css/act_global/header.css">
+    <link rel="stylesheet" href="/css/act_global/header.css?v=1">
     <link rel="stylesheet" href="/css/act_global/footer.css">
 </head>
 

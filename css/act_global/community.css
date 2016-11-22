@@ -1,0 +1,23 @@
+center{text-align:inherit;}
+.container{max-width:1170px;}
+.separator{margin:0px 0px;}
+.lia-component-common-widget-search-form{background:none;}
+.lia-component-common-widget-search-form input{margin:0 0 0 0;}
+#lia-body .lia-content p {
+    margin: 0 0 1.000em 0;
+    font-size: 12px;
+    line-height: 15px;
+}
+.acc_highlight .highlight_bg{
+width: 100%;
+height: 115px;
+line-height:25px !important;
+}
+.trial{
+padding-top:12px;
+color:#2a353d;
+font-family: 'HelveticaNeueW01-65Medi', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.language{
+margin:1.5em;
+}

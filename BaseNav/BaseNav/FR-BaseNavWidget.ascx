@@ -77,6 +77,7 @@
     <li><a href="/fr-fr/temoignages-client">Clients</a>
     <ul>
         <li><a href="/fr-fr/temoignages-client">Témoignages clients</a></li>
+        <li><a href="/fr-fr/reussite-client">Réussite client</a></li>
     </ul>
     </li>    
     <li><a href="/fr-fr/tarifs">Éditions et tarifs</a>
@@ -85,6 +86,7 @@
     <ul>
         <li><a href="/fr-fr/ressources">Ressources Act! Premium</a></li>
         <li><a href="https://actcloud1.zendesk.com/hc/fr" target="_blank">Ressources Act! Essentials</a></li>
+        <li><a href="/fr-fr/ressources/act-web-api " target="_blank">Supports Act! Web API</a></li>
     </ul>
     </li>
     <li><a href="/fr-fr/partenaires">Partenaires</a>

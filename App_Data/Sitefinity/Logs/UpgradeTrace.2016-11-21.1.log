@@ -1,0 +1,70 @@
+----------------------------------------
+Timestamp: 11/18/2016 5:56:46 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/18/2016 5:56:46 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/18/2016 5:56:46 PM
+
+Message: -- add column for field Testimonial.Description_pl
+ALTER TABLE [customertestimonials_testimonial] ADD [description_pl] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/18/2016 5:56:46 PM
+
+Message: -- add column for field Testimonial.Description_nl
+ALTER TABLE [customertestimonials_testimonial] ADD [description_nl] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/18/2016 5:56:46 PM
+
+Message: -- add column for field Testimonial.Description_fr_ca
+ALTER TABLE [customertestimonials_testimonial] ADD [description_fr_ca] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/18/2016 5:56:46 PM
+
+Message: -- add column for field Testimonial.Description_fr
+ALTER TABLE [customertestimonials_testimonial] ADD [description_fr] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/18/2016 5:56:46 PM
+
+Message: -- add column for field Testimonial.Description_en
+ALTER TABLE [customertestimonials_testimonial] ADD [description_en] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/18/2016 5:56:46 PM
+
+Message: -- add column for field Testimonial.Description_de
+ALTER TABLE [customertestimonials_testimonial] ADD [description_de] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/18/2016 5:56:46 PM
+
+Message: -- add column for field Testimonial.Description
+ALTER TABLE [customertestimonials_testimonial] ADD [Description] NVARCHAR(255) NULL
+
+
+----------------------------------------

@@ -62,6 +62,7 @@
             <li><a href="/why-act/drive-sales">Drive Sales</a></li>
             <li><a href="/why-act/understand-my-business">Understand My Business</a></li>
             <li><a href="/why-act/customer-success">Customer Successes</a></li>
+<li><a href="/customers/customer-testimonials">Customer Testimonials</a></li>
          </ul>
       </li>
       <li><a href="/products">Products</a>

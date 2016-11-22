@@ -362,7 +362,7 @@ section [class*='col-']:last-child{
 .hero1 {
     padding:96px 0 120px !important;
 		text-align:center;
-		/* default */background:url('http://www.act.com/images/default-source/background-images/hpbg.png') center center;
+		/* default */background:url('https://www.act.com/images/default-source/background-images/hpbg.png') center center;
 		background-size:cover;
 		background-position:center center;
 }

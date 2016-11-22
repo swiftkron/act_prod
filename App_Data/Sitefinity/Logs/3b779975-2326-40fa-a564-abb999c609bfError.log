@@ -1,0 +1,55 @@
+----------------------------------------
+Timestamp: 10/26/2016 3:54:36 PM
+
+Message: HandlingInstanceID: dd6597e6-e815-4c53-9e65-868b31c58e95
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+10/26/2016 15:54:36
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <Initialize_DelegateImplementation>__83(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+HResult : -2146233040
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_fe2da5b2acfe49b8a18e69be86db248e.<Initialize_DelegateImplementation>__83(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.<>c__DisplayClass1.<Invoke>b__0(IMethodInvocation policyInjectionInput, GetNextHandlerDelegate policyInjectionInputGetNext)
+   at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_fe2da5b2acfe49b8a18e69be86db248e.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 10/26/2016 3:54:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-6-131219708715856137
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-6-131219708715856137
+
+ProcessId: 8232
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10040
+
+Extended Properties: 
+----------------------------------------

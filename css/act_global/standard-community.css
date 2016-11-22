@@ -1,0 +1,799 @@
+/*******************************************************
+		New Header (header5.html) - Start
+		standard.css replacement
+********************************************************/
+section.community {
+    padding: 10px 0px 20px !important;
+}
+
+.clearfix,
+header .three-col {
+  clear: both
+}
+
+header a,
+header abbr,
+header acronym,
+header address,
+header area,
+header article,
+header aside,
+header b,
+header bdo,
+header big,
+header blockquote,
+header button,
+header caption,
+header cite,
+header code,
+header col,
+header colgroup,
+header dd,
+header del,
+header dfn,
+header div,
+header dl,
+header dt,
+header em,
+header fieldset,
+header form,
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+header h6,
+header hr,
+header html,
+header i,
+header img,
+header input,
+header ins,
+header kbd,
+header label,
+header legend,
+header li,
+header map,
+header nav,
+header object,
+header ol,
+header p,
+header param,
+header pre,
+header q,
+header samp,
+header small,
+header span,
+header strong,
+header sub,
+header sup,
+header table,
+header tbody,
+header td,
+header textarea,
+header tfoot,
+header th,
+header thead,
+header tr,
+header tt,
+header ul,
+header var {
+  margin: 0;
+  padding: 0;
+  vertical-align: top
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  font-family: HelveticaNeueW01-55Roma, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  background: #dfe3e6;
+  color: #39464f
+}
+
+header img {
+  display: block;
+  border: 0;
+  max-width: 100%
+}
+
+header .img.center {
+  display: block;
+  margin: 0 auto
+}
+
+header h4,
+header p {
+  line-height: 24px;
+  margin: 12px auto 6px
+}
+
+header:hover {
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -ms-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out
+}
+
+header a:active,
+header a:link,
+header a:visited {
+  text-decoration: none;
+  color: #FE5000
+}
+
+header a:hover,
+header input[type=button]:hover,
+header input[type=submit]:hover {
+  cursor: pointer;
+  color: #da4c1f
+}
+
+header h1,
+header h2,
+header h3 {
+  font-family: Poppins, sans-serif;
+  font-weight: 600
+}
+
+header h4,
+header h5,
+header h6 {
+  font-family: HelveticaNeueW01-65Medi, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400
+}
+
+header h1 {
+  font-size: 48px;
+  margin: 48px auto 24px;
+  line-height: 50px
+}
+
+header h2 {
+  font-size: 36px;
+  line-height: 40px;
+  margin: 36px auto 24px
+}
+
+header h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  margin: 36px auto 12px
+}
+
+header .bold,
+header .light,
+header .medi,
+header .normal,
+header .thin {
+  font-weight: 400!important
+}
+
+header h3 a:active,
+header h3 a:link,
+header h3 a:visited {
+  color: #2a353d
+}
+
+header h3 a:hover {
+  color: #FE5000
+}
+
+header h4 {
+  font-size: 21px
+}
+
+header p {
+  font-size: 18px
+}
+
+header ul {
+  list-style-type: disc;
+  margin: 24px 1em
+}
+
+header li {
+  padding: 6px 0
+}
+
+header .hidden {
+  display: none
+}
+
+header .left {
+  float: left
+}
+
+header .right {
+  float: right
+}
+
+header .nobr {
+  white-space: nowrap
+}
+
+header .smalltext {
+  font-size: 12px!important;
+  line-height: 14px
+}
+
+header .separator {
+  display: block;
+  margin: 6px 0;
+  width: 100%;
+  height: 2px;
+  background-color: #edf0f2
+}
+
+header .nopad {
+  padding: 0!important
+}
+
+header .pad {
+  padding: 24px
+}
+
+header span.reverse {
+  display: inline-block;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg)
+}
+
+header .normal {
+  font-family: HelveticaNeueW01-55Roma, 'Helvetica Neue', Helvetica, Arial, sans-serif!important
+}
+
+header .thin {
+  font-family: HelveticaNeueW01-Thin, 'Helvetica Neue', Helvetica, Arial, sans-serif!important
+}
+
+header .light {
+  font-family: HelveticaNeueW01-45Ligh, 'Helvetica Neue', Helvetica, Arial, sans-serif!important
+}
+
+header .medi {
+  font-family: HelveticaNeueW01-65Medi, 'Helvetica Neue', Helvetica, Arial, sans-serif!important
+}
+
+header .bold {
+  font-family: HelveticaNeueW01-75Bold, 'Helvetica Neue', Helvetica, Arial, sans-serif!important
+}
+
+@media(max-width:1023px) {
+  h1 .nobr {
+    white-space: unset
+  }
+}
+
+@media(max-width:767px) {
+  .nobr {
+    white-space: unset
+  }
+}
+
+header .text-left {
+  text-align: left
+}
+
+header .text-center {
+  text-align: center
+}
+
+header .text-right {
+  text-align: right
+}
+
+header .headline,
+header .hero1,
+header .hero2,
+header .three-col {
+  text-align: center
+}
+
+header .block {
+  display: block
+}
+
+header .block-center {
+  margin: 0 auto
+}
+
+header .orange {
+  color: #FE5000!important
+}
+
+header .text-grey {
+  color: #526774!important
+}
+
+header .dark-grey {
+  color: #39464F!important
+}
+
+header .white {
+  color: #FFF!important
+}
+
+header .black {
+  color: #2a353d!important
+}
+
+header .blue {
+  color: #008cc5!important
+}
+
+header .bg_blue a:active,
+header .bg_blue a:link,
+header .bg_blue a:visited,
+header .bg_dark-grey a:active,
+header .bg_dark-grey a:link,
+header .bg_dark-grey a:visited {
+  color: #ffe34e
+}
+
+header .bg_blue a:hover,
+header .bg_dark-grey a:hover {
+  color: #e5cd48
+}
+
+header .bg_orange,
+header .bg_orange a:active,
+header .bg_orange a:link,
+header .bg_orange a:visited {
+  color: #FFF
+}
+
+header .bg_orange {
+  background-color: #FE5000
+}
+
+header .bg_orange a:hover {
+  color: #edf0f2
+}
+
+header .bg_grey {
+  background-color: #edf0f2
+}
+
+header .bg_dark-grey {
+  background-color: #39464F;
+  color: #FFF
+}
+
+header .bg_blackblack {
+  background-color: #000;
+  color: #FFF
+}
+
+header .bg_black {
+  background-color: #2a353d;
+  color: #FFF
+}
+
+header .bg_blue {
+  background-color: #008cc5;
+  color: #FFF
+}
+
+header .bg_white {
+  background-color: #FFF;
+  color: #526774
+}
+
+header .bg_green,
+header .bg_green h1,
+header .bg_green h2,
+header .bg_green h3,
+header .bg_green h4,
+header .bg_green h5,
+header .bg_green h6 {
+  color: #FFF
+}
+
+header .bg_green {
+  background: #00b19e
+}
+
+header .bg_lightblue {
+  background: #e5f3f9
+}
+
+header .bg_lightgreen {
+  background: #e5f7f5
+}
+
+header .bg_lightgreen h2 {
+  color: #00b19f
+}
+
+header .border-grey {
+  border: 2px solid #dfe3e6
+}
+
+header .hr-top {
+  border-top: #dfe3e6 2px solid;
+  padding-top: 24px
+}
+
+header .hr-bottom {
+  border-bottom: #dfe3e6 2px solid;
+  padding-bottom: 24px
+}
+
+header input[type=email],
+header input[type=password],
+header input[type=number],
+header input[type=text],
+header select,
+header textarea {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #5d7483;
+  padding: 10px 12px;
+  margin: .5em auto;
+  width: 100%;
+  font-family: HelveticaNeueW01-55Roma, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px
+}
+
+header input:focus {
+  box-shadow: #a5b7c2 0 2px 3px
+}
+
+header .button,
+header button,
+header input[type=button],
+header input[type=submit] {
+  display: inline-block;
+  margin: 36px auto 24px;
+  font-family: HelveticaNeueW01-75Bold, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 12px 40px;
+  border-radius: 30px;
+  border: none;
+  -moz-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-border-radius: 30px
+}
+
+header .button_lg {
+  padding: 18px 60px
+}
+
+header .button_orange,
+header a.button_orange:link {
+  background: #fd5000;
+  color: #fff!important
+}
+
+header .button_orange:hover {
+  background: #d0481d
+}
+
+header .button_white {
+  background: #fff;
+  color: #fe5009!important;
+  border: 1px solid #fe5009
+}
+
+header .button_white:hover {
+  background: #fe5009;
+  color: #fff!important
+}
+
+header .bg_orange .button_white:hover {
+  background: #d0481d
+}
+
+header .button_blue {
+  background-color: #008cc5;
+  color: #FFF
+}
+
+header .button_blue:active,
+header .button_blue:link,
+header .button_blue:visited {
+  color: #FFF
+}
+
+header .button_blue:hover,
+header input[type=submit].button_blue:hover {
+  background: #087bac;
+  color: #FFF
+}
+
+header .button_grey {
+  background-color: #5d7483;
+  color: #FFF
+}
+
+header .button_grey:active,
+header .button_grey:link,
+header .button_grey:visited {
+  color: #FFF
+}
+
+header .button_grey:hover,
+header input[type=submit].button_grey:hover {
+  background: #546977;
+  color: #FFF
+}
+
+header .button_white-green {
+  background: #FFF;
+  color: #00b19f
+}
+
+header .outer,
+header section {
+  padding: 48px 0 72px!important;
+  clear: both
+}
+
+header .outer [class*=col-],
+header section [class*=col-] {
+  padding: 0 24px
+}
+
+header [class*=col-] img {
+  margin: 36px auto
+}
+
+@media(max-width:768px) {
+  section,
+  header section [class*=col-]:first-child,
+  header section [class*=col-]:last-child {
+    padding: 24px!important
+  }
+  header section [class*=col-] {
+    padding: 0 24px 24px!important
+  }
+  header [class*=col-] img {
+    margin: 24px auto -12px
+  }
+}
+
+header .hero1 {
+  padding: 96px 0 120px!important;
+  background: url(https://www.act.com/images/default-source/background-images/hpbg.png) center center;
+  background-size: cover
+}
+
+header .hero2,
+header .hero3 {
+  padding: 72px 0 96px!important
+}
+
+header .headline p,
+header .hero1 p,
+header .hero2 p,
+header .hero3 p {
+  max-width: 800px
+}
+
+header .hero2 {
+  background-size: cover;
+  background-position: center center
+}
+
+header .hero3 .col-2 {
+  margin: 12px auto
+}
+
+header .hero3 .col-2 img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 0 auto
+}
+
+header .hero3 h1 {
+  margin: 12px 0
+}
+
+header .headline {
+  padding-bottom: 36px!important
+}
+
+header .headline+section {
+  padding-top: 0!important
+}
+
+header .banner {
+  padding: 24px 0 48px!important
+}
+
+@media(max-width:768px) {
+  .hero1,
+  header .hero2,
+  header .hero3 {
+    padding: 48px 24px
+  }
+  header .hero3 {
+    text-align: center
+  }
+}
+
+header .sidebar {
+  margin: 24px auto
+}
+
+header section.act_newsletter h2 {
+  margin-bottom: 0
+}
+
+header section.act_newsletter input.email {
+  background: url(http://act.com/images/default-source/UI-Kit/letter.gif) 20px center no-repeat #edf0f2;
+  color: #a8acb9;
+  border: none;
+  height: 42px;
+  padding: 0 20px 0 50px;
+  border-radius: 21px;
+  -o-border-radius: 21px;
+  -moz-border-radius: 21px;
+  -webkit-border-radius: 21px;
+  margin-top: 36px
+}
+
+/*@media(max-width:768px) {
+  section.act_newsletter {
+    text-align: center
+  }
+  header #enews_button,
+  header section.act_newsletter input.email {
+    margin-top: 0
+  }
+}*/
+
+header .three-col .col-4 {
+  margin-bottom: 36px
+}
+
+header .three-col .col-4 div>div {
+  border-radius: 21px;
+  -o-border-radius: 21px;
+  -moz-border-radius: 21px;
+  -webkit-border-radius: 21px
+}
+
+header .three-col .col-4 img {
+  height: 100px
+}
+
+header .three-col .col-4 p {
+  font-size: 15px;
+  line-height: 21px
+}
+
+header .center-feature .col-4 {
+  padding: 24px 0
+}
+
+header .center-feature .col-4:first-child,
+header .center-feature .col-4:last-child {
+  padding: 24px
+}
+
+header .three-col .feature {
+  padding: 72px 24px;
+  margin-top: -24px
+}
+
+header .three-col .feature .wrap {
+  margin-top: -24px
+}
+
+header .three-col .wrap {
+  height: 160px;
+  margin-bottom: 24px
+}
+
+header .rowX {
+  margin-top: -96px!important
+}
+
+@media(max-width:768px) {
+  .three-col .wrap {
+    height: unset;
+    margin-bottom: 0
+  }
+  header .three-col .col-4 {
+    margin-bottom: 0
+  }
+  header .three-col .feature {
+    margin-top: 24px
+  }
+}
+
+header .vWrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 24px
+}
+
+header .vWrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none
+}
+
+header input.needsfilled {
+  border: 2px solid #c00
+}
+/*******************************************************
+		New Footer (footer2.html) - Start
+		footer.css overrides
+********************************************************/
+footer a:link, footer a:active, footer a:visited {
+    text-decoration: none;
+}
+
+footer{
+	margin: 0px auto;
+  padding: 25px 0px;
+	background: #dfe3e6;
+	line-height: 18px;
+	font-family: HelveticaNeueW01-55Roma, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/*******************************************************
+		Main page styling overrides to accommodate new header and footer
+********************************************************/
+#lia-body .lia-content a.lia-button{
+    height: inherit;
+}
+.lia-component-common-widget-search-form {
+    height: inherit;
+}
+/* from community.css */
+center {
+    text-align: inherit;
+}
+
+.container {
+    max-width: 1170px;
+}
+
+.separator {
+    margin: 0px 0px;
+}
+
+.lia-component-common-widget-search-form {
+    background: none;
+}
+
+.lia-component-common-widget-search-form input {
+    margin: 0 0 0 0;
+}
+
+#lia-body .lia-content p {
+    margin: 0 0 1.000em 0;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.acc_highlight .highlight_bg {
+    width: 100%;
+    height: 115px;
+    line-height: 25px !important;
+}
+
+.trial {
+    padding-top: 12px;
+    color: #2a353d;
+    font-family: 'HelveticaNeueW01-65Medi', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.language {
+    margin: 1.5em;
+}

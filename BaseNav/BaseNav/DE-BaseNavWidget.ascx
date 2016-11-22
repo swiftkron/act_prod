@@ -78,6 +78,7 @@ Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span sty
     <li><a href="/de-de/kundenreferenzen/alle">Act! Kunden</a>
     <ul>
         <li><a href="/de-de/kundenreferenzen/alle">Kundenreferenzen</a></li>
+        <li><a href="/de-de/fuer-ihren-erfolg">F&uuml;r Ihren Erfolg</a></li>
     </ul>
     </li>    
     <li><a href="/de-de/preise">Preise</a></li>
@@ -86,6 +87,7 @@ Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span sty
         <li><a href="/de-de/hilfsmittel">Act! Premium Hilfsmittel</a></li>
         <li><a href="https://actcloud1.zendesk.com/hc/de" target="_blank">Act! Essentials Hilfsmittel</a></li>
         <li><a href="/de-de/hilfsmittel/training">Trainingsmöglichkeiten</a></li>
+        <li><a href="/de-de/hilfsmittel/act-web-api">Act! Web-API</a></li>
     </ul>
     </li>
     <li><a href="/de-de/partner">Partner</a>

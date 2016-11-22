@@ -1,0 +1,106 @@
+----------------------------------------
+Timestamp: 10/13/2016 2:43:08 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/13/2016 2:43:08 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/13/2016 2:43:08 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/13/2016 2:43:08 PM
+
+Message: -- Telerik.Sitefinity.Publishing.Model.Dynamic_0a6662e796e1633a9d88ff00001e67f5
+CREATE TABLE [dynmc_0666279616339d88ff000016] (
+    [id] uniqueidentifier NOT NULL,
+    [username] NVARCHAR(255) NULL,          -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.Username
+    [title] NVARCHAR(255) NULL,             -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.Title
+    [summary] NVARCHAR(255) NULL,           -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.Summary
+    [publication_date] DATETIME NULL,       -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.PublicationDate
+    [owner_last_name] NVARCHAR(255) NULL,   -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.OwnerLastName
+    [owner_first_name] NVARCHAR(255) NULL,  -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.OwnerFirstName
+    [owner_email] NVARCHAR(255) NULL,       -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.OwnerEmail
+    [lnk] NVARCHAR(255) NULL,               -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.Link
+    [item_hash] NVARCHAR(255) NULL,         -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.ItemHash
+    [expiration_date] DATETIME NULL,        -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.ExpirationDate
+    [content] NVARCHAR(MAX) NULL,           -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.Content
+    [categories] NVARCHAR(255) NULL,        -- Dynamic_0a6662e796e1633a9d88ff00001e67f5.Categories
+    CONSTRAINT [pk_dynmc_066627961633_4A00B5D2] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/13/2016 2:43:08 PM
+
+Message: ALTER TABLE [dynmc_0666279616339d88ff000016] ADD CONSTRAINT [ref_dynmc_06662796163_0D951709] FOREIGN KEY ([id]) REFERENCES [sf_dynamic_type_base]([id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/13/2016 2:43:20 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/13/2016 2:43:20 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/13/2016 2:43:20 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/13/2016 2:43:20 PM
+
+Message: -- Telerik.Sitefinity.Publishing.Model.Dynamic_9c8b6be796e1633a9d88ff00001e67f5
+CREATE TABLE [dynmc_9c8b6b79616339d88ff00001] (
+    [id] uniqueidentifier NOT NULL,
+    [username] NVARCHAR(255) NULL,          -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.Username
+    [user_avatar] NVARCHAR(255) NULL,       -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.UserAvatar
+    [title] NVARCHAR(255) NULL,             -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.Title
+    [summary] NVARCHAR(MAX) NULL,           -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.Summary
+    [publication_date] DATETIME NULL,       -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.PublicationDate
+    [pipe_id] NVARCHAR(255) NULL,           -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.PipeId
+    [owner_last_name] NVARCHAR(255) NULL,   -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.OwnerLastName
+    [owner_first_name] NVARCHAR(255) NULL,  -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.OwnerFirstName
+    [owner_email] NVARCHAR(255) NULL,       -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.OwnerEmail
+    [lnk] NVARCHAR(255) NULL,               -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.Link
+    [lang_id] NVARCHAR(255) NULL,           -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.LangId
+    [item_hash] NVARCHAR(255) NULL,         -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.ItemHash
+    [expiration_date] DATETIME NULL,        -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.ExpirationDate
+    [content_type] NVARCHAR(255) NULL,      -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.ContentType
+    [content] NVARCHAR(MAX) NULL,           -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.Content
+    [categories] NVARCHAR(MAX) NULL,        -- Dynamic_9c8b6be796e1633a9d88ff00001e67f5.Categories
+    CONSTRAINT [pk_dynmc_9c8b6b796163_1419A6B1] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/13/2016 2:43:20 PM
+
+Message: ALTER TABLE [dynmc_9c8b6b79616339d88ff00001] ADD CONSTRAINT [ref_dynmc_9c8b6b79616_1ACF830A] FOREIGN KEY ([id]) REFERENCES [sf_dynamic_type_base]([id]) ON DELETE CASCADE
+
+
+----------------------------------------

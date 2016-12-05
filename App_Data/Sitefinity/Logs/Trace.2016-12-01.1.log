@@ -1,0 +1,120 @@
+----------------------------------------
+Timestamp: 11/30/2016 6:17:25 PM
+
+Message: System.Web.HttpParseException (0x80004005): Code blocks are not supported in this context. ---> System.Web.HttpException (0x80004005): Code blocks are not supported in this context.
+   at System.Web.UI.ControlBuilder.AppendSubBuilder(ControlBuilder subBuilder)
+   at System.Web.UI.TemplateParser.ProcessCodeBlock(Match match, CodeBlockType blockType, String text)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.CompileControl(String virtualPath)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.LoadControl(String virtualPath, Page page)
+   at Telerik.Sitefinity.Web.UI.VirtualPathTemplate.InstantiateIn(Control container, PlaceHoldersCollection placeHolders)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateContainer(ITemplate template)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.get_Container()
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:27 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:27 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:27 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:27 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:27 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:27 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:27 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:27 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:27 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:27 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:27 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:57 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/30/2016 7:58:57 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------

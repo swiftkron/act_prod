@@ -100,8 +100,11 @@
     </li>
     <li><a href="/en-uk/partners">Partners</a>
     <ul>
-        <li><a href="/en-uk/partners">Find a Partner</a></li>
-        <li><a href="/en-uk/partners/distributors">Distributors</a></li>
+    <li><a href="/en-uk/partners/find-an-acc">Find an Act! Certified Consultant</a></li>
+    <li><a href="/en-uk/partners/hosting-providers">Hosting Providers</a></li>
+    <li><a href="/en-uk/partners/premier-trainers">Premier Trainers</a></li>
+    <li><a href="/en-uk/partners/become-an-acc">Become an Act! Certified Consultant</a></li>
+    <li><a href="/en-uk/partners/distributors">Distributors</a></li>
     </ul>
     </li>
 <li><a href="http://e.act.com/uk-contact-us" target="_blank">Contact Us</a></li>

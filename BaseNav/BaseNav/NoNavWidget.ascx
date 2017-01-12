@@ -9,14 +9,14 @@
                     <ul class="uDropdown uAlt">
                         <li class="uLogin"><a href="https://mycloud.act.com/#/login">Login</a></li>
                         <span class="separator"></span>
-                        <li><a href="/">US English</a></li>
-                        <li><a href="/au/">Australia</a></li>
-                        <li><a href="/en-uk/">International English</a></li>
-                        <li><a href="/de-de/">Deutch</a></li>
-                        <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
-                        <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                        <li><a href="/nl-nl/">Netherlands</a></li>
-			<li><a href="/pl-pl/">Polski</a></li>
+    <li><a href="/?regLang=en-US">English (Americas)</a></li>
+                            <li><a href="/en-uk/">English (UK)</a></li>
+                            <li><a href="/au/">English (ANZ)</a></li>
+                            <li><a href="/de-de/">Deutsch (Deutschland)</a></li>
+                            <li><a href="/fr-fr/">Français (France)</a></li>
+                            <li><a href="/fr-ca/">Français (Canada)</a></li>
+                            <li><a href="/nl-nl/">Nederlands (Nerderland)</a></li>
+			    <li><a href="/pl-pl/">Polski (Polska)</a></li>
                     </ul>
                 </div>
                 <div class="uBrand" title="Act!"></div>
@@ -25,14 +25,14 @@
                         <span class="glyphicon glyphicon-globe" title="Language"></span>
                         <span>&#9662;</span>
                         <ul class="uDropdown lang">
-                            <li><a href="/">US English</a></li>
-                            <li><a href="/au/">Australia</a></li>
-                            <li><a href="/en-uk/">International English</a></li>
-                            <li><a href="/de-de/">Deutch</a></li>
-                            <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
-                            <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                            <li><a href="/nl-nl/">Netherlands</a></li>
-			    <li><a href="/pl-pl/">Polski</a></li>
+    <li><a href="/?regLang=en-US">English (Americas)</a></li>
+                            <li><a href="/en-uk/">English (UK)</a></li>
+                            <li><a href="/au/">English (ANZ)</a></li>
+                            <li><a href="/de-de/">Deutsch (Deutschland)</a></li>
+                            <li><a href="/fr-fr/">Français (France)</a></li>
+                            <li><a href="/fr-ca/">Français (Canada)</a></li>
+                            <li><a href="/nl-nl/">Nederlands (Nerderland)</a></li>
+			    <li><a href="/pl-pl/">Polski (Polska)</a></li>
                         </ul>
                     </div>
                     <div class="uLogin"><a href="https://mycloud.act.com/#/login"><span class="glyphicon glyphicon-user" title="Login"></span></a></div>

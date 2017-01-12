@@ -12,13 +12,13 @@
     <li>France: <a href="tel:0975182309">09 75 18 23 09</a></li>
     <li>Belgique: <a href="tel:078483840">078 483 840</a></li>
     <span class="separator"></span>
-    <li><a href="/?regLang=en-US">U.S. English</a></li>
-                            <li><a href="/en-uk/">English</a></li>
-                            <li><a href="/au/">Australia/New Zealand</a></li>
-                            <li><a href="/de-de/">Deutsch</a></li>
-                            <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                            <li><a href="/nl-nl/">Nederlands</a></li>
-			    <li><a href="/pl-pl/">Polski</a></li>
+    <li><a href="/?regLang=en-US">English (Americas)</a></li>
+                            <li><a href="/en-uk/">English (UK)</a></li>
+                            <li><a href="/au/">English (ANZ)</a></li>
+                            <li><a href="/de-de/">Deutsch (Deutschland)</a></li>
+                            <li><a href="/fr-ca/">Français (Canada)</a></li>
+                            <li><a href="/nl-nl/">Nederlands (Nerderland)</a></li>
+			    <li><a href="/pl-pl/">Polski (Polska)</a></li>
 </ul>
 </div>
 <div class="uBrand" title="Act!">&nbsp;</div>
@@ -31,13 +31,13 @@
 <div class="uIntl" style="clear:left;margin-top:-30px;">
 <span class="glyphicon glyphicon-globe" title="Language"></span><span>&nbsp;▾</span>
                         <ul class="uDropdown lang">
-                            <li><a href="/?regLang=en-US">U.S. English</a></li>
-                            <li><a href="/en-uk/">English</a></li>
-                            <li><a href="/au/">Australia/New Zealand</a></li>
-                            <li><a href="/de-de/">Deutsch</a></li>
-                            <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                            <li><a href="/nl-nl/">Nederlands</a></li>
-			    <li><a href="/pl-pl/">Polski</a></li>
+    <li><a href="/?regLang=en-US">English (Americas)</a></li>
+                            <li><a href="/en-uk/">English (UK)</a></li>
+                            <li><a href="/au/">English (ANZ)</a></li>
+                            <li><a href="/de-de/">Deutsch (Deutschland)</a></li>
+                            <li><a href="/fr-ca/">Français (Canada)</a></li>
+                            <li><a href="/nl-nl/">Nederlands (Nerderland)</a></li>
+			    <li><a href="/pl-pl/">Polski (Polska)</a></li>
                         </ul>
 </ul>
 </div>
@@ -91,10 +91,14 @@
     </li>
     <li><a href="/fr-fr/partenaires">Partenaires</a>
     <ul>
-        <li><a href="/fr-fr/partenaires">Trouver un partenaire</a></li>
+        <li><a href="/fr-fr/partenaires/consultants-certifies-act">Trouver un Consultant Certifié Act!</a></li>
+    <li><a href="/fr-fr/partenaires/fournisseurs-hebergement">Fournisseurs d’hébergement</a></li>
+    <li><a href="/fr-fr/partenaires/formateurs-qualifies">Formateurs qualifiés</a></li>
+    <li><a href="/fr-fr/partenaires/devenir-acc">Devenir Consultant Certifié Act!</a></li>
+    <li><a href="/fr-fr/partenaires/distributeurs">Distributeurs</a></li>
     </ul>
     </li>
-<li><a href="http://e.act.com/fr-contact" target="_blank">Contact</a></li>
+<li><a href="/fr-fr/contact">Contact</a></li>
 </ul>
 </nav>
 </div>

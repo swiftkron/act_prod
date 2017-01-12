@@ -1,91 +1,103 @@
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:23 PM
+Timestamp: 12/8/2016 3:12:43 AM
 
 Message: Shutting down threadpool...
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:23 PM
+Timestamp: 12/8/2016 3:12:43 AM
 
 Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:24 PM
+Timestamp: 12/8/2016 3:12:43 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:24 PM
+Timestamp: 12/8/2016 3:12:43 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:24 PM
+Timestamp: 12/8/2016 3:12:43 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:24 PM
+Timestamp: 12/8/2016 3:12:43 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:24 PM
+Timestamp: 12/8/2016 3:12:43 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:24 PM
+Timestamp: 12/8/2016 3:12:43 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/8/2016 3:12:43 AM
 
 Message: Background task scheduler shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:24 PM
+Timestamp: 12/8/2016 3:12:43 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:24 PM
+Timestamp: 12/8/2016 3:12:43 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:24 PM
-
-Message: WorkerThread is shut down
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 1/12/2017 6:38:54 PM
+Timestamp: 12/8/2016 3:13:13 AM
 
 Message: Shutting down threadpool...
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/12/2017 6:38:54 PM
+Timestamp: 12/8/2016 3:13:13 AM
 
 Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/8/2016 8:13:17 AM
+
+Message: Error while executing the Task: Value cannot be null.
+Parameter name: input, StackTrace:    at System.Guid.Parse(String input)
+   at Telerik.Sitefinity.Services.Statistics.ReconcilerTask.ReconcileUserData()
+   at Telerik.Sitefinity.Services.SystemManager.RunWithElevatedPrivilege(RunWithElevatedPrivilegeDelegate delegateToRun, Object[] parameters, String urlRequest)
+   at Telerik.Sitefinity.Services.Statistics.ReconcilerTask.Run(IBackgroundTaskContext context)
+   at Telerik.Sitefinity.BackgroundTasks.WorkerThread.Run(IBackgroundTaskContext context)
 
 
 ----------------------------------------

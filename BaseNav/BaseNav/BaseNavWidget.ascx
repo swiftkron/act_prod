@@ -11,13 +11,13 @@
                         <li class="uTrial"><a href="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month">Free Trial</a></li>
                         <li><a href="tel:1-866-873-2006">866-873-2006</a></li>
                         <span class="separator"></span>
-                        <li><a href="/en-uk/">International English</a></li>
-                        <li><a href="/au/">Australia/New Zealand</a></li>
-                        <li><a href="/de-de/">Deutch</a></li>
-                        <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
-                        <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                        <li><a href="/nl-nl/">Nederlands</a></li>
-			<li><a href="/pl-pl/">Polski</a></li>
+                        <li><a href="/en-uk/">English (UK)</a></li>
+                        <li><a href="/au/">English (ANZ)</a></li>
+                        <li><a href="/de-de/">Deutsch (Deutschland)</a></li>
+                        <li><a href="/fr-fr/">Français (France)</a></li>
+                        <li><a href="/fr-ca/">Français (Canada)</a></li>
+                        <li><a href="/nl-nl/">Nederlands (Nederland)</a></li>
+			<li><a href="/pl-pl/">Polski (Polska)</a></li>
                     </ul>
                 </div>
                 <div class="uBrand" title="Act!"></div>
@@ -30,13 +30,13 @@
                         <span class="glyphicon glyphicon-globe" title="Language"></span>
                         <span>&#9662;</span>
                         <ul class="uDropdown lang">
-                            <li><a href="/en-uk/">International English</a></li>
-                            <li><a href="/au/">Australia/New Zealand</a></li>
-                            <li><a href="/de-de/">Deutsch</a></li>
-                            <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
-                            <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                            <li><a href="/nl-nl/">Nederlands</a></li>
-			    <li><a href="/pl-pl/">Polski</a></li>
+                        <li><a href="/en-uk/">English (UK)</a></li>
+                        <li><a href="/au/">English (ANZ)</a></li>
+                        <li><a href="/de-de/">Deutsch (Deutschland)</a></li>
+                        <li><a href="/fr-fr/">Français (France)</a></li>
+                        <li><a href="/fr-ca/">Français (Canada)</a></li>
+                        <li><a href="/nl-nl/">Nederlands (Nederland)</a></li>
+			<li><a href="/pl-pl/">Polski (Polska)</a></li>
                         </ul>
                     </div>
                     <div class="uLogin"><a href="https://mycloud.act.com/#/login"><span class="glyphicon glyphicon-user" title="Login"></span></a></div>
@@ -61,7 +61,6 @@
             <li><a href="/why-act/market-my-business">Market My Business</a></li>
             <li><a href="/why-act/drive-sales">Drive Sales</a></li>
             <li><a href="/why-act/understand-my-business">Understand My Business</a></li>
-            <li><a href="/why-act/customer-success">Customer Successes</a></li>
 <li><a href="/customers/customer-testimonials">Customer Testimonials</a></li>
          </ul>
       </li>
@@ -98,14 +97,7 @@
                 </li>
 
       <li><a href="/act-blog">Blog</a></li>
-      <li><a href="/about">About</a>
-         <ul class="last">
-            <li><a href="/about/leadership">Leadership</a></li>
-             <li><a href="/press-releases">Press</a></li>
-            <li><a href="http://swiftpage.com/en-us/about/careers" target="_blank">Careers</a></li>
-            <li><a href="http://swiftpage.com/privacy-policy" target="_blank">Privacy Policy</a></li>
-         </ul>
-      </li>
+      <li><a href="/lp/contact-us">Contact Us</a></li>
    </ul>
 </nav>
 </div>   

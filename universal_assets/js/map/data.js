@@ -134,7 +134,7 @@
  	"postcode": "GL14 2DE",
  	"company": "Ingenieurbüro Dieter Hombach",
  	"description": "",
- 	"level": 2,
+ 	"level": 1,
  	"longitude": "8.799372",
  	"latitude": "50.147864"
  }, {
@@ -4283,7 +4283,7 @@
  	"postcode": "LU3 2UD",
  	"company": "T & C E Associates",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-0.4476707000000033",
  	"latitude": "51.91174600000001"
  }, {
@@ -4332,7 +4332,7 @@
  	"postcode": "31515",
  	"company": "Software Warnecke",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "9.446544399999993",
  	"latitude": "52.3896013"
  }, {
@@ -4341,7 +4341,7 @@
  	"region": "South West",
  	"city": "Bristol",
  	"contact": "",
- 	"phone": "0117 3706 188",
+ 	"phone": "+44 (0) 3330 147171",
  	"email": "sales@skillsets.co.uk ",
  	"website": "www.skillsets.co.uk",
  	"address": "1 Derriads Green, Bristol, SN14 0QR",

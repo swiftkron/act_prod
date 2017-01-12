@@ -1,0 +1,19 @@
+﻿/** ACC banner **/
+.acc_promo {  
+  z-index:1000;
+  width:100%;
+  overflow:hidden;
+  background:#fff url('http://partners.act.com/Content/img/map.png') center center no-repeat;
+  padding:12px 0 48px !important;
+  cursor:pointer;
+}
+.acc_promo h2 strong{
+  font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight:normal;
+  color:#2a353d;
+}
+.acc_promo h2{
+  font-size:21px;
+  line-height:24px;
+  font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

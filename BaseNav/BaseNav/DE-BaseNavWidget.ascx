@@ -12,13 +12,13 @@
     <li>Deutschland: <a href="tel:069643508433">069 643 508 433</a></li>
     <li>Schweiz: <a href="tel:0435082364">043 508 2364</a></li>
     <span class="separator"></span>
-    <li><a href="/?regLang=en-US">U.S. English</a></li>
-                            <li><a href="/en-uk/">English</a></li>
-                            <li><a href="/au/">Australia/New Zealand</a></li>
-                            <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
-                            <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                            <li><a href="/nl-nl/">Nederlands</a></li>
-			    <li><a href="/pl-pl/">Polski</a></li>
+    <li><a href="/?regLang=en-US">English (Americas)</a></li>
+                            <li><a href="/en-uk/">English (UK)</a></li>
+                            <li><a href="/au/">English (ANZ)</a></li>
+                            <li><a href="/fr-fr/">Français (France)</a></li>
+                            <li><a href="/fr-ca/">Français (Canada)</a></li>
+                            <li><a href="/nl-nl/">Nederlands (Nerderland)</a></li>
+			    <li><a href="/pl-pl/">Polski (Polska)</a></li>
 </ul>
 </div>
 <div class="uBrand" title="Act!">&nbsp;</div>
@@ -32,13 +32,13 @@ Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span sty
 <div class="uIntl" style="clear:left;margin-top:-30px;">
 <span class="glyphicon glyphicon-globe" title="Language"></span><span>&nbsp;▾</span>
                         <ul class="uDropdown lang">
-                            <li><a href="/?regLang=en-US">U.S. English</a></li>
-                            <li><a href="/en-uk/">English</a></li>
-                            <li><a href="/au/">Australia/New Zealand</a></li>
-                            <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
-                            <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                            <li><a href="/nl-nl/">Nederlands</a></li>
-			    <li><a href="/pl-pl/">Polski</a></li>
+    <li><a href="/?regLang=en-US">English (Americas)</a></li>
+                            <li><a href="/en-uk/">English (UK)</a></li>
+                            <li><a href="/au/">English (ANZ)</a></li>
+                            <li><a href="/fr-fr/">Français (France)</a></li>
+                            <li><a href="/fr-ca/">Français (Canada)</a></li>
+                            <li><a href="/nl-nl/">Nederlands (Nerderland)</a></li>
+			    <li><a href="/pl-pl/">Polski (Polska)</a></li>
                         </ul>
 </ul>
 </div>
@@ -86,16 +86,20 @@ Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span sty
     <ul>
         <li><a href="/de-de/hilfsmittel">Act! Premium Hilfsmittel</a></li>
         <li><a href="https://actcloud1.zendesk.com/hc/de" target="_blank">Act! Essentials Hilfsmittel</a></li>
-        <li><a href="/de-de/hilfsmittel/training">Trainingsmöglichkeiten</a></li>
+        <!-- <li><a href="/de-de/hilfsmittel/training">Trainingsmöglichkeiten</a></li> -->
         <li><a href="/de-de/hilfsmittel/act-web-api">Act! Web-API</a></li>
     </ul>
     </li>
     <li><a href="/de-de/partner">Partner</a>
     <ul>
-        <li><a href="/de-de/partner">Partner finden</a></li>
+        <li><a href="/de-de/partner/acc-finden">Act! Certified Consultant Finden</a></li>
+    <li><a href="/de-de/partner/hosting-provider">Hosting-Provider</a></li>
+    <li><a href="/de-de/partner/premier-trainer">Premier Trainer</a></li>
+    <li><a href="/de-de/partner/acc-werden">Act! Certified Consultant Werden</a></li>
+    <li><a href="/de-de/partner/distributoren">Distributoren</a></li>
     </ul>
     </li>
-<li><a href="http://e.act.com/de-kontakt" target="_blank">Kontakt</a></li>
+<li><a href="/de-de/kontakt">Kontakt</a></li>
 </ul>
 </nav>
 </div>

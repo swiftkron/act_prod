@@ -112,6 +112,7 @@ li{
 
 /* _ common classes _ */
 .hidden{display:none;}
+.sfPageEditor section.hidden{display:block !important;}
 .left{float:left;}
 .right{float:right;}
 .clearfix{clear:both;}

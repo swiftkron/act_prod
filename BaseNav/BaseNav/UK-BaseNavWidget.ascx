@@ -13,13 +13,13 @@
     <li>Ireland: <a href="tel:0766801364">0766 801 364</a></li>
     <li>South Africa: <a href="tel:0105003672">0105 003 672</a></li>
     <span class="separator"></span>
-    <li><a href="/?regLang=en-US">U.S. English</a></li>
-                            <li><a href="/au/">Australia/New Zealand</a></li>
-                            <li><a href="/de-de/">Deutsch</a></li>
-                            <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
-                            <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                            <li><a href="/nl-nl/">Nederlands</a></li>
-			    <li><a href="/pl-pl/">Polski</a></li>
+    <li><a href="/?regLang=en-US">English (Americas)</a></li>
+                            <li><a href="/au/">English (ANZ)</a></li>
+                            <li><a href="/de-de/">Deutsch (Deutschland)</a></li>
+                            <li><a href="/fr-fr/">Français (France)</a></li>
+                            <li><a href="/fr-ca/">Français (Canada)</a></li>
+                            <li><a href="/nl-nl/">Nederlands (Nerderland)</a></li>
+			    <li><a href="/pl-pl/">Polski (Polska)</a></li>
 </ul>
 </div>
 <div class="uBrand" title="Act!">&nbsp;</div>
@@ -32,13 +32,13 @@
 <div class="uIntl" style="clear:left;margin-top:-30px;">
 <span class="glyphicon glyphicon-globe" title="Language"></span><span>&nbsp;▾</span>
                         <ul class="uDropdown lang">
-                            <li><a href="/?regLang=en-US">U.S. English</a></li>
-                            <li><a href="/au/">Australia/New Zealand</a></li>
-                            <li><a href="/de-de/">Deutsch</a></li>
-                            <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
-                            <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
-                            <li><a href="/nl-nl/">Nederlands</a></li>
-			    <li><a href="/pl-pl/">Polski</a></li>
+    <li><a href="/?regLang=en-US">English (Americas)</a></li>
+                            <li><a href="/au/">English (ANZ)</a></li>
+                            <li><a href="/de-de/">Deutsch (Deutschland)</a></li>
+                            <li><a href="/fr-fr/">Français (France)</a></li>
+                            <li><a href="/fr-ca/">Français (Canada)</a></li>
+                            <li><a href="/nl-nl/">Nederlands (Nerderland)</a></li>
+			    <li><a href="/pl-pl/">Polski (Polska)</a></li>
                         </ul>
 </ul>
 </div>

@@ -110,12 +110,12 @@ button:hover{
 	font-size:12px;
 	padding:6px 12px;
 }
-.btn-secondary{
+.btn-secondary, .button_white{
 	border:#FE5000 1px solid;
 	background:rgba(255,255,255,0.5) !important;
 	color:#FE5000 !important;
 }
-.btn-secondary:hover{
+.btn-secondary:hover, .button_white:hover{
 	background:rgba(255,255,255,1) !important;
 }
 /* _ common classes _ */

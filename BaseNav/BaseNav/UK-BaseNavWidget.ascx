@@ -107,7 +107,8 @@
     <li><a href="/en-uk/partners/distributors">Distributors</a></li>
     </ul>
     </li>
-<li><a href="http://e.act.com/uk-contact-us" target="_blank">Contact Us</a></li>
+<li><a href="/en-uk/act-blog" target="_blank">Blog</a></li>
+<li><a href="/en-uk/contact-us" target="_blank">Contact Us</a></li>
 </ul>
 </nav>
 </div>

@@ -1,0 +1,9 @@
+.segA,
+.segB,
+.segC{
+display:none;
+}
+.sfPageEditor .personalized,
+.sfTemplateEditor .personalized{
+display:block !important;
+}

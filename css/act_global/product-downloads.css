@@ -1,0 +1,105 @@
+        .download-hero {
+           margin: 0 auto; 
+        }
+        .download-hero h1{
+            color: #FE5000;
+  font-family:'HelveticaNeueW01-45Ligh',helvetica,arial,sans serif;
+            font-size: 48px;
+  line-height:56px;
+            padding: 60px 0 40px 0
+        }
+       .download-note {
+           background: #2c8ac4;;
+           color: white;
+           font-size: 18px;
+           padding: 20px 0;
+       }
+        .download-note p {
+            margin: 0;   
+        }
+        .download-head {
+            height: 130px;   
+        }
+        .download-links {
+            margin-top: 40px;   
+        }
+        .windows, .web-client {
+            padding-top: 40px;  
+        }
+        .download-link {
+            margin-bottom: 60px;
+            text-align: center;   
+        }
+        .download-links .small {
+            font-size: 14px;
+        }
+        .download-link button {
+            padding: 12px 40px;   
+            margin-bottom: 10px;
+        }
+        .web-client {
+            padding-left: 5%;   
+        }
+        .quick-tip {
+            margin-top: 20px;   
+        }
+        .instal-q {
+            background: #546c7a;
+            margin-top: 40px;
+            color: white;
+            text-align: center;
+        }
+        .instal-q h2 {
+            margin: 24px auto 0;
+        }
+        .instal-q button {
+            background: #b2ebff;
+            margin-bottom: 40px;
+            color: #1d82a7;
+        }
+        .resources {
+            margin: 60px 0;
+            text-align: center;
+        }
+        .e-marketing img {
+            width: 110px;
+            height: auto;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        .resources .fa {
+            font-size: 70px;   
+        }
+        .resources .col-xs-12 {
+            height: 350px;   
+        }
+        .resources li {
+            list-style: none;   
+        }
+        .resources li a{
+            text-decoration: underline;
+        }
+        .chat {
+            text-align: center;
+            background: #f1f1f1;
+        }
+        .chat h3 {
+            font-size: 36px;
+            margin: 40px 0;
+        }
+        .chat button {
+            background: #546c7a;
+            margin-bottom: 40px;
+            padding: 12px 50px; 
+        }
+        
+        @media screen and (max-width: 992px) {
+            .windows {
+                border-right: none;   
+                width: 100%;
+            }
+            .web-client {
+                padding-left: 15px;   
+            }
+        }
+.resources .glyphicon{font-size:3em;margin-bottom:9px;}

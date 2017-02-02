@@ -361,7 +361,7 @@ section [class*='col-']:last-child{
 
 /* heros */
 .hero1 {
-    padding:96px 0 120px !important;
+    padding:96px 0 120px /*!important*/;
 		text-align:center;
 		/* default */background:url('https://www.act.com/images/default-source/background-images/hpbg.png') center center;
 		background-size:cover;

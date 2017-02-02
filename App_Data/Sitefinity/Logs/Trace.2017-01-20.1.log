@@ -1,0 +1,252 @@
+----------------------------------------
+Timestamp: 1/18/2017 5:30:28 PM
+
+Message: System.ArgumentException: Invalid details page specified: "087e6ae7-96e1-633a-9d88-ff00001e67f5".
+   at Telerik.Sitefinity.Web.DataResolving.UrlResolver.Resolve(Object dataItem, String format, String args)
+   at Telerik.Sitefinity.Web.UI.ContentUI.DetailsViewHyperLink.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 5:30:41 PM
+
+Message: System.ArgumentException: Invalid details page specified: "087e6ae7-96e1-633a-9d88-ff00001e67f5".
+   at Telerik.Sitefinity.Web.DataResolving.UrlResolver.Resolve(Object dataItem, String format, String args)
+   at Telerik.Sitefinity.Web.UI.ContentUI.DetailsViewHyperLink.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 5:31:38 PM
+
+Message: System.ArgumentException: Invalid details page specified: "087e6ae7-96e1-633a-9d88-ff00001e67f5".
+   at Telerik.Sitefinity.Web.DataResolving.UrlResolver.Resolve(Object dataItem, String format, String args)
+   at Telerik.Sitefinity.Web.UI.ContentUI.DetailsViewHyperLink.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 5:50:00 PM
+
+Message: System.ArgumentException: Invalid details page specified: "087e6ae7-96e1-633a-9d88-ff00001e67f5".
+   at Telerik.Sitefinity.Web.DataResolving.UrlResolver.Resolve(Object dataItem, String format, String args)
+   at Telerik.Sitefinity.Web.UI.ContentUI.DetailsViewHyperLink.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:06 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:06 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:06 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:06 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:06 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:06 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:06 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:06 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:06 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:06 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:06 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:36 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 7:39:36 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18.01.2017 20:16:28
+
+Message: System.ArgumentException: Invalid details page specified: "087e6ae7-96e1-633a-9d88-ff00001e67f5".
+   at Telerik.Sitefinity.Web.DataResolving.UrlResolver.Resolve(Object dataItem, String format, String args)
+   at Telerik.Sitefinity.Web.UI.ContentUI.DetailsViewHyperLink.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18.01.2017 20:47:59
+
+Message: System.ArgumentException: Invalid details page specified: "087e6ae7-96e1-633a-9d88-ff00001e67f5".
+   at Telerik.Sitefinity.Web.DataResolving.UrlResolver.Resolve(Object dataItem, String format, String args)
+   at Telerik.Sitefinity.Web.UI.ContentUI.DetailsViewHyperLink.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/01/2017 20:52:18
+
+Message: System.ArgumentException: Invalid details page specified: "087e6ae7-96e1-633a-9d88-ff00001e67f5".
+   at Telerik.Sitefinity.Web.DataResolving.UrlResolver.Resolve(Object dataItem, String format, String args)
+   at Telerik.Sitefinity.Web.UI.ContentUI.DetailsViewHyperLink.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------

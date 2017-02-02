@@ -98,6 +98,7 @@
     <li><a href="/fr-fr/partenaires/distributeurs">Distributeurs</a></li>
     </ul>
     </li>
+<li><a href="/fr-fr/act-blog">Blog</a></li>
 <li><a href="/fr-fr/contact">Contact</a></li>
 </ul>
 </nav>

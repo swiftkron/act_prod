@@ -1,0 +1,21 @@
+/* Table templates */
+table, .downloadTable{
+    width:100%;
+    padding:0 0;
+margin-top:18px;
+}
+.downloadTable tr:first-child{
+    background:#008cc5;
+    color:#FFF;
+}
+table tr:nth-child(even), .downloadTable tr:nth-child(even){
+    background:#f7f9fa;
+}
+table td, table th, .downloadTable td, .downloadTable th{
+    padding:12px 6px;
+    text-align:center;
+vertical-align:middle;
+}
+table .button{
+margin:0 auto;
+}

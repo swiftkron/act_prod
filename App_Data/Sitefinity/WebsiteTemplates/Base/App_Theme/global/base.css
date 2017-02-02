@@ -171,11 +171,11 @@ input:focus {
 .btnDefault:hover{
     background:#da4c1f;
 }
-.btnSecondary{
+.btnSecondary, .button_white{
 	background:#FFF;
 	color:#FE5000;
 }
-.btnSecondary:hover {
+.btnSecondary:hover, .button_white:hover {
     background: #edf0f2;
 }
 .btnCTA{

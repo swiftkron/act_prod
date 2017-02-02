@@ -99,6 +99,7 @@ Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span sty
     <li><a href="/de-de/partner/distributoren">Distributoren</a></li>
     </ul>
     </li>
+<li><a href="/de-de/act-blog">Blog</a></li>
 <li><a href="/de-de/kontakt">Kontakt</a></li>
 </ul>
 </nav>

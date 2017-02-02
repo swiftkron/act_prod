@@ -6,6 +6,5 @@
       	<div runat="server" class="sf_colsIn">
       	</div>
       </div>
-      </div>
     </section>
 

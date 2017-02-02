@@ -1,0 +1,1179 @@
+----------------------------------------
+Timestamp: 1/21/2017 2:20:09 AM
+
+Message: HandlingInstanceID: d5f2c810-4a94-4963-af59-a78afa2e38f2
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 02:20:09
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 2:20:09 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/arrowUp.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6420
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 2:54:52 AM
+
+Message: HandlingInstanceID: 7f76df3d-ffb0-496c-9e78-9d2fb7cdbc03
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 02:54:52
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 2:54:52 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/expand.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11148
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 2:54:52 AM
+
+Message: HandlingInstanceID: adbd84f2-67fc-4d51-b25c-2580cd12bb25
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 02:54:52
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 2:54:52 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/arrowUp.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5780
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 2:54:52 AM
+
+Message: HandlingInstanceID: 1b724f98-f52f-43f5-9e8e-d2345b31c160
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 02:54:52
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 2:54:52 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/arrowDn.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3208
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 3:17:35 AM
+
+Message: HandlingInstanceID: bf4f6266-9a41-48c2-90c9-e02a0231f3e4
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 03:17:35
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 3:17:35 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/arrowUp.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10940
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 3:17:35 AM
+
+Message: HandlingInstanceID: a10f0280-661b-432d-b4ed-a88c59938cd5
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 03:17:35
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 3:17:35 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/expand.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4348
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 3:17:35 AM
+
+Message: HandlingInstanceID: 4fa1916a-9819-46b6-8174-64a117de2e8f
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 03:17:35
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 3:17:35 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/arrowDn.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5552
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 3:22:05 AM
+
+Message: HandlingInstanceID: 40f23287-3cd1-48fe-a10c-958e8aa96303
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 03:22:05
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The file '/link.aspx' does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Compilation.BuildResult GetVPathBuildResultInternal(System.Web.VirtualPath, Boolean, Boolean, Boolean, Boolean, Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 3:22:05 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/link.aspx?_id=8EFDD8DC43F9411294046FB12FE0E989&_z=z?_id=8EFDD8DC43F9411294046FB12FE0E989&_z=z?_id=8EFDD8DC43F9411294046FB12FE0E989&_z=&_z=z
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8520
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 3:25:16 AM
+
+Message: HandlingInstanceID: f0652a21-f1ed-4b7a-bbb5-bc99b9c6f91e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 03:25:16
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Path value was detected from the client (?).
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateInputIfRequiredByConfig()
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 3:25:16 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/docs/librariesprovider4/uk-testimonials/mcj-casings.pdf%3Fsfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11256
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 3:54:49 AM
+
+Message: HandlingInstanceID: 6e1c1aed-ea93-4e56-8b94-47c7f1a958c0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 03:54:49
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 3:54:49 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/arrowUp.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6744
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 3:54:49 AM
+
+Message: HandlingInstanceID: 6148e6a0-8fb7-4038-96ef-27e898dc7fd6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 03:54:49
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 3:54:49 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/arrowDn.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9412
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 4:03:05 AM
+
+Message: HandlingInstanceID: f82eab0e-12f9-4c5d-9aff-28dbeb123b1c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 04:03:05
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateInputIfRequiredByConfig()
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 4:03:05 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/https:/www.act.com
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10940
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 4:03:05 AM
+
+Message: HandlingInstanceID: 8e0a81ab-e77a-43a0-8273-e1fdc18e9315
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 04:03:05
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateInputIfRequiredByConfig()
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 4:03:05 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://www.act.com/https:/https:/www.act.com/GenericErrorPage.htm?aspxerrorpath=/https:/www.act.com
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5900
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 4:34:32 AM
+
+Message: HandlingInstanceID: f0a047f8-4de5-4e2e-acd7-50dea19ac701
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 04:34:32
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 4:34:32 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/docs/2008/whitepapers/ACT08_Scalability_WP_08-05540_FINAL.pdf
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11148
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 4:39:37 AM
+
+Message: HandlingInstanceID: 30a9f524-00bd-4377-a6ce-0157933e3098
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 04:39:37
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 4:39:37 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/expand.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3208
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 4:39:37 AM
+
+Message: HandlingInstanceID: b58290db-5258-476d-af50-79c74f790f90
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 04:39:37
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 4:39:37 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/arrowUp.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9412
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 4:39:37 AM
+
+Message: HandlingInstanceID: 7909f94c-b4ab-4bf4-8025-47ce0657c026
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 04:39:37
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 4:39:37 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/support/arrowDn.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4348
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 4:45:28 AM
+
+Message: HandlingInstanceID: 421e6103-1986-4112-bce3-1ed33dfa2b43
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 04:45:28
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 4:45:28 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/docs/2006/ACT_Premium_2006_StartHere.pdf
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9712
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 5:06:52 AM
+
+Message: HandlingInstanceID: 70ee5931-77d9-43d1-865c-8ac70b8ea3b0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 05:06:52
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequestBase, System.Web.HttpResponseBase, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequestBase request, HttpResponseBase response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContextBase context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 5:06:52 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/images/favicon.ico
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5780
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/21/2017 5:34:41 AM
+
+Message: HandlingInstanceID: 41efff24-c7c3-4527-b8d4-f45220d7e970
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/21/2017 05:34:41
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The file '/ProductInfo.aspx' does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Compilation.BuildResult GetVPathBuildResultInternal(System.Web.VirtualPath, Boolean, Boolean, Boolean, Boolean, Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/21/2017 5:34:41 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131293463031536220
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/ProductInfo.aspx?productid=ACTX2009UP_ES
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131293463031536220
+
+ProcessId: 3348
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6744
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/22/2017 5:46:21 AM
+
+Message: HandlingInstanceID: eaab57fe-7e76-4503-8349-b355a77295b2
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/22/2017 05:46:21
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The file '/ProductInfo.aspx' does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Compilation.BuildResult GetVPathBuildResultInternal(System.Web.VirtualPath, Boolean, Boolean, Boolean, Boolean, Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-NQJU4DRL0NR
+TimeStamp : 1/22/2017 5:46:21 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131294507056130605
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : https://www.act.com/ProductInfo.aspx?productid=ACTS2009UP_ES
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-NQJU4DRL0NR
+
+App Domain: /LM/W3SVC/2/ROOT-1-131294507056130605
+
+ProcessId: 5224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11936
+
+Extended Properties: 
+----------------------------------------

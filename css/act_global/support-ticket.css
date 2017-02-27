@@ -54,7 +54,8 @@
 	margin:24px auto;
 }
 .required{color:#FE5000;}
-.hint{color:#a5b7c2;font-size:.65em;font-style:oblique;}
+.hint{color:#a5b7c2;font-size:12px;line-height:15px;font-style:oblique;}
+.tip{display:inline-block;color:#526774;font-size:13px;line-height:15px;}
 .label label{
 	margin-top:24px;
 	color:#000;

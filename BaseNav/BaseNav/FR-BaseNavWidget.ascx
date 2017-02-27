@@ -71,6 +71,7 @@
         <li><a href="/fr-fr/produits/act-pro">Act! Pro</a></li>
         <li><a href="/fr-fr/produits/act-emarketing">Act! emarketing</a></li>
         <li><a href="/fr-fr/produits/act-essentials">Act! Essentials</a></li>
+<li><a href="/fr-fr/produits/connexions">Connexions</a></li>
         <li><a href="/fr-fr/produits/nouveautes">Nouveautés Act!</a></li>
     </ul>
     </li>

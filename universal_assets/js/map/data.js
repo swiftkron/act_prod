@@ -543,7 +543,7 @@
  	"city": "Mumbai",
  	"contact": "",
  	"phone": "+91 22 4025 0000",
- 	"email": "info@providianglobal.coma0",
+ 	"email": "info@providianglobal.coma",
  	"website": "www.providianglobal.com",
  	"address": "201\/202, Navkar Chambers, A Wing, Marol Naka, Andheri-Kurla Road, Andheri (E), Mumbai – 400059",
  	"postcode": "400059",
@@ -629,7 +629,7 @@
  	"postcode": "2830 ",
  	"company": "ONE IT",
  	"description": "",
- 	"level": 1,
+ 	"level": 2,
  	"longitude": "4.3600565000000415",
  	"latitude": "51.0595799"
  }, {

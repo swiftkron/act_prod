@@ -14,7 +14,7 @@
               <!-- regions -->
               <div runat="server" class="language">
                   <div class="intl">
-                    <span class="glyphicon glyphicon-globe"></span>
+                    <div id="selectRegion"><span class="glyphicon glyphicon-globe"></span><span id="selectMenuText"><span></div>
                   </div>
                   <div runat="server" class="sf_colsIn">
                   </div>

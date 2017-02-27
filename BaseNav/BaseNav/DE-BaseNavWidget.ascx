@@ -72,6 +72,7 @@ Deutschland:</span> <a href="tel:069643508433">069 643 508 433</a><br/><span sty
         <li><a href="/de-de/produkte/act-pro">Act! Pro</a></li>
         <li><a href="/de-de/produkte/act-emarketing">Act! emarketing</a></li>
         <li><a href="/de-de/produkte/act-essentials">Act! Essentials</a></li>
+    <li><a href="/de-de/produkte/act-connections">Verbindungen</a></li>
         <li><a href="/de-de/produkte/was-ist-neu">Was ist neu?</a></li>
     </ul>
     </li>

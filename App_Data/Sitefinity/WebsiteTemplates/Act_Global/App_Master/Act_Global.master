@@ -10,12 +10,12 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700' rel='stylesheet' type='text/css'>
     <title></title>
-    <script type="text/javascript" src="/js/act_global/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" async src="/js/act_global/jquery-1.11.3.min.js"></script>
 <link rel="stylesheet" href="/css/act_global/sf_overrides.css">
 		<link rel="stylesheet" href="/css/act_global/glyphicons.css">
     <link rel="stylesheet" href="/css/act_global/grid.css">
     <link rel="stylesheet" href="/css/act_global/standard.css">
-    <link rel="stylesheet" href="/css/act_global/header.css?v=1">
+    <link rel="stylesheet" href="/css/act_global/header.css?v=3">
     <link rel="stylesheet" href="/css/act_global/footer.css">
 </head>
 
@@ -49,7 +49,7 @@
 
     </form>
 
-<script type="text/javascript" src="/js/act_global/livechat_hold.js"></script>    
+<script type="text/javascript" async src="/js/act_global/livechat_hold.js"></script>    
 <script type="text/javascript" src="/js/act_global/common.js"></script>
 
 </body>

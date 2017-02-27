@@ -1,5 +1,5 @@
 ----------------------------------------
-Timestamp: 2/23/2017 3:44:37 PM
+Timestamp: 2/20/2017 10:24:20 PM
 
 Message: Error while executing the Task: Value cannot be null.
 Parameter name: input, StackTrace:    at System.Guid.Parse(String input)
@@ -11,91 +11,91 @@ Parameter name: input, StackTrace:    at System.Guid.Parse(String input)
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:05 PM
+Timestamp: 2/21/2017 1:51:28 AM
 
 Message: Shutting down threadpool...
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:05 PM
+Timestamp: 2/21/2017 1:51:28 AM
 
 Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:06 PM
+Timestamp: 2/21/2017 1:51:28 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:06 PM
+Timestamp: 2/21/2017 1:51:28 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:06 PM
+Timestamp: 2/21/2017 1:51:28 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:06 PM
+Timestamp: 2/21/2017 1:51:28 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:06 PM
+Timestamp: 2/21/2017 1:51:28 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:06 PM
+Timestamp: 2/21/2017 1:51:28 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:06 PM
+Timestamp: 2/21/2017 1:51:28 AM
 
 Message: Background task scheduler shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:06 PM
+Timestamp: 2/21/2017 1:51:28 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:06 PM
+Timestamp: 2/21/2017 1:51:28 AM
 
 Message: WorkerThread is shut down
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:36 PM
+Timestamp: 2/21/2017 1:51:58 AM
 
 Message: Shutting down threadpool...
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/24/2017 2:42:36 PM
+Timestamp: 2/21/2017 1:51:58 AM
 
 Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
 
